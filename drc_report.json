@@ -1,0 +1,337 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-09-14T19:49:49",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.5",
+    "schematic_parity": [],
+    "source": "ACIR_PCB.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "Footprint 'TestPoint_Bridge_Pitch2.54mm_Drill1.3mm' does not match copy in library 'TestPoint'",
+            "items": [
+                {
+                    "description": "Footprint J2",
+                    "pos": {
+                        "x": 146.77,
+                        "y": 88.52
+                    },
+                    "uuid": "1c80cac1-1b80-4d37-8883-2498d177586c"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'TestPoint_Bridge_Pitch2.54mm_Drill1.3mm' does not match copy in library 'TestPoint'",
+            "items": [
+                {
+                    "description": "Footprint J5",
+                    "pos": {
+                        "x": 184.86,
+                        "y": 223.27
+                    },
+                    "uuid": "4e6a4173-f4e9-4adb-b9a3-af981b4d3285"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'TestPoint_Bridge_Pitch2.54mm_Drill1.3mm' does not match copy in library 'TestPoint'",
+            "items": [
+                {
+                    "description": "Footprint J11",
+                    "pos": {
+                        "x": 78.06,
+                        "y": 140.55
+                    },
+                    "uuid": "510a5acc-f9d9-4147-b048-4f967fd04705"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'TestPoint_Bridge_Pitch2.54mm_Drill1.3mm' does not match copy in library 'TestPoint'",
+            "items": [
+                {
+                    "description": "Footprint J15",
+                    "pos": {
+                        "x": 78.06,
+                        "y": 188.05
+                    },
+                    "uuid": "559966da-858b-4a3a-968f-f9cf53a0450d"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'TestPoint_Bridge_Pitch2.54mm_Drill1.3mm' does not match copy in library 'TestPoint'",
+            "items": [
+                {
+                    "description": "Footprint J10",
+                    "pos": {
+                        "x": 175.06,
+                        "y": 140.55
+                    },
+                    "uuid": "79e3a8b6-dadd-4b77-b9db-24ef881b52de"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'TestPoint_Bridge_Pitch2.54mm_Drill1.3mm' does not match copy in library 'TestPoint'",
+            "items": [
+                {
+                    "description": "Footprint J6",
+                    "pos": {
+                        "x": 68.27,
+                        "y": 223.27
+                    },
+                    "uuid": "9bc68d56-e0fd-448c-a0bc-5e70b0fb1c5a"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'TestPoint_Bridge_Pitch2.54mm_Drill1.3mm' does not match copy in library 'TestPoint'",
+            "items": [
+                {
+                    "description": "Footprint J1",
+                    "pos": {
+                        "x": 248.03,
+                        "y": 88.52
+                    },
+                    "uuid": "a61e5e24-18ca-4cd6-a0af-c5d59018ff93"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'TestPoint_Bridge_Pitch2.54mm_Drill1.3mm' does not match copy in library 'TestPoint'",
+            "items": [
+                {
+                    "description": "Footprint J14",
+                    "pos": {
+                        "x": 175.06,
+                        "y": 188.05
+                    },
+                    "uuid": "a6ac2b13-9d6b-42b1-9190-e418f5fd48a8"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'TestPoint_Bridge_Pitch2.54mm_Drill1.3mm' does not match copy in library 'TestPoint'",
+            "items": [
+                {
+                    "description": "Footprint J13",
+                    "pos": {
+                        "x": 78.06,
+                        "y": 164.3
+                    },
+                    "uuid": "c664c0dd-f91f-4b3e-b3ac-405666b21f4a"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'TestPoint_Bridge_Pitch2.54mm_Drill1.3mm' does not match copy in library 'TestPoint'",
+            "items": [
+                {
+                    "description": "Footprint J12",
+                    "pos": {
+                        "x": 175.06,
+                        "y": 164.3
+                    },
+                    "uuid": "df6b2985-07d4-4344-9de3-44f8fc1040b5"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'TestPoint_Bridge_Pitch2.54mm_Drill1.3mm' does not match copy in library 'TestPoint'",
+            "items": [
+                {
+                    "description": "Footprint J16",
+                    "pos": {
+                        "x": 175.06,
+                        "y": 211.8
+                    },
+                    "uuid": "62676647-5e74-4971-9ff6-e3ee39a0efc2"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'TestPoint_Bridge_Pitch2.54mm_Drill1.3mm' does not match copy in library 'TestPoint'",
+            "items": [
+                {
+                    "description": "Footprint J17",
+                    "pos": {
+                        "x": 78.06,
+                        "y": 211.8
+                    },
+                    "uuid": "b990daf7-fdcc-46ae-afc3-2c2f3fd1d161"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'TestPoint_Bridge_Pitch2.54mm_Drill1.3mm' does not match copy in library 'TestPoint'",
+            "items": [
+                {
+                    "description": "Footprint J7",
+                    "pos": {
+                        "x": 216.0,
+                        "y": 140.55
+                    },
+                    "uuid": "ec6c86b5-be63-4013-b09a-23f9874f52ba"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'TestPoint_Bridge_Pitch2.54mm_Drill1.3mm' does not match copy in library 'TestPoint'",
+            "items": [
+                {
+                    "description": "Footprint J3",
+                    "pos": {
+                        "x": 320.36,
+                        "y": 140.55
+                    },
+                    "uuid": "89a231e7-4ab6-4cf4-a000-08f375cf1ac0"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'TestPoint_Bridge_Pitch2.54mm_Drill1.3mm' does not match copy in library 'TestPoint'",
+            "items": [
+                {
+                    "description": "Footprint J18",
+                    "pos": {
+                        "x": 216.0,
+                        "y": 164.3
+                    },
+                    "uuid": "d7433691-5971-4080-b693-7d2bee1b54d1"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'TestPoint_Bridge_Pitch2.54mm_Drill1.3mm' does not match copy in library 'TestPoint'",
+            "items": [
+                {
+                    "description": "Footprint J8",
+                    "pos": {
+                        "x": 320.36,
+                        "y": 164.3
+                    },
+                    "uuid": "627e3f9d-eb9e-474b-85a0-e4a57872d4f8"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'TestPoint_Bridge_Pitch2.54mm_Drill1.3mm' does not match copy in library 'TestPoint'",
+            "items": [
+                {
+                    "description": "Footprint J9",
+                    "pos": {
+                        "x": 216.0,
+                        "y": 188.05
+                    },
+                    "uuid": "6eb8b01e-2904-403f-a63b-adcc22857644"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'TestPoint_Bridge_Pitch2.54mm_Drill1.3mm' does not match copy in library 'TestPoint'",
+            "items": [
+                {
+                    "description": "Footprint J19",
+                    "pos": {
+                        "x": 320.36,
+                        "y": 188.05
+                    },
+                    "uuid": "bf7bb1b9-a349-4073-ac4a-5b777cc614b5"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'TestPoint_Bridge_Pitch2.54mm_Drill1.3mm' does not match copy in library 'TestPoint'",
+            "items": [
+                {
+                    "description": "Footprint J20",
+                    "pos": {
+                        "x": 216.0,
+                        "y": 211.8
+                    },
+                    "uuid": "17ef1e10-0359-4cf9-97da-6e914be220e6"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "description": "Footprint 'TestPoint_Bridge_Pitch2.54mm_Drill1.3mm' does not match copy in library 'TestPoint'",
+            "items": [
+                {
+                    "description": "Footprint J4",
+                    "pos": {
+                        "x": 320.36,
+                        "y": 211.8
+                    },
+                    "uuid": "48f917c1-93a9-47c3-86c8-3ede64c60ed3"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        }
+    ]
+}
