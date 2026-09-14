@@ -4160,7 +4160,7 @@
 				(type solid)
 			)
 			(fill no)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "2f5227c4-9f89-4c1d-a582-52dd0e2abec6")
 		)
 		(fp_rect
