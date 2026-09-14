@@ -18312,406 +18312,356 @@
 	
 
 
-	(gr_text "B -Ve"
-		(at 136.00 88.52)
-		(layer "F.SilkS")
-		(uuid "text_B -Ve_136.00_88.52")
+	(gr_text "1S 4P"
+		(at 125.18 119.66 0)
+		(layer "F.SilkS" knockout)
+		(uuid "title_1s4p_header")
 		(effects
 			(font
-				(size 1.3 1.3)
-				(thickness 0.20)
+				(face "PT Sans")
+				(size 6 6)
+				(thickness 1.5)
 				(bold yes)
 			)
 		)
 	)
 
-	
-	
-	
-
-	(gr_text "B +Ve"
-		(at 258.50 88.52)
-		(layer "F.SilkS")
-		(uuid "text_B +Ve_258.50_88.52")
+	(gr_text "1S 1P -ve"
+		(at 136.00 87.20)
+		(layer "F.SilkS" knockout)
+		(uuid "ko_1S_1P_-ve_136.0_87.2")
 		(effects
 			(font
-				(size 1.3 1.3)
-				(thickness 0.20)
+				(face "PT Sans")
+				(size 1.05 1.05)
+				(thickness 0.16)
 				(bold yes)
 			)
 		)
 	)
 
-	
-	
-	
-
-	
-
-	
-	
-	
-
-	
-
-	
-	
-	
-
-	
-
-	
-	
-	
-
-	
-
-	
-	
-	
-
-	
-
-	
-	
-	
-
-	
-
-	
-	
-	
-
-	
-
-	
-	
-	
-
-	
-
-	
-	
-	
-
-	
-
-	
-	
-	
-
-	
-
-	
-	
-	
-
-	
-
-	
-	
-	
-
-	
-
-	
-	
-	
-
-	
-
-	
-	
-	
-
-	
-
-	
-	
-	
-
-	
-
-	
-	
-	
-
-
-	
-
-	(gr_line (start 139.50 88.52) (end 142.50 88.52)
-		(stroke (width 0.15) (type solid))
-		(layer "F.SilkS")
-		(uuid "line_139.50_88.52_142.50_88.52")
-	)
-	(gr_line (start 142.50 88.52) (end 141.50 88.92)
-		(stroke (width 0.15) (type solid))
-		(layer "F.SilkS")
-		(uuid "head1_139.50_88.52_142.50_88.52")
-	)
-	(gr_line (start 142.50 88.52) (end 141.50 88.12)
-		(stroke (width 0.15) (type solid))
-		(layer "F.SilkS")
-		(uuid "head2_139.50_88.52_142.50_88.52")
-	)
-
-	
-
-	(gr_line (start 255.00 88.52) (end 252.00 88.52)
-		(stroke (width 0.15) (type solid))
-		(layer "F.SilkS")
-		(uuid "line_255.00_88.52_252.00_88.52")
-	)
-	(gr_line (start 252.00 88.52) (end 253.00 88.12)
-		(stroke (width 0.15) (type solid))
-		(layer "F.SilkS")
-		(uuid "head1_255.00_88.52_252.00_88.52")
-	)
-	(gr_line (start 252.00 88.52) (end 253.00 88.92)
-		(stroke (width 0.15) (type solid))
-		(layer "F.SilkS")
-		(uuid "head2_255.00_88.52_252.00_88.52")
-	)
-
-	(gr_text "1S 1P (-)"
-		(at 66.80 140.55)
-		(layer "F.SilkS")
-		(uuid "text_1S 1P (-)_66.80_140.55")
+	(gr_text "B -ve"
+		(at 136.00 90.00)
+		(layer "F.SilkS" knockout)
+		(uuid "ko_B_-ve_136.0_90.0")
 		(effects
 			(font
-				(size 1.1 1.1)
-				(thickness 0.17)
+				(face "PT Sans")
+				(size 1.05 1.05)
+				(thickness 0.16)
 				(bold yes)
 			)
 		)
 	)
 
-	(gr_line (start 71.20 140.55) (end 74.00 140.55)
+	(gr_line (start 140.20 88.52) (end 142.80 88.52)
 		(stroke (width 0.15) (type solid))
 		(layer "F.SilkS")
-		(uuid "line_71.20_140.55_74.00_140.55")
+		(uuid "line_140.20_88.52_142.80_88.52")
 	)
-	(gr_line (start 74.00 140.55) (end 73.00 140.95)
+	(gr_line (start 142.80 88.52) (end 141.90 88.88)
 		(stroke (width 0.15) (type solid))
 		(layer "F.SilkS")
-		(uuid "head1_71.20_140.55_74.00_140.55")
+		(uuid "head1_140.20_88.52_142.80_88.52")
 	)
-	(gr_line (start 74.00 140.55) (end 73.00 140.15)
+	(gr_line (start 142.80 88.52) (end 141.90 88.16)
 		(stroke (width 0.15) (type solid))
 		(layer "F.SilkS")
-		(uuid "head2_71.20_140.55_74.00_140.55")
+		(uuid "head2_140.20_88.52_142.80_88.52")
 	)
 
-	(gr_text "1S 1P (+)"
-		(at 186.20 140.55)
-		(layer "F.SilkS")
-		(uuid "text_1S 1P (+)_186.20_140.55")
+	(gr_text "1S 1P +ve"
+		(at 258.80 87.20)
+		(layer "F.SilkS" knockout)
+		(uuid "ko_1S_1P_+ve_258.8_87.2")
 		(effects
 			(font
-				(size 1.1 1.1)
-				(thickness 0.17)
+				(face "PT Sans")
+				(size 1.05 1.05)
+				(thickness 0.16)
 				(bold yes)
 			)
 		)
 	)
 
-	(gr_line (start 182.00 140.55) (end 179.20 140.55)
-		(stroke (width 0.15) (type solid))
-		(layer "F.SilkS")
-		(uuid "line_182.00_140.55_179.20_140.55")
-	)
-	(gr_line (start 179.20 140.55) (end 180.20 140.15)
-		(stroke (width 0.15) (type solid))
-		(layer "F.SilkS")
-		(uuid "head1_182.00_140.55_179.20_140.55")
-	)
-	(gr_line (start 179.20 140.55) (end 180.20 140.95)
-		(stroke (width 0.15) (type solid))
-		(layer "F.SilkS")
-		(uuid "head2_182.00_140.55_179.20_140.55")
-	)
-
-	(gr_text "1S 2P (-)"
-		(at 66.80 164.30)
-		(layer "F.SilkS")
-		(uuid "text_1S 2P (-)_66.80_164.30")
+	(gr_text "B +ve"
+		(at 258.80 90.00)
+		(layer "F.SilkS" knockout)
+		(uuid "ko_B_+ve_258.8_90.0")
 		(effects
 			(font
-				(size 1.1 1.1)
-				(thickness 0.17)
+				(face "PT Sans")
+				(size 1.05 1.05)
+				(thickness 0.16)
 				(bold yes)
 			)
 		)
 	)
 
-	(gr_line (start 71.20 164.30) (end 74.00 164.30)
+	(gr_line (start 254.60 88.52) (end 252.00 88.52)
 		(stroke (width 0.15) (type solid))
 		(layer "F.SilkS")
-		(uuid "line_71.20_164.30_74.00_164.30")
+		(uuid "line_254.60_88.52_252.00_88.52")
 	)
-	(gr_line (start 74.00 164.30) (end 73.00 164.70)
+	(gr_line (start 252.00 88.52) (end 252.90 88.16)
 		(stroke (width 0.15) (type solid))
 		(layer "F.SilkS")
-		(uuid "head1_71.20_164.30_74.00_164.30")
+		(uuid "head1_254.60_88.52_252.00_88.52")
 	)
-	(gr_line (start 74.00 164.30) (end 73.00 163.90)
+	(gr_line (start 252.00 88.52) (end 252.90 88.88)
 		(stroke (width 0.15) (type solid))
 		(layer "F.SilkS")
-		(uuid "head2_71.20_164.30_74.00_164.30")
+		(uuid "head2_254.60_88.52_252.00_88.52")
 	)
 
-	(gr_text "1S 2P (+)"
-		(at 186.20 164.30)
-		(layer "F.SilkS")
-		(uuid "text_1S 2P (+)_186.20_164.30")
+	(gr_text "1S 1P -ve"
+		(at 67.00 140.55)
+		(layer "F.SilkS" knockout)
+		(uuid "ko_1S_1P_-ve_67.0_140.6")
 		(effects
 			(font
-				(size 1.1 1.1)
-				(thickness 0.17)
+				(face "PT Sans")
+				(size 1.05 1.05)
+				(thickness 0.16)
 				(bold yes)
 			)
 		)
 	)
 
-	(gr_line (start 182.00 164.30) (end 179.20 164.30)
+	(gr_line (start 71.60 140.55) (end 74.00 140.55)
 		(stroke (width 0.15) (type solid))
 		(layer "F.SilkS")
-		(uuid "line_182.00_164.30_179.20_164.30")
+		(uuid "line_71.60_140.55_74.00_140.55")
 	)
-	(gr_line (start 179.20 164.30) (end 180.20 163.90)
+	(gr_line (start 74.00 140.55) (end 73.10 140.91)
 		(stroke (width 0.15) (type solid))
 		(layer "F.SilkS")
-		(uuid "head1_182.00_164.30_179.20_164.30")
+		(uuid "head1_71.60_140.55_74.00_140.55")
 	)
-	(gr_line (start 179.20 164.30) (end 180.20 164.70)
+	(gr_line (start 74.00 140.55) (end 73.10 140.19)
 		(stroke (width 0.15) (type solid))
 		(layer "F.SilkS")
-		(uuid "head2_182.00_164.30_179.20_164.30")
+		(uuid "head2_71.60_140.55_74.00_140.55")
 	)
 
-	(gr_text "1S 3P (-)"
-		(at 66.80 188.05)
-		(layer "F.SilkS")
-		(uuid "text_1S 3P (-)_66.80_188.05")
+	(gr_text "1S 1P +ve"
+		(at 186.00 140.55)
+		(layer "F.SilkS" knockout)
+		(uuid "ko_1S_1P_+ve_186.0_140.6")
 		(effects
 			(font
-				(size 1.1 1.1)
-				(thickness 0.17)
+				(face "PT Sans")
+				(size 1.05 1.05)
+				(thickness 0.16)
 				(bold yes)
 			)
 		)
 	)
 
-	(gr_line (start 71.20 188.05) (end 74.00 188.05)
+	(gr_line (start 181.40 140.55) (end 179.20 140.55)
 		(stroke (width 0.15) (type solid))
 		(layer "F.SilkS")
-		(uuid "line_71.20_188.05_74.00_188.05")
+		(uuid "line_181.40_140.55_179.20_140.55")
 	)
-	(gr_line (start 74.00 188.05) (end 73.00 188.45)
+	(gr_line (start 179.20 140.55) (end 180.08 140.20)
 		(stroke (width 0.15) (type solid))
 		(layer "F.SilkS")
-		(uuid "head1_71.20_188.05_74.00_188.05")
+		(uuid "head1_181.40_140.55_179.20_140.55")
 	)
-	(gr_line (start 74.00 188.05) (end 73.00 187.65)
+	(gr_line (start 179.20 140.55) (end 180.08 140.90)
 		(stroke (width 0.15) (type solid))
 		(layer "F.SilkS")
-		(uuid "head2_71.20_188.05_74.00_188.05")
+		(uuid "head2_181.40_140.55_179.20_140.55")
 	)
 
-	(gr_text "1S 3P (+)"
-		(at 186.20 188.05)
-		(layer "F.SilkS")
-		(uuid "text_1S 3P (+)_186.20_188.05")
+	(gr_text "1S 2P -ve"
+		(at 67.00 164.30)
+		(layer "F.SilkS" knockout)
+		(uuid "ko_1S_2P_-ve_67.0_164.3")
 		(effects
 			(font
-				(size 1.1 1.1)
-				(thickness 0.17)
+				(face "PT Sans")
+				(size 1.05 1.05)
+				(thickness 0.16)
 				(bold yes)
 			)
 		)
 	)
 
-	(gr_line (start 182.00 188.05) (end 179.20 188.05)
+	(gr_line (start 71.60 164.30) (end 74.00 164.30)
 		(stroke (width 0.15) (type solid))
 		(layer "F.SilkS")
-		(uuid "line_182.00_188.05_179.20_188.05")
+		(uuid "line_71.60_164.30_74.00_164.30")
 	)
-	(gr_line (start 179.20 188.05) (end 180.20 187.65)
+	(gr_line (start 74.00 164.30) (end 73.10 164.66)
 		(stroke (width 0.15) (type solid))
 		(layer "F.SilkS")
-		(uuid "head1_182.00_188.05_179.20_188.05")
+		(uuid "head1_71.60_164.30_74.00_164.30")
 	)
-	(gr_line (start 179.20 188.05) (end 180.20 188.45)
+	(gr_line (start 74.00 164.30) (end 73.10 163.94)
 		(stroke (width 0.15) (type solid))
 		(layer "F.SilkS")
-		(uuid "head2_182.00_188.05_179.20_188.05")
+		(uuid "head2_71.60_164.30_74.00_164.30")
 	)
 
-	(gr_text "1S 4P (-)"
-		(at 66.80 211.80)
-		(layer "F.SilkS")
-		(uuid "text_1S 4P (-)_66.80_211.80")
+	(gr_text "1S 2P +ve"
+		(at 186.00 164.30)
+		(layer "F.SilkS" knockout)
+		(uuid "ko_1S_2P_+ve_186.0_164.3")
 		(effects
 			(font
-				(size 1.1 1.1)
-				(thickness 0.17)
+				(face "PT Sans")
+				(size 1.05 1.05)
+				(thickness 0.16)
 				(bold yes)
 			)
 		)
 	)
 
-	(gr_line (start 71.20 211.80) (end 74.00 211.80)
+	(gr_line (start 181.40 164.30) (end 179.20 164.30)
 		(stroke (width 0.15) (type solid))
 		(layer "F.SilkS")
-		(uuid "line_71.20_211.80_74.00_211.80")
+		(uuid "line_181.40_164.30_179.20_164.30")
 	)
-	(gr_line (start 74.00 211.80) (end 73.00 212.20)
+	(gr_line (start 179.20 164.30) (end 180.08 163.95)
 		(stroke (width 0.15) (type solid))
 		(layer "F.SilkS")
-		(uuid "head1_71.20_211.80_74.00_211.80")
+		(uuid "head1_181.40_164.30_179.20_164.30")
 	)
-	(gr_line (start 74.00 211.80) (end 73.00 211.40)
+	(gr_line (start 179.20 164.30) (end 180.08 164.65)
 		(stroke (width 0.15) (type solid))
 		(layer "F.SilkS")
-		(uuid "head2_71.20_211.80_74.00_211.80")
+		(uuid "head2_181.40_164.30_179.20_164.30")
 	)
 
-	(gr_text "1S 4P (+)"
-		(at 186.20 211.80)
-		(layer "F.SilkS")
-		(uuid "text_1S 4P (+)_186.20_211.80")
+	(gr_text "1S 3P -ve"
+		(at 67.00 188.05)
+		(layer "F.SilkS" knockout)
+		(uuid "ko_1S_3P_-ve_67.0_188.1")
 		(effects
 			(font
-				(size 1.1 1.1)
-				(thickness 0.17)
+				(face "PT Sans")
+				(size 1.05 1.05)
+				(thickness 0.16)
 				(bold yes)
 			)
 		)
 	)
 
-	(gr_line (start 182.00 211.80) (end 179.20 211.80)
+	(gr_line (start 71.60 188.05) (end 74.00 188.05)
 		(stroke (width 0.15) (type solid))
 		(layer "F.SilkS")
-		(uuid "line_182.00_211.80_179.20_211.80")
+		(uuid "line_71.60_188.05_74.00_188.05")
 	)
-	(gr_line (start 179.20 211.80) (end 180.20 211.40)
+	(gr_line (start 74.00 188.05) (end 73.10 188.41)
 		(stroke (width 0.15) (type solid))
 		(layer "F.SilkS")
-		(uuid "head1_182.00_211.80_179.20_211.80")
+		(uuid "head1_71.60_188.05_74.00_188.05")
 	)
-	(gr_line (start 179.20 211.80) (end 180.20 212.20)
+	(gr_line (start 74.00 188.05) (end 73.10 187.69)
 		(stroke (width 0.15) (type solid))
 		(layer "F.SilkS")
-		(uuid "head2_182.00_211.80_179.20_211.80")
+		(uuid "head2_71.60_188.05_74.00_188.05")
 	)
 
-	(gr_text "B -Ve"
+	(gr_text "1S 3P +ve"
+		(at 186.00 188.05)
+		(layer "F.SilkS" knockout)
+		(uuid "ko_1S_3P_+ve_186.0_188.1")
+		(effects
+			(font
+				(face "PT Sans")
+				(size 1.05 1.05)
+				(thickness 0.16)
+				(bold yes)
+			)
+		)
+	)
+
+	(gr_line (start 181.40 188.05) (end 179.20 188.05)
+		(stroke (width 0.15) (type solid))
+		(layer "F.SilkS")
+		(uuid "line_181.40_188.05_179.20_188.05")
+	)
+	(gr_line (start 179.20 188.05) (end 180.08 187.70)
+		(stroke (width 0.15) (type solid))
+		(layer "F.SilkS")
+		(uuid "head1_181.40_188.05_179.20_188.05")
+	)
+	(gr_line (start 179.20 188.05) (end 180.08 188.40)
+		(stroke (width 0.15) (type solid))
+		(layer "F.SilkS")
+		(uuid "head2_181.40_188.05_179.20_188.05")
+	)
+
+	(gr_text "1S 4P -ve"
+		(at 67.00 211.80)
+		(layer "F.SilkS" knockout)
+		(uuid "ko_1S_4P_-ve_67.0_211.8")
+		(effects
+			(font
+				(face "PT Sans")
+				(size 1.05 1.05)
+				(thickness 0.16)
+				(bold yes)
+			)
+		)
+	)
+
+	(gr_line (start 71.60 211.80) (end 74.00 211.80)
+		(stroke (width 0.15) (type solid))
+		(layer "F.SilkS")
+		(uuid "line_71.60_211.80_74.00_211.80")
+	)
+	(gr_line (start 74.00 211.80) (end 73.10 212.16)
+		(stroke (width 0.15) (type solid))
+		(layer "F.SilkS")
+		(uuid "head1_71.60_211.80_74.00_211.80")
+	)
+	(gr_line (start 74.00 211.80) (end 73.10 211.44)
+		(stroke (width 0.15) (type solid))
+		(layer "F.SilkS")
+		(uuid "head2_71.60_211.80_74.00_211.80")
+	)
+
+	(gr_text "1S 4P +ve"
+		(at 186.00 211.80)
+		(layer "F.SilkS" knockout)
+		(uuid "ko_1S_4P_+ve_186.0_211.8")
+		(effects
+			(font
+				(face "PT Sans")
+				(size 1.05 1.05)
+				(thickness 0.16)
+				(bold yes)
+			)
+		)
+	)
+
+	(gr_line (start 181.40 211.80) (end 179.20 211.80)
+		(stroke (width 0.15) (type solid))
+		(layer "F.SilkS")
+		(uuid "line_181.40_211.80_179.20_211.80")
+	)
+	(gr_line (start 179.20 211.80) (end 180.08 211.45)
+		(stroke (width 0.15) (type solid))
+		(layer "F.SilkS")
+		(uuid "head1_181.40_211.80_179.20_211.80")
+	)
+	(gr_line (start 179.20 211.80) (end 180.08 212.15)
+		(stroke (width 0.15) (type solid))
+		(layer "F.SilkS")
+		(uuid "head2_181.40_211.80_179.20_211.80")
+	)
+
+	(gr_text "B -ve"
 		(at 68.27 230.50)
-		(layer "F.SilkS")
-		(uuid "text_B -Ve_68.27_230.50")
+		(layer "F.SilkS" knockout)
+		(uuid "ko_B_-ve_68.3_230.5")
 		(effects
 			(font
-				(size 1.3 1.3)
+				(face "PT Sans")
+				(size 1.2 1.2)
 				(thickness 0.20)
 				(bold yes)
 			)
@@ -18723,24 +18673,25 @@
 		(layer "F.SilkS")
 		(uuid "line_68.27_229.00_68.27_226.50")
 	)
-	(gr_line (start 68.27 226.50) (end 68.67 227.50)
+	(gr_line (start 68.27 226.50) (end 68.63 227.40)
 		(stroke (width 0.15) (type solid))
 		(layer "F.SilkS")
 		(uuid "head1_68.27_229.00_68.27_226.50")
 	)
-	(gr_line (start 68.27 226.50) (end 67.87 227.50)
+	(gr_line (start 68.27 226.50) (end 67.91 227.40)
 		(stroke (width 0.15) (type solid))
 		(layer "F.SilkS")
 		(uuid "head2_68.27_229.00_68.27_226.50")
 	)
 
-	(gr_text "B +Ve"
+	(gr_text "B +ve"
 		(at 184.86 230.50)
-		(layer "F.SilkS")
-		(uuid "text_B +Ve_184.86_230.50")
+		(layer "F.SilkS" knockout)
+		(uuid "ko_B_+ve_184.9_230.5")
 		(effects
 			(font
-				(size 1.3 1.3)
+				(face "PT Sans")
+				(size 1.2 1.2)
 				(thickness 0.20)
 				(bold yes)
 			)
@@ -18752,160 +18703,235 @@
 		(layer "F.SilkS")
 		(uuid "line_184.86_229.00_184.86_226.50")
 	)
-	(gr_line (start 184.86 226.50) (end 185.26 227.50)
+	(gr_line (start 184.86 226.50) (end 185.22 227.40)
 		(stroke (width 0.15) (type solid))
 		(layer "F.SilkS")
 		(uuid "head1_184.86_229.00_184.86_226.50")
 	)
-	(gr_line (start 184.86 226.50) (end 184.46 227.50)
+	(gr_line (start 184.86 226.50) (end 184.50 227.40)
 		(stroke (width 0.15) (type solid))
 		(layer "F.SilkS")
 		(uuid "head2_184.86_229.00_184.86_226.50")
 	)
 
-	(gr_text "B +Ve"
-		(at 320.36 131.50)
-		(layer "F.SilkS")
-		(uuid "text_B +Ve_320.36_131.50")
+	(gr_text "B +ve"
+		(at 320.36 127.50)
+		(layer "F.SilkS" knockout)
+		(uuid "ko_B_+ve_320.4_127.5")
 		(effects
 			(font
-				(size 1.3 1.3)
-				(thickness 0.20)
+				(face "PT Sans")
+				(size 1.05 1.05)
+				(thickness 0.16)
 				(bold yes)
 			)
 		)
 	)
 
-	(gr_line (start 320.36 133.00) (end 320.36 135.20)
-		(stroke (width 0.15) (type solid))
-		(layer "F.SilkS")
-		(uuid "line_320.36_133.00_320.36_135.20")
-	)
-	(gr_line (start 320.36 135.20) (end 320.01 134.32)
-		(stroke (width 0.15) (type solid))
-		(layer "F.SilkS")
-		(uuid "head1_320.36_133.00_320.36_135.20")
-	)
-	(gr_line (start 320.36 135.20) (end 320.71 134.32)
-		(stroke (width 0.15) (type solid))
-		(layer "F.SilkS")
-		(uuid "head2_320.36_133.00_320.36_135.20")
-	)
-
-	(gr_text "1S 1P"
-		(at 206.80 152.43)
-		(layer "F.SilkS")
-		(uuid "text_1S 1P_206.80_152.43")
+	(gr_text "1S 1P +ve"
+		(at 320.36 131.00)
+		(layer "F.SilkS" knockout)
+		(uuid "ko_1S_1P_+ve_320.4_131.0")
 		(effects
 			(font
-				(size 1.2 1.2)
-				(thickness 0.18)
+				(face "PT Sans")
+				(size 1.05 1.05)
+				(thickness 0.16)
 				(bold yes)
 			)
 		)
 	)
 
-	(gr_line (start 209.80 152.43) (end 212.50 152.43)
+	(gr_line (start 320.36 132.80) (end 320.36 135.20)
 		(stroke (width 0.15) (type solid))
 		(layer "F.SilkS")
-		(uuid "line_209.80_152.43_212.50_152.43")
+		(uuid "line_320.36_132.80_320.36_135.20")
 	)
-	(gr_line (start 212.50 152.43) (end 211.50 152.83)
+	(gr_line (start 320.36 135.20) (end 320.00 134.30)
 		(stroke (width 0.15) (type solid))
 		(layer "F.SilkS")
-		(uuid "head1_209.80_152.43_212.50_152.43")
+		(uuid "head1_320.36_132.80_320.36_135.20")
 	)
-	(gr_line (start 212.50 152.43) (end 211.50 152.03)
+	(gr_line (start 320.36 135.20) (end 320.72 134.30)
 		(stroke (width 0.15) (type solid))
 		(layer "F.SilkS")
-		(uuid "head2_209.80_152.43_212.50_152.43")
+		(uuid "head2_320.36_132.80_320.36_135.20")
 	)
 
-	(gr_text "2S 1P"
-		(at 329.50 176.18)
-		(layer "F.SilkS")
-		(uuid "text_2S 1P_329.50_176.18")
+	(gr_text "1S 1P -ve"
+		(at 206.80 150.80)
+		(layer "F.SilkS" knockout)
+		(uuid "ko_1S_1P_-ve_206.8_150.8")
 		(effects
 			(font
-				(size 1.2 1.2)
-				(thickness 0.18)
+				(face "PT Sans")
+				(size 1.05 1.05)
+				(thickness 0.16)
 				(bold yes)
 			)
 		)
 	)
 
-	(gr_line (start 326.50 176.18) (end 323.80 176.18)
-		(stroke (width 0.15) (type solid))
-		(layer "F.SilkS")
-		(uuid "line_326.50_176.18_323.80_176.18")
-	)
-	(gr_line (start 323.80 176.18) (end 324.80 175.78)
-		(stroke (width 0.15) (type solid))
-		(layer "F.SilkS")
-		(uuid "head1_326.50_176.18_323.80_176.18")
-	)
-	(gr_line (start 323.80 176.18) (end 324.80 176.58)
-		(stroke (width 0.15) (type solid))
-		(layer "F.SilkS")
-		(uuid "head2_326.50_176.18_323.80_176.18")
-	)
-
-	(gr_text "3S 1P"
-		(at 206.80 199.93)
-		(layer "F.SilkS")
-		(uuid "text_3S 1P_206.80_199.93")
+	(gr_text "2S 1P +ve"
+		(at 206.80 154.00)
+		(layer "F.SilkS" knockout)
+		(uuid "ko_2S_1P_+ve_206.8_154.0")
 		(effects
 			(font
-				(size 1.2 1.2)
-				(thickness 0.18)
+				(face "PT Sans")
+				(size 1.05 1.05)
+				(thickness 0.16)
 				(bold yes)
 			)
 		)
 	)
 
-	(gr_line (start 209.80 199.93) (end 212.50 199.93)
+	(gr_line (start 210.40 152.43) (end 212.50 152.43)
 		(stroke (width 0.15) (type solid))
 		(layer "F.SilkS")
-		(uuid "line_209.80_199.93_212.50_199.93")
+		(uuid "line_210.40_152.43_212.50_152.43")
 	)
-	(gr_line (start 212.50 199.93) (end 211.50 200.33)
+	(gr_line (start 212.50 152.43) (end 211.66 152.77)
 		(stroke (width 0.15) (type solid))
 		(layer "F.SilkS")
-		(uuid "head1_209.80_199.93_212.50_199.93")
+		(uuid "head1_210.40_152.43_212.50_152.43")
 	)
-	(gr_line (start 212.50 199.93) (end 211.50 199.53)
+	(gr_line (start 212.50 152.43) (end 211.66 152.09)
 		(stroke (width 0.15) (type solid))
 		(layer "F.SilkS")
-		(uuid "head2_209.80_199.93_212.50_199.93")
+		(uuid "head2_210.40_152.43_212.50_152.43")
 	)
 
-	(gr_text "B -Ve"
+	(gr_text "2S 1P -ve"
+		(at 329.50 174.50)
+		(layer "F.SilkS" knockout)
+		(uuid "ko_2S_1P_-ve_329.5_174.5")
+		(effects
+			(font
+				(face "PT Sans")
+				(size 1.05 1.05)
+				(thickness 0.16)
+				(bold yes)
+			)
+		)
+	)
+
+	(gr_text "3S 1P +ve"
+		(at 329.50 177.80)
+		(layer "F.SilkS" knockout)
+		(uuid "ko_3S_1P_+ve_329.5_177.8")
+		(effects
+			(font
+				(face "PT Sans")
+				(size 1.05 1.05)
+				(thickness 0.16)
+				(bold yes)
+			)
+		)
+	)
+
+	(gr_line (start 325.80 176.18) (end 323.80 176.18)
+		(stroke (width 0.15) (type solid))
+		(layer "F.SilkS")
+		(uuid "line_325.80_176.18_323.80_176.18")
+	)
+	(gr_line (start 323.80 176.18) (end 324.60 175.86)
+		(stroke (width 0.15) (type solid))
+		(layer "F.SilkS")
+		(uuid "head1_325.80_176.18_323.80_176.18")
+	)
+	(gr_line (start 323.80 176.18) (end 324.60 176.50)
+		(stroke (width 0.15) (type solid))
+		(layer "F.SilkS")
+		(uuid "head2_325.80_176.18_323.80_176.18")
+	)
+
+	(gr_text "3S 1P -ve"
+		(at 206.80 198.30)
+		(layer "F.SilkS" knockout)
+		(uuid "ko_3S_1P_-ve_206.8_198.3")
+		(effects
+			(font
+				(face "PT Sans")
+				(size 1.05 1.05)
+				(thickness 0.16)
+				(bold yes)
+			)
+		)
+	)
+
+	(gr_text "4S 1P +ve"
+		(at 206.80 201.50)
+		(layer "F.SilkS" knockout)
+		(uuid "ko_4S_1P_+ve_206.8_201.5")
+		(effects
+			(font
+				(face "PT Sans")
+				(size 1.05 1.05)
+				(thickness 0.16)
+				(bold yes)
+			)
+		)
+	)
+
+	(gr_line (start 210.40 199.93) (end 212.50 199.93)
+		(stroke (width 0.15) (type solid))
+		(layer "F.SilkS")
+		(uuid "line_210.40_199.93_212.50_199.93")
+	)
+	(gr_line (start 212.50 199.93) (end 211.66 200.27)
+		(stroke (width 0.15) (type solid))
+		(layer "F.SilkS")
+		(uuid "head1_210.40_199.93_212.50_199.93")
+	)
+	(gr_line (start 212.50 199.93) (end 211.66 199.59)
+		(stroke (width 0.15) (type solid))
+		(layer "F.SilkS")
+		(uuid "head2_210.40_199.93_212.50_199.93")
+	)
+
+	(gr_text "4S 1P -ve"
 		(at 320.36 221.00)
-		(layer "F.SilkS")
-		(uuid "text_B -Ve_320.36_221.00")
+		(layer "F.SilkS" knockout)
+		(uuid "ko_4S_1P_-ve_320.4_221.0")
 		(effects
 			(font
-				(size 1.3 1.3)
-				(thickness 0.20)
+				(face "PT Sans")
+				(size 1.05 1.05)
+				(thickness 0.16)
 				(bold yes)
 			)
 		)
 	)
 
-	(gr_line (start 320.36 219.50) (end 320.36 217.00)
-		(stroke (width 0.15) (type solid))
-		(layer "F.SilkS")
-		(uuid "line_320.36_219.50_320.36_217.00")
+	(gr_text "B -ve"
+		(at 320.36 224.50)
+		(layer "F.SilkS" knockout)
+		(uuid "ko_B_-ve_320.4_224.5")
+		(effects
+			(font
+				(face "PT Sans")
+				(size 1.05 1.05)
+				(thickness 0.16)
+				(bold yes)
+			)
+		)
 	)
-	(gr_line (start 320.36 217.00) (end 320.76 218.00)
+
+	(gr_line (start 320.36 219.20) (end 320.36 216.80)
 		(stroke (width 0.15) (type solid))
 		(layer "F.SilkS")
-		(uuid "head1_320.36_219.50_320.36_217.00")
+		(uuid "line_320.36_219.20_320.36_216.80")
 	)
-	(gr_line (start 320.36 217.00) (end 319.96 218.00)
+	(gr_line (start 320.36 216.80) (end 320.72 217.70)
 		(stroke (width 0.15) (type solid))
 		(layer "F.SilkS")
-		(uuid "head2_320.36_219.50_320.36_217.00")
+		(uuid "head1_320.36_219.20_320.36_216.80")
+	)
+	(gr_line (start 320.36 216.80) (end 320.00 217.70)
+		(stroke (width 0.15) (type solid))
+		(layer "F.SilkS")
+		(uuid "head2_320.36_219.20_320.36_216.80")
 	)
 
 )
