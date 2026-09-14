@@ -802,211 +802,7 @@
 			)
 		)
 	)
-	(footprint "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill1.3mm"
-		(layer "F.Cu")
-		(uuid "380867ef-f582-41ea-bf93-765bdd732d2b")
-		(at 216.00 199.93 90.0)
-		(descr "wire loop as test point, pitch 2.54mm, hole diameter 1.3mm, wire diameter 1.0mm")
-		(tags "test point wire loop")
-		(property "Reference" "J9" (at 3.8 0 90)
-			(layer "F.SilkS")
-			(uuid "bede6ff5-d804-4e67-b8ac-73d539b34a79")
-			(hide yes)
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 1 -2.1 90)
-			(layer "F.Fab")
-			(uuid "888083bd-9fc1-4e8e-8361-830ea559d955")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5e2d7942-7ac3-4615-a343-f63394f197a7")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e9a298e6-1cbe-4ad0-8a04-cc5d767d0a32")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8b3e6124-4a65-41da-a043-1ebad72cd034")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a573b67b-e571-4d7f-85e5-1d3dd04b2db5")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "360871cd-877a-4e35-bf6d-fd228a244324")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Connector*:*_1x??_*")
-		(path "/0abd0a48-43bc-49dc-a1df-05d86177b769")
-		(sheetname "/")
-		(sheetfile "ACIR_PCB.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
-		(attr through_hole)
-		(duplicate_pad_numbers_are_jumpers no)
-		
-		
-		
-		
-		(fp_line
-			(start -1.8 -1.8)
-			(end 4.34 -1.8)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "83912dba-f25a-4864-ad5f-53208b7f451a")
-		)
-		(fp_line
-			(start -1.8 -1.8)
-			(end -1.8 1.8)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "507160da-6c36-45e8-959c-f1a2e0ec2bb5")
-		)
-		(fp_line
-			(start 4.34 1.8)
-			(end 4.34 -1.8)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "45bd1e55-ba8e-4295-97cb-dfaca1a9067b")
-		)
-		(fp_line
-			(start 4.34 1.8)
-			(end -1.8 1.8)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "a47a04c9-503a-48d7-a823-f7b0c268a3d8")
-		)
-		(fp_line
-			(start 2.54 0)
-			(end 0 0)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "35d63748-f84b-446c-b0e7-42d08c42cdc4")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 1.1 2.3 90)
-			(layer "F.Fab")
-			(uuid "798f5976-8dbf-4157-88e6-765fdd5378fe")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" thru_hole circle
-			(at 0 0 90)
-			(size 2.6 2.6)
-			(drill 1.3)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "Net-(BT4--)")
-			(pinfunction "Pin_1_1")
-			(pintype "passive")
-			(uuid "3ebfa073-05e5-4364-8b57-8fa69564e2b4")
-		)
-		(pad "1" thru_hole circle
-			(at 2.54 0 90)
-			(size 2.6 2.6)
-			(drill 1.3)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "Net-(BT4--)")
-			(pinfunction "Pin_1_1")
-			(pintype "passive")
-			(uuid "e6608de9-5046-48c9-a536-e43a2baa5fc1")
-		)
-		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Bridge_Pitch2.54mm_Drill1.3mm.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
+	
 	(footprint "footprints:BH18650B1BA002"
 		(layer "F.Cu")
 		(uuid "3918eb9f-c0c7-4d41-a4a3-ab4de80f00ef")
@@ -3582,206 +3378,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill1.3mm"
-		(layer "F.Cu")
-		(uuid "7787e9ac-8665-49b2-ba85-94028d241281")
-		(at 320.36 140.55 90.0)
-		(descr "wire loop as test point, pitch 2.54mm, hole diameter 1.3mm, wire diameter 1.0mm")
-		(tags "test point wire loop")
-		(property "Reference" "J3" (at 3.8 0 90)
-			(layer "F.SilkS")
-			(uuid "6d16124b-f185-45fd-a9ab-99ddfc58ed1a")
-			(hide yes)
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.1)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 1 -2.1 90)
-			(layer "F.Fab")
-			(uuid "e6dda551-cb76-4dca-90bf-6119d38f2a8b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.1)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "51ee5817-e1c6-4cae-8b99-b676e9d92ceb")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.1)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "1fb38fa9-0659-4d1e-b5d3-38a2dfeb3992")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.1)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "a884cacb-3456-4e52-bdbf-f23a575453de")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.1)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "89700970-d0c1-4710-be1b-9e9dc6db32fc")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.1)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "63ea211f-bf7d-493b-95f0-927202619d77")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.1)
-				)
-			)
-		)
-		(property ki_fp_filters "Connector*:*_1x??_*")
-		(path "/3d340c10-4619-40b0-8f95-9e9616b7d6eb")
-		(sheetname "/")
-		(sheetfile "ACIR_PCB.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
-		(attr through_hole)
-		(duplicate_pad_numbers_are_jumpers no)
-		
-		
-		
-		
-		(fp_line
-			(start -1.8 -1.8)
-			(end 4.34 -1.8)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "d8478fe2-7f95-493f-8633-79a7f58b7c9f")
-		)
-		(fp_line
-			(start -1.8 -1.8)
-			(end -1.8 1.8)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "d571f6cd-1e58-40a5-89ce-eaf46dbf6d68")
-		)
-		(fp_line
-			(start 4.34 1.8)
-			(end 4.34 -1.8)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "4743fff6-44f7-400c-8e74-6a7eea8ca931")
-		)
-		(fp_line
-			(start 4.34 1.8)
-			(end -1.8 1.8)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "e5b5d213-d638-4000-a146-5ac8bae8e136")
-		)
-		(fp_line
-			(start 2.54 0)
-			(end 0 0)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "6e0b28bf-f7c7-4a46-bc3c-7968eeebf458")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 1.1 2.3 90)
-			(layer "F.Fab")
-			(uuid "5ccb7ef7-4aea-4b15-babe-0542ed31a13c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.1)
-				)
-			)
-		)
-		(pad "1" thru_hole circle
-			(at 0 0 90)
-			(size 2.6 2.6)
-			(drill 1.3)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "/4S_B+")
-			(pinfunction "Pin_1_1")
-			(pintype "passive")
-			(uuid "2386451a-21d0-4351-9391-c6d224533553")
-		)
-		(pad "1" thru_hole circle
-			(at 2.54 0 90)
-			(size 2.6 2.6)
-			(drill 1.3)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "/4S_B+")
-			(pinfunction "Pin_1_1")
-			(pintype "passive")
-			(uuid "cb7c0079-abc6-4341-bcfe-5d2051331d09")
-		)
-		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Bridge_Pitch2.54mm_Drill1.3mm.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
+	
 	(footprint "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill1.3mm"
 		(layer "F.Cu")
 		(uuid "79e3a8b6-dadd-4b77-b9db-24ef881b52de")
@@ -3988,206 +3585,7 @@
 		)
 	)
 	
-	(footprint "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill1.3mm"
-		(layer "F.Cu")
-		(uuid "7ac36842-26f6-4fb2-b744-db6fcc8d3a7d")
-		(at 320.36 211.80 90.0)
-		(descr "wire loop as test point, pitch 2.54mm, hole diameter 1.3mm, wire diameter 1.0mm")
-		(tags "test point wire loop")
-		(property "Reference" "J4" (at 3.8 0 90)
-			(layer "F.SilkS")
-			(uuid "8626ae99-193a-41ce-b388-149a6c10a7bc")
-			(hide yes)
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.1)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 1 -2.1 90)
-			(layer "F.Fab")
-			(uuid "c962fc8b-7dec-492b-b606-ef629bfd91f0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.1)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "33a81425-edbc-48eb-b73f-2df3f08cc5d9")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.1)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "5faaf4ee-305e-4973-b909-5ad11945af18")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.1)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "11efe179-2153-406b-9d82-5fb5a9f1e02a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.1)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "5865de25-883e-4087-84a8-bb516d7a1a6d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.1)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(uuid "ded3fd46-35dd-4c1d-aaee-4c3cc11aaceb")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.1)
-				)
-			)
-		)
-		(property ki_fp_filters "Connector*:*_1x??_*")
-		(path "/510eb7f7-322b-4506-8bb6-ca5fefc75586")
-		(sheetname "/")
-		(sheetfile "ACIR_PCB.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
-		(attr through_hole)
-		(duplicate_pad_numbers_are_jumpers no)
-		
-		
-		
-		
-		(fp_line
-			(start -1.8 -1.8)
-			(end 4.34 -1.8)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "e07a7da7-d8ac-4369-b742-59f85a5719a2")
-		)
-		(fp_line
-			(start -1.8 -1.8)
-			(end -1.8 1.8)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "f760164c-7f39-4f59-94db-4f61ebe3985d")
-		)
-		(fp_line
-			(start 4.34 1.8)
-			(end 4.34 -1.8)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "ae3ed3d1-63e6-4784-85b4-08e4ca200c26")
-		)
-		(fp_line
-			(start 4.34 1.8)
-			(end -1.8 1.8)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "96b119a5-e576-4f89-9b3b-a49b0e0ae81e")
-		)
-		(fp_line
-			(start 2.54 0)
-			(end 0 0)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "ba881f01-c79f-4f39-9213-a8aa83177941")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 1.1 2.3 90)
-			(layer "F.Fab")
-			(uuid "49285b70-5a03-4c1e-8582-d180976b0ea8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.1)
-				)
-			)
-		)
-		(pad "1" thru_hole circle
-			(at 0 0 90)
-			(size 2.6 2.6)
-			(drill 1.3)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "/4S_B-")
-			(pinfunction "Pin_1_1")
-			(pintype "passive")
-			(uuid "bf06beff-6fc9-46ae-b99e-52f6ef975464")
-		)
-		(pad "1" thru_hole circle
-			(at 2.54 0 90)
-			(size 2.6 2.6)
-			(drill 1.3)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "/4S_B-")
-			(pinfunction "Pin_1_1")
-			(pintype "passive")
-			(uuid "0e324843-523a-493e-9d88-0bd6b7721c32")
-		)
-		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Bridge_Pitch2.54mm_Drill1.3mm.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
+	
 	(footprint "footprints:BH18650B1BA002"
 		(layer "F.Cu")
 		(uuid "7b326e04-b76a-4f18-b09a-df7c6bb10a9a")
@@ -6287,211 +5685,7 @@
 			)
 		)
 	)
-	(footprint "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill1.3mm"
-		(layer "F.Cu")
-		(uuid "8d155ec2-316b-46b5-8a04-8f211985fa1a")
-		(at 320.36 176.18 90.0)
-		(descr "wire loop as test point, pitch 2.54mm, hole diameter 1.3mm, wire diameter 1.0mm")
-		(tags "test point wire loop")
-		(property "Reference" "J8" (at 3.8 0 90)
-			(layer "F.SilkS")
-			(uuid "45589c60-1469-475a-9854-9362ab8c3f62")
-			(hide yes)
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 1 -2.1 90)
-			(layer "F.Fab")
-			(uuid "914fa59c-56d9-4555-beb6-72166da70acb")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e1429e4c-a30d-428e-89ee-1463957108cc")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "148d01f0-86e9-4bc3-9862-5b851e165772")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "238d6bdf-5d0d-450f-8868-567f24272936")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3babe490-0cfe-45d9-bab0-619b80e7766a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ad699a72-b928-4bfb-84fb-d381eebeb429")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Connector*:*_1x??_*")
-		(path "/bb233757-68f0-4a34-b7da-a45060d3d908")
-		(sheetname "/")
-		(sheetfile "ACIR_PCB.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
-		(attr through_hole)
-		(duplicate_pad_numbers_are_jumpers no)
-		
-		
-		
-		
-		(fp_line
-			(start -1.8 -1.8)
-			(end 4.34 -1.8)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "e5e3cc30-6e6a-4975-a17e-1cc8fc8bd9da")
-		)
-		(fp_line
-			(start -1.8 -1.8)
-			(end -1.8 1.8)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "c4db2913-979f-4dc3-874e-061a4e7cfa40")
-		)
-		(fp_line
-			(start 4.34 1.8)
-			(end 4.34 -1.8)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "cd33da51-eb9e-4ac5-822e-cd9ab7641ddb")
-		)
-		(fp_line
-			(start 4.34 1.8)
-			(end -1.8 1.8)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "e371b661-c6fa-4208-90c1-d79d2cdf9d95")
-		)
-		(fp_line
-			(start 2.54 0)
-			(end 0 0)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "0fb0ec64-a496-454b-93ea-827c2def485d")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 1.1 2.3 90)
-			(layer "F.Fab")
-			(uuid "e1880581-f0b9-408e-a9ee-96e3841175d6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" thru_hole circle
-			(at 0 0 90)
-			(size 2.6 2.6)
-			(drill 1.3)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "Net-(BT3--)")
-			(pinfunction "Pin_1_1")
-			(pintype "passive")
-			(uuid "818e58f6-c48a-45ce-bb4f-8dfd815911d2")
-		)
-		(pad "1" thru_hole circle
-			(at 2.54 0 90)
-			(size 2.6 2.6)
-			(drill 1.3)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "Net-(BT3--)")
-			(pinfunction "Pin_1_1")
-			(pintype "passive")
-			(uuid "8ec97bad-6a6b-4daf-bda1-a32a2ddc62cd")
-		)
-		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Bridge_Pitch2.54mm_Drill1.3mm.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
+	
 	(footprint "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill1.3mm"
 		(layer "F.Cu")
 		(uuid "9bc68d56-e0fd-448c-a0bc-5e70b0fb1c5a")
@@ -9472,211 +8666,7 @@
 			)
 		)
 	)
-	(footprint "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill1.3mm"
-		(layer "F.Cu")
-		(uuid "b917e0a4-b045-4e52-a6c4-4d8741ad7f83")
-		(at 216.00 152.43 90.0)
-		(descr "wire loop as test point, pitch 2.54mm, hole diameter 1.3mm, wire diameter 1.0mm")
-		(tags "test point wire loop")
-		(property "Reference" "J7" (at 3.8 0 90)
-			(layer "F.SilkS")
-			(uuid "e368e579-3740-4dfc-b1ed-08268347e48a")
-			(hide yes)
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 1 -2.1 90)
-			(layer "F.Fab")
-			(uuid "210062ec-39cf-4b38-a7cb-8d1637edd62c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c8825b39-543a-44c8-996f-2956a65b0e54")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3e86eb27-69f6-485e-bdea-79a9d5effde7")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "228e831e-e026-4f24-9704-4f4bdced4945")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "872f6f40-7095-4468-8982-b65c9eadf48e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7bb3b282-c5f4-4d2f-b434-32cfd10eb7ff")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "Connector*:*_1x??_*")
-		(path "/657c1500-24b8-4ff0-be84-788e9d6211ac")
-		(sheetname "/")
-		(sheetfile "ACIR_PCB.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1")
-			)
-		)
-		(attr through_hole)
-		(duplicate_pad_numbers_are_jumpers no)
-		
-		
-		
-		
-		(fp_line
-			(start -1.8 -1.8)
-			(end 4.34 -1.8)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "67253da8-897e-4faf-a3fb-bcac3d50202b")
-		)
-		(fp_line
-			(start -1.8 -1.8)
-			(end -1.8 1.8)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "3287ea29-c14c-4721-ade4-2ea80cd5d26b")
-		)
-		(fp_line
-			(start 4.34 1.8)
-			(end 4.34 -1.8)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "247f1678-e1f1-406d-8f97-006e5419f2ca")
-		)
-		(fp_line
-			(start 4.34 1.8)
-			(end -1.8 1.8)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "fa2d96bf-68d6-48a8-8947-5d7ca198962f")
-		)
-		(fp_line
-			(start 2.54 0)
-			(end 0 0)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "20cdbfdd-b62d-49e1-abba-09a790423451")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 1.1 2.3 90)
-			(layer "F.Fab")
-			(uuid "2f6ab90b-87a9-46f6-8b0e-f70c7a6e9a77")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(pad "1" thru_hole circle
-			(at 0 0 90)
-			(size 2.6 2.6)
-			(drill 1.3)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "Net-(BT2--)")
-			(pinfunction "Pin_1_1")
-			(pintype "passive")
-			(uuid "9e03a322-e0f3-4dd1-b5f4-515ece679624")
-		)
-		(pad "1" thru_hole circle
-			(at 2.54 0 90)
-			(size 2.6 2.6)
-			(drill 1.3)
-			(layers "*.Cu" "*.Mask")
-			(remove_unused_layers no)
-			(net "Net-(BT2--)")
-			(pinfunction "Pin_1_1")
-			(pintype "passive")
-			(uuid "5774ca07-165e-4cfe-a61c-8ee2702f237b")
-		)
-		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Bridge_Pitch2.54mm_Drill1.3mm.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
+	
 	(footprint "footprints:MountingHole_3.2mm_M3"
 		(layer "F.Cu")
 		(uuid "bd0e0e19-de45-4222-99af-d385fb3a3991")
@@ -14164,310 +13154,44 @@
 		(net "/1S_B-")
 		(uuid "aca3753a-b5c6-4ede-af91-3edddac0ccc1")
 	)
-	(segment
-		(start 289.460 136.740)
-		(end 289.460 141.820)
-		(width 8.00)
-		(layer "F.Cu")
-		(net "/4S_B+")
-		(uuid "5d7c7e61-284f-485b-8046-fdf692ef2600")
-	)
-	(segment
-		(start 289.460 136.740)
-		(end 289.460 141.820)
-		(width 8.00)
-		(layer "B.Cu")
-		(net "/4S_B+")
-		(uuid "8e1ae62a-e74a-4706-9451-f6b88f2208df")
-	)
-	(segment
-		(start 289.460 139.280)
-		(end 320.360 139.280)
-		(width 8.00)
-		(layer "F.Cu")
-		(net "/4S_B+")
-		(uuid "8a1fd41f-09a9-4cc2-9843-2206ee868779")
-	)
-	(segment
-		(start 289.460 139.280)
-		(end 320.360 139.280)
-		(width 8.00)
-		(layer "B.Cu")
-		(net "/4S_B+")
-		(uuid "eb20dee8-e82f-4a3f-9e4f-08dda2212f85")
-	)
-	(segment
-		(start 289.460 207.990)
-		(end 289.460 213.070)
-		(width 8.00)
-		(layer "F.Cu")
-		(net "/4S_B-")
-		(uuid "b53d98c1-5938-4b8a-8275-fa800fe5837c")
-	)
-	(segment
-		(start 289.460 207.990)
-		(end 289.460 213.070)
-		(width 8.00)
-		(layer "B.Cu")
-		(net "/4S_B-")
-		(uuid "0be86879-fa60-4427-801c-93b8fd6b55ea")
-	)
-	(segment
-		(start 289.460 210.530)
-		(end 320.360 210.530)
-		(width 8.00)
-		(layer "F.Cu")
-		(net "/4S_B-")
-		(uuid "d2f91427-4999-4c05-b49f-19ae4bba1a50")
-	)
-	(segment
-		(start 289.460 210.530)
-		(end 320.360 210.530)
-		(width 8.00)
-		(layer "B.Cu")
-		(net "/4S_B-")
-		(uuid "cff528dc-650c-452c-bf33-1df717985762")
-	)
-	(segment
-		(start 246.900 136.740)
-		(end 246.900 141.820)
-		(width 8.00)
-		(layer "F.Cu")
-		(net "Net-(BT2--)")
-		(uuid "b7f16978-1b26-4c34-b880-45eaaf900791")
-	)
-	(segment
-		(start 246.900 136.740)
-		(end 246.900 141.820)
-		(width 8.00)
-		(layer "B.Cu")
-		(net "Net-(BT2--)")
-		(uuid "f48f2d92-baac-484a-8eeb-9c309600a411")
-	)
-	(segment
-		(start 246.900 160.490)
-		(end 246.900 165.570)
-		(width 8.00)
-		(layer "F.Cu")
-		(net "Net-(BT2--)")
-		(uuid "0ab68078-81fc-482b-a3a4-62090b1a2ec3")
-	)
-	(segment
-		(start 246.900 160.490)
-		(end 246.900 165.570)
-		(width 8.00)
-		(layer "B.Cu")
-		(net "Net-(BT2--)")
-		(uuid "fafe4ae9-32ce-49e0-b710-7729fea58b00")
-	)
-	(segment
-		(start 246.900 139.280)
-		(end 216.000 139.280)
-		(width 8.00)
-		(layer "F.Cu")
-		(net "Net-(BT2--)")
-		(uuid "b66bbe52-1f58-4cc6-97cb-2af8e3afb15a")
-	)
-	(segment
-		(start 246.900 139.280)
-		(end 216.000 139.280)
-		(width 8.00)
-		(layer "B.Cu")
-		(net "Net-(BT2--)")
-		(uuid "21c7d40d-11d2-4b48-8822-7b1f34ccc3eb")
-	)
-	(segment
-		(start 216.000 139.280)
-		(end 216.000 163.030)
-		(width 8.00)
-		(layer "F.Cu")
-		(net "Net-(BT2--)")
-		(uuid "08f70ea8-7484-4c02-9c23-ccbb06a12dda")
-	)
-	(segment
-		(start 216.000 139.280)
-		(end 216.000 163.030)
-		(width 8.00)
-		(layer "B.Cu")
-		(net "Net-(BT2--)")
-		(uuid "d6ff3a62-19f7-42b8-8ffa-ad79b02cdea8")
-	)
-	(segment
-		(start 216.000 163.030)
-		(end 246.900 163.030)
-		(width 8.00)
-		(layer "F.Cu")
-		(net "Net-(BT2--)")
-		(uuid "a9d98bed-1f76-45fd-8372-fe845c823aa3")
-	)
-	(segment
-		(start 216.000 163.030)
-		(end 246.900 163.030)
-		(width 8.00)
-		(layer "B.Cu")
-		(net "Net-(BT2--)")
-		(uuid "41ab6977-dedb-43da-8db6-388d818b77d1")
-	)
-	(segment
-		(start 289.460 160.490)
-		(end 289.460 165.570)
-		(width 8.00)
-		(layer "F.Cu")
-		(net "Net-(BT3--)")
-		(uuid "cc5a4a54-b14e-46e1-b28b-ca8f08f9c2ff")
-	)
-	(segment
-		(start 289.460 160.490)
-		(end 289.460 165.570)
-		(width 8.00)
-		(layer "B.Cu")
-		(net "Net-(BT3--)")
-		(uuid "f497bcb6-a279-4916-ae2f-ffb3ef6e748f")
-	)
-	(segment
-		(start 289.460 184.240)
-		(end 289.460 189.320)
-		(width 8.00)
-		(layer "F.Cu")
-		(net "Net-(BT3--)")
-		(uuid "6ee66421-68af-47fe-ab03-8d7a3f3c33a7")
-	)
-	(segment
-		(start 289.460 184.240)
-		(end 289.460 189.320)
-		(width 8.00)
-		(layer "B.Cu")
-		(net "Net-(BT3--)")
-		(uuid "9109d8d1-f8ef-4ceb-8c5b-f5da460f779e")
-	)
-	(segment
-		(start 289.460 163.030)
-		(end 320.360 163.030)
-		(width 8.00)
-		(layer "F.Cu")
-		(net "Net-(BT3--)")
-		(uuid "52e02819-0994-41dd-8426-10f026beb48e")
-	)
-	(segment
-		(start 289.460 163.030)
-		(end 320.360 163.030)
-		(width 8.00)
-		(layer "B.Cu")
-		(net "Net-(BT3--)")
-		(uuid "9acf4628-18ba-43a8-9a8e-8254f912abe3")
-	)
-	(segment
-		(start 320.360 163.030)
-		(end 320.360 186.780)
-		(width 8.00)
-		(layer "F.Cu")
-		(net "Net-(BT3--)")
-		(uuid "7cc66ac0-165b-4e93-996a-4fd088f6e66e")
-	)
-	(segment
-		(start 320.360 163.030)
-		(end 320.360 186.780)
-		(width 8.00)
-		(layer "B.Cu")
-		(net "Net-(BT3--)")
-		(uuid "7a109d87-815d-45e9-846c-1d8ae7296964")
-	)
-	(segment
-		(start 320.360 186.780)
-		(end 289.460 186.780)
-		(width 8.00)
-		(layer "F.Cu")
-		(net "Net-(BT3--)")
-		(uuid "608a097a-49b4-4854-ad15-00bd440b3e53")
-	)
-	(segment
-		(start 320.360 186.780)
-		(end 289.460 186.780)
-		(width 8.00)
-		(layer "B.Cu")
-		(net "Net-(BT3--)")
-		(uuid "6b30a133-4e4d-4019-a74d-3ab73c00f065")
-	)
-	(segment
-		(start 246.900 184.240)
-		(end 246.900 189.320)
-		(width 8.00)
-		(layer "F.Cu")
-		(net "Net-(BT4--)")
-		(uuid "b282a12a-990e-482c-a78a-3fa8730ca576")
-	)
-	(segment
-		(start 246.900 184.240)
-		(end 246.900 189.320)
-		(width 8.00)
-		(layer "B.Cu")
-		(net "Net-(BT4--)")
-		(uuid "fc254a5f-9e00-4cf6-bd20-6b8efae90627")
-	)
-	(segment
-		(start 246.900 207.990)
-		(end 246.900 213.070)
-		(width 8.00)
-		(layer "F.Cu")
-		(net "Net-(BT4--)")
-		(uuid "04ebc766-b05e-406c-add8-eaa9b37d7df6")
-	)
-	(segment
-		(start 246.900 207.990)
-		(end 246.900 213.070)
-		(width 8.00)
-		(layer "B.Cu")
-		(net "Net-(BT4--)")
-		(uuid "13e93116-18fc-41f4-8eac-b7b5d6fb606e")
-	)
-	(segment
-		(start 246.900 186.780)
-		(end 216.000 186.780)
-		(width 8.00)
-		(layer "F.Cu")
-		(net "Net-(BT4--)")
-		(uuid "870a4d75-e648-44a9-a75c-50d5d05b212a")
-	)
-	(segment
-		(start 246.900 186.780)
-		(end 216.000 186.780)
-		(width 8.00)
-		(layer "B.Cu")
-		(net "Net-(BT4--)")
-		(uuid "8e808cd6-8167-49da-b2cf-ad29b0f909f0")
-	)
-	(segment
-		(start 216.000 186.780)
-		(end 216.000 210.530)
-		(width 8.00)
-		(layer "F.Cu")
-		(net "Net-(BT4--)")
-		(uuid "a5aade59-3392-4cea-a6a1-7b8af9fccca5")
-	)
-	(segment
-		(start 216.000 186.780)
-		(end 216.000 210.530)
-		(width 8.00)
-		(layer "B.Cu")
-		(net "Net-(BT4--)")
-		(uuid "03549bbe-81e5-4993-bcc9-ad433e623cb3")
-	)
-	(segment
-		(start 216.000 210.530)
-		(end 246.900 210.530)
-		(width 8.00)
-		(layer "F.Cu")
-		(net "Net-(BT4--)")
-		(uuid "a59be9f7-fbb5-4b79-b9b5-4b75183937a1")
-	)
-	(segment
-		(start 216.000 210.530)
-		(end 246.900 210.530)
-		(width 8.00)
-		(layer "B.Cu")
-		(net "Net-(BT4--)")
-		(uuid "f98d0b45-0253-421b-b8fe-6815e243f282")
-	)
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	(segment
 		(start 175.060 135.000)
 		(end 175.060 222.000)
@@ -18010,61 +16734,11 @@
 		(layer "F.Mask")
 		(uuid "d50f812c-31f3-4e7f-bfe3-aefa0dadbd8e")
 	)
-	(gr_circle
-		(center 320.360 139.280)
-		(end 323.360 139.280)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill solid)
-		(layer "F.Mask")
-		(uuid "09befbb9-543c-4d63-9415-056da70ef138")
-	)
-	(gr_circle
-		(center 320.360 210.530)
-		(end 323.360 210.530)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill solid)
-		(layer "F.Mask")
-		(uuid "4ec2e89f-a0c7-4a1a-80e6-eb6b04cc84ca")
-	)
-	(gr_circle
-		(center 216.000 151.155)
-		(end 219.000 151.155)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill solid)
-		(layer "F.Mask")
-		(uuid "a4c8d90f-03ce-4f9d-ad7d-99a4a5b8cf67")
-	)
-	(gr_circle
-		(center 320.360 174.905)
-		(end 323.360 174.905)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill solid)
-		(layer "F.Mask")
-		(uuid "0b9ead18-d68f-4f0a-941c-8cf518db8af4")
-	)
-	(gr_circle
-		(center 216.000 198.655)
-		(end 219.000 198.655)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill solid)
-		(layer "F.Mask")
-		(uuid "c310c620-c81e-4fd1-b76d-61c2d9c6bb22")
-	)
+	
+	
+	
+	
+	
 	(gr_circle
 		(center 175.060 139.280)
 		(end 178.060 139.280)
@@ -18714,224 +17388,1326 @@
 		(uuid "head2_184.86_229.00_184.86_226.50")
 	)
 
-	(gr_text "B +ve"
-		(at 320.36 127.50)
-		(layer "F.SilkS" knockout)
-		(uuid "ko_B_+ve_320.4_127.5")
-		(effects
-			(font
-				(face "PT Sans")
-				(size 1.05 1.05)
-				(thickness 0.16)
-				(bold yes)
+	
+
+	
+
+	
+	
+	
+
+	
+
+	
+
+	
+	
+	
+
+	
+
+	
+
+	
+	
+	
+
+	
+
+	
+
+	
+	
+	
+
+	
+
+	
+
+	
+	
+	
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	(footprint "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill1.3mm"
+		(layer "F.Cu")
+		(uuid "ec6c86b5-be63-4013-b09a-23f9874f52ba")
+		(at 216.00 140.55 90)
+		(descr "wire loop as test point, pitch 2.54mm, hole diameter 1.3mm, wire diameter 1.0mm")
+		(tags "test point wire loop")
+		(property "Reference" "J7"
+			(at 3.8 0 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "3fe61dda-de8c-450b-941f-c83d89103bb5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
 			)
 		)
-	)
-
-	(gr_text "1S 1P +ve"
-		(at 320.36 131.00)
-		(layer "F.SilkS" knockout)
-		(uuid "ko_1S_1P_+ve_320.4_131.0")
-		(effects
-			(font
-				(face "PT Sans")
-				(size 1.05 1.05)
-				(thickness 0.16)
-				(bold yes)
+		(property "Value" "TestPoint"
+			(at 1 -2.1 0)
+			(layer "F.Fab")
+			(uuid "62e3089b-8cf0-40f0-bb96-476239634efd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
 			)
 		)
+		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -1.8 -1.8)
+			(end 4.34 -1.8)
+			(stroke (width 0.05) (type solid))
+			(layer "F.CrtYd")
+			(uuid "b0234958-6e2d-4deb-97e7-86b948570923")
+		)
+		(fp_line
+			(start -1.8 -1.8)
+			(end -1.8 1.8)
+			(stroke (width 0.05) (type solid))
+			(layer "F.CrtYd")
+			(uuid "804bfaf3-5bf5-48ab-83b5-e8330a6d07ec")
+		)
+		(fp_line
+			(start 4.34 1.8)
+			(end 4.34 -1.8)
+			(stroke (width 0.05) (type solid))
+			(layer "F.CrtYd")
+			(uuid "c758c4d2-66aa-47c7-8be2-e186fdab6c52")
+		)
+		(fp_line
+			(start 4.34 1.8)
+			(end -1.8 1.8)
+			(stroke (width 0.05) (type solid))
+			(layer "F.CrtYd")
+			(uuid "94f98b77-b4d6-415e-a23b-c411071cc86f")
+		)
+		(fp_line
+			(start 2.54 0)
+			(end 0 0)
+			(stroke (width 0.12) (type solid))
+			(layer "F.Fab")
+			(uuid "64ebb6df-59bf-4d42-84f1-a9361f709c01")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 1.1 2.3 0)
+			(layer "F.Fab")
+			(uuid "4177a90a-e215-4653-a401-02cef5040810")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 2.6 2.6)
+			(drill 1.3)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "Net-(BT2--)")
+			(pinfunction "Pin_1_1")
+			(pintype "passive")
+			(uuid "dc8bfc83-366f-478f-b6e3-021896291fa7")
+		)
+		(pad "1" thru_hole circle
+			(at 2.54 0)
+			(size 2.6 2.6)
+			(drill 1.3)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "Net-(BT2--)")
+			(pinfunction "Pin_1_1")
+			(pintype "passive")
+			(uuid "04adb961-4ec6-4019-86f0-2a8d71091201")
+		)
+		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Bridge_Pitch2.54mm_Drill1.3mm.step"
+			(offset (xyz 0 0 0))
+			(scale (xyz 1 1 1))
+			(rotate (xyz 0 0 0))
+		)
 	)
-
-	(gr_line (start 320.36 132.80) (end 320.36 135.20)
-		(stroke (width 0.15) (type solid))
-		(layer "F.SilkS")
-		(uuid "line_320.36_132.80_320.36_135.20")
+	(footprint "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill1.3mm"
+		(layer "F.Cu")
+		(uuid "89a231e7-4ab6-4cf4-a000-08f375cf1ac0")
+		(at 320.36 140.55 90)
+		(descr "wire loop as test point, pitch 2.54mm, hole diameter 1.3mm, wire diameter 1.0mm")
+		(tags "test point wire loop")
+		(property "Reference" "J3"
+			(at 3.8 0 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "f30c9601-a0c7-4010-88d2-267074ce9c85")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 1 -2.1 0)
+			(layer "F.Fab")
+			(uuid "f1cec6be-a6eb-44a0-9d7e-211e7a3af13b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -1.8 -1.8)
+			(end 4.34 -1.8)
+			(stroke (width 0.05) (type solid))
+			(layer "F.CrtYd")
+			(uuid "a11e439b-0977-4605-9998-7313bbe6b823")
+		)
+		(fp_line
+			(start -1.8 -1.8)
+			(end -1.8 1.8)
+			(stroke (width 0.05) (type solid))
+			(layer "F.CrtYd")
+			(uuid "f8d73b73-e219-470d-a830-efccbc6c398a")
+		)
+		(fp_line
+			(start 4.34 1.8)
+			(end 4.34 -1.8)
+			(stroke (width 0.05) (type solid))
+			(layer "F.CrtYd")
+			(uuid "5d4b22d8-8257-4378-a7ac-5dea3cdf4f86")
+		)
+		(fp_line
+			(start 4.34 1.8)
+			(end -1.8 1.8)
+			(stroke (width 0.05) (type solid))
+			(layer "F.CrtYd")
+			(uuid "51932c97-0182-4fda-85df-39b464545ec9")
+		)
+		(fp_line
+			(start 2.54 0)
+			(end 0 0)
+			(stroke (width 0.12) (type solid))
+			(layer "F.Fab")
+			(uuid "fd1d6df5-2913-4c53-af69-24feaa9f1ab1")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 1.1 2.3 0)
+			(layer "F.Fab")
+			(uuid "5e8cd3e1-89a2-438a-a398-e61bf723c8f7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 2.6 2.6)
+			(drill 1.3)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "/4S_B+")
+			(pinfunction "Pin_1_1")
+			(pintype "passive")
+			(uuid "8ab3fa48-f8a5-44ee-90c5-dd45519e7299")
+		)
+		(pad "1" thru_hole circle
+			(at 2.54 0)
+			(size 2.6 2.6)
+			(drill 1.3)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "/4S_B+")
+			(pinfunction "Pin_1_1")
+			(pintype "passive")
+			(uuid "39c0d154-776e-49ab-bcbd-918a17481bd4")
+		)
+		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Bridge_Pitch2.54mm_Drill1.3mm.step"
+			(offset (xyz 0 0 0))
+			(scale (xyz 1 1 1))
+			(rotate (xyz 0 0 0))
+		)
 	)
-	(gr_line (start 320.36 135.20) (end 320.00 134.30)
-		(stroke (width 0.15) (type solid))
-		(layer "F.SilkS")
-		(uuid "head1_320.36_132.80_320.36_135.20")
+	(footprint "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill1.3mm"
+		(layer "F.Cu")
+		(uuid "d7433691-5971-4080-b693-7d2bee1b54d1")
+		(at 216.00 164.30 90)
+		(descr "wire loop as test point, pitch 2.54mm, hole diameter 1.3mm, wire diameter 1.0mm")
+		(tags "test point wire loop")
+		(property "Reference" "J18"
+			(at 3.8 0 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "c66c9651-d12c-46ae-bbd2-c6f60fb48271")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 1 -2.1 0)
+			(layer "F.Fab")
+			(uuid "9ad946a5-de0e-4ec7-808a-05e1fe89a6ac")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -1.8 -1.8)
+			(end 4.34 -1.8)
+			(stroke (width 0.05) (type solid))
+			(layer "F.CrtYd")
+			(uuid "d54fc332-0fb8-4da6-9e36-3bf7e3f525c1")
+		)
+		(fp_line
+			(start -1.8 -1.8)
+			(end -1.8 1.8)
+			(stroke (width 0.05) (type solid))
+			(layer "F.CrtYd")
+			(uuid "3ec29e84-1491-49db-bc80-c5bc7b79d0ee")
+		)
+		(fp_line
+			(start 4.34 1.8)
+			(end 4.34 -1.8)
+			(stroke (width 0.05) (type solid))
+			(layer "F.CrtYd")
+			(uuid "3cedf8ea-f186-49a8-a666-496d2c74657a")
+		)
+		(fp_line
+			(start 4.34 1.8)
+			(end -1.8 1.8)
+			(stroke (width 0.05) (type solid))
+			(layer "F.CrtYd")
+			(uuid "1e1d1555-fc32-472f-a445-d2c167db2858")
+		)
+		(fp_line
+			(start 2.54 0)
+			(end 0 0)
+			(stroke (width 0.12) (type solid))
+			(layer "F.Fab")
+			(uuid "9544397d-b45d-4eb0-a560-7836ce0a7d95")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 1.1 2.3 0)
+			(layer "F.Fab")
+			(uuid "b46954c7-57c1-4b1d-a8f3-3f23f7f0b6dc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 2.6 2.6)
+			(drill 1.3)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "Net-(BT2--)")
+			(pinfunction "Pin_1_1")
+			(pintype "passive")
+			(uuid "4415ec4b-0eeb-435f-a178-27c67849b7b7")
+		)
+		(pad "1" thru_hole circle
+			(at 2.54 0)
+			(size 2.6 2.6)
+			(drill 1.3)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "Net-(BT2--)")
+			(pinfunction "Pin_1_1")
+			(pintype "passive")
+			(uuid "ac30047a-76c3-449d-8e38-425ba41dcd01")
+		)
+		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Bridge_Pitch2.54mm_Drill1.3mm.step"
+			(offset (xyz 0 0 0))
+			(scale (xyz 1 1 1))
+			(rotate (xyz 0 0 0))
+		)
 	)
-	(gr_line (start 320.36 135.20) (end 320.72 134.30)
-		(stroke (width 0.15) (type solid))
-		(layer "F.SilkS")
-		(uuid "head2_320.36_132.80_320.36_135.20")
+	(footprint "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill1.3mm"
+		(layer "F.Cu")
+		(uuid "627e3f9d-eb9e-474b-85a0-e4a57872d4f8")
+		(at 320.36 164.30 90)
+		(descr "wire loop as test point, pitch 2.54mm, hole diameter 1.3mm, wire diameter 1.0mm")
+		(tags "test point wire loop")
+		(property "Reference" "J8"
+			(at 3.8 0 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "01a85178-c5e5-44cc-ab42-593decf245cd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 1 -2.1 0)
+			(layer "F.Fab")
+			(uuid "ffff8bfe-ec4c-43ef-a62b-bbbc413c3ba0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -1.8 -1.8)
+			(end 4.34 -1.8)
+			(stroke (width 0.05) (type solid))
+			(layer "F.CrtYd")
+			(uuid "da0339b1-fdf9-4f66-b8d3-a7674e1a6891")
+		)
+		(fp_line
+			(start -1.8 -1.8)
+			(end -1.8 1.8)
+			(stroke (width 0.05) (type solid))
+			(layer "F.CrtYd")
+			(uuid "ed28b47a-1361-479b-b503-bc20e18e127f")
+		)
+		(fp_line
+			(start 4.34 1.8)
+			(end 4.34 -1.8)
+			(stroke (width 0.05) (type solid))
+			(layer "F.CrtYd")
+			(uuid "9ce60fa4-3bef-4549-9077-439710591c73")
+		)
+		(fp_line
+			(start 4.34 1.8)
+			(end -1.8 1.8)
+			(stroke (width 0.05) (type solid))
+			(layer "F.CrtYd")
+			(uuid "1087dede-dcb0-45f4-b122-43c9c4ecb163")
+		)
+		(fp_line
+			(start 2.54 0)
+			(end 0 0)
+			(stroke (width 0.12) (type solid))
+			(layer "F.Fab")
+			(uuid "4d805b0b-992c-4bd4-9780-4b18473fcb70")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 1.1 2.3 0)
+			(layer "F.Fab")
+			(uuid "69f52e16-8e01-4232-9364-bc9f0c7e4a43")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 2.6 2.6)
+			(drill 1.3)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "Net-(BT3--)")
+			(pinfunction "Pin_1_1")
+			(pintype "passive")
+			(uuid "b771bbc3-c27f-46fd-aa2a-d6714ea1faa1")
+		)
+		(pad "1" thru_hole circle
+			(at 2.54 0)
+			(size 2.6 2.6)
+			(drill 1.3)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "Net-(BT3--)")
+			(pinfunction "Pin_1_1")
+			(pintype "passive")
+			(uuid "bed1abae-9851-41b7-b2b9-6d56e6031dfa")
+		)
+		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Bridge_Pitch2.54mm_Drill1.3mm.step"
+			(offset (xyz 0 0 0))
+			(scale (xyz 1 1 1))
+			(rotate (xyz 0 0 0))
+		)
 	)
-
+	(footprint "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill1.3mm"
+		(layer "F.Cu")
+		(uuid "6eb8b01e-2904-403f-a63b-adcc22857644")
+		(at 216.00 188.05 90)
+		(descr "wire loop as test point, pitch 2.54mm, hole diameter 1.3mm, wire diameter 1.0mm")
+		(tags "test point wire loop")
+		(property "Reference" "J9"
+			(at 3.8 0 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "1e8da871-0b9f-40f4-b6ff-66cf6bd69a9e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 1 -2.1 0)
+			(layer "F.Fab")
+			(uuid "0ef77ec5-e5d4-46cf-b5d7-9d50700d5cc7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -1.8 -1.8)
+			(end 4.34 -1.8)
+			(stroke (width 0.05) (type solid))
+			(layer "F.CrtYd")
+			(uuid "d0239cd0-f40f-4ecf-b5a2-c5fb0496f0fd")
+		)
+		(fp_line
+			(start -1.8 -1.8)
+			(end -1.8 1.8)
+			(stroke (width 0.05) (type solid))
+			(layer "F.CrtYd")
+			(uuid "e9e2e841-509a-4454-8ca0-ab0a0bc2bf85")
+		)
+		(fp_line
+			(start 4.34 1.8)
+			(end 4.34 -1.8)
+			(stroke (width 0.05) (type solid))
+			(layer "F.CrtYd")
+			(uuid "2397a6f7-c569-4fd0-bd2b-48c1cf9c9925")
+		)
+		(fp_line
+			(start 4.34 1.8)
+			(end -1.8 1.8)
+			(stroke (width 0.05) (type solid))
+			(layer "F.CrtYd")
+			(uuid "bd356d24-cf54-45b9-b4bc-9cd8a905a9d1")
+		)
+		(fp_line
+			(start 2.54 0)
+			(end 0 0)
+			(stroke (width 0.12) (type solid))
+			(layer "F.Fab")
+			(uuid "11439a25-2d72-407a-ad54-2bab1981d568")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 1.1 2.3 0)
+			(layer "F.Fab")
+			(uuid "f47958a3-286a-40da-9f6a-ffce9bd720a8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 2.6 2.6)
+			(drill 1.3)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "Net-(BT4--)")
+			(pinfunction "Pin_1_1")
+			(pintype "passive")
+			(uuid "77ca679a-c3b9-422c-b8fe-73a16c771bd6")
+		)
+		(pad "1" thru_hole circle
+			(at 2.54 0)
+			(size 2.6 2.6)
+			(drill 1.3)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "Net-(BT4--)")
+			(pinfunction "Pin_1_1")
+			(pintype "passive")
+			(uuid "7efe1cd8-d364-461e-b3dc-f1e6a6dd83b9")
+		)
+		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Bridge_Pitch2.54mm_Drill1.3mm.step"
+			(offset (xyz 0 0 0))
+			(scale (xyz 1 1 1))
+			(rotate (xyz 0 0 0))
+		)
+	)
+	(footprint "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill1.3mm"
+		(layer "F.Cu")
+		(uuid "bf7bb1b9-a349-4073-ac4a-5b777cc614b5")
+		(at 320.36 188.05 90)
+		(descr "wire loop as test point, pitch 2.54mm, hole diameter 1.3mm, wire diameter 1.0mm")
+		(tags "test point wire loop")
+		(property "Reference" "J19"
+			(at 3.8 0 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "ea3eaa86-7652-42fd-a81c-d776b0410148")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 1 -2.1 0)
+			(layer "F.Fab")
+			(uuid "660c8947-8d9b-463b-9a4a-3c287067e69d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -1.8 -1.8)
+			(end 4.34 -1.8)
+			(stroke (width 0.05) (type solid))
+			(layer "F.CrtYd")
+			(uuid "c5b61ead-88c7-44f4-beab-53ec3061d282")
+		)
+		(fp_line
+			(start -1.8 -1.8)
+			(end -1.8 1.8)
+			(stroke (width 0.05) (type solid))
+			(layer "F.CrtYd")
+			(uuid "4b3e3ecd-f3e8-4238-8afe-2313c8317dfc")
+		)
+		(fp_line
+			(start 4.34 1.8)
+			(end 4.34 -1.8)
+			(stroke (width 0.05) (type solid))
+			(layer "F.CrtYd")
+			(uuid "24613916-91dc-4d75-82aa-77a571978943")
+		)
+		(fp_line
+			(start 4.34 1.8)
+			(end -1.8 1.8)
+			(stroke (width 0.05) (type solid))
+			(layer "F.CrtYd")
+			(uuid "2e749712-d0ed-471d-bf33-e94d6d777c99")
+		)
+		(fp_line
+			(start 2.54 0)
+			(end 0 0)
+			(stroke (width 0.12) (type solid))
+			(layer "F.Fab")
+			(uuid "14c6ae83-db60-4e60-88c3-9facc3e9ff78")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 1.1 2.3 0)
+			(layer "F.Fab")
+			(uuid "11beef60-0717-4f30-950e-78e0846ae9bc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 2.6 2.6)
+			(drill 1.3)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "Net-(BT3--)")
+			(pinfunction "Pin_1_1")
+			(pintype "passive")
+			(uuid "71e8a8ad-160d-4d04-b903-1a2912a94b6e")
+		)
+		(pad "1" thru_hole circle
+			(at 2.54 0)
+			(size 2.6 2.6)
+			(drill 1.3)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "Net-(BT3--)")
+			(pinfunction "Pin_1_1")
+			(pintype "passive")
+			(uuid "8cdacaa8-abcc-49d2-a55c-6cf40f9e96ae")
+		)
+		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Bridge_Pitch2.54mm_Drill1.3mm.step"
+			(offset (xyz 0 0 0))
+			(scale (xyz 1 1 1))
+			(rotate (xyz 0 0 0))
+		)
+	)
+	(footprint "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill1.3mm"
+		(layer "F.Cu")
+		(uuid "17ef1e10-0359-4cf9-97da-6e914be220e6")
+		(at 216.00 211.80 90)
+		(descr "wire loop as test point, pitch 2.54mm, hole diameter 1.3mm, wire diameter 1.0mm")
+		(tags "test point wire loop")
+		(property "Reference" "J20"
+			(at 3.8 0 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "d71bf668-8dca-44e2-9fcb-888eb418cadf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 1 -2.1 0)
+			(layer "F.Fab")
+			(uuid "530a3587-41b9-479c-811b-359b254a3cb4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -1.8 -1.8)
+			(end 4.34 -1.8)
+			(stroke (width 0.05) (type solid))
+			(layer "F.CrtYd")
+			(uuid "9c9df467-b23d-440c-a6ca-47cb2b0a9ab7")
+		)
+		(fp_line
+			(start -1.8 -1.8)
+			(end -1.8 1.8)
+			(stroke (width 0.05) (type solid))
+			(layer "F.CrtYd")
+			(uuid "4d98b6fd-b663-41f8-bd25-59eeed1766b0")
+		)
+		(fp_line
+			(start 4.34 1.8)
+			(end 4.34 -1.8)
+			(stroke (width 0.05) (type solid))
+			(layer "F.CrtYd")
+			(uuid "6b83a92c-0014-4db7-96ca-3fdec06c2cf2")
+		)
+		(fp_line
+			(start 4.34 1.8)
+			(end -1.8 1.8)
+			(stroke (width 0.05) (type solid))
+			(layer "F.CrtYd")
+			(uuid "0cf8e5ed-1a4f-4d6f-97ec-781328a4dec0")
+		)
+		(fp_line
+			(start 2.54 0)
+			(end 0 0)
+			(stroke (width 0.12) (type solid))
+			(layer "F.Fab")
+			(uuid "46567d59-1f5d-4553-a032-14bd1de654fc")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 1.1 2.3 0)
+			(layer "F.Fab")
+			(uuid "36be46cb-19f2-4f09-822e-f7eb8e2ac4f2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 2.6 2.6)
+			(drill 1.3)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "Net-(BT4--)")
+			(pinfunction "Pin_1_1")
+			(pintype "passive")
+			(uuid "925b2705-9f67-469e-888f-700d82e527b4")
+		)
+		(pad "1" thru_hole circle
+			(at 2.54 0)
+			(size 2.6 2.6)
+			(drill 1.3)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "Net-(BT4--)")
+			(pinfunction "Pin_1_1")
+			(pintype "passive")
+			(uuid "99d6b00b-1328-4db3-ada3-4b4dc16c4b2d")
+		)
+		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Bridge_Pitch2.54mm_Drill1.3mm.step"
+			(offset (xyz 0 0 0))
+			(scale (xyz 1 1 1))
+			(rotate (xyz 0 0 0))
+		)
+	)
+	(footprint "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill1.3mm"
+		(layer "F.Cu")
+		(uuid "48f917c1-93a9-47c3-86c8-3ede64c60ed3")
+		(at 320.36 211.80 90)
+		(descr "wire loop as test point, pitch 2.54mm, hole diameter 1.3mm, wire diameter 1.0mm")
+		(tags "test point wire loop")
+		(property "Reference" "J4"
+			(at 3.8 0 90)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "7954522e-4661-4ece-90fb-1b667aa9ca1b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 1 -2.1 0)
+			(layer "F.Fab")
+			(uuid "bfd399d9-0718-4942-a0df-808a07f518c0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr through_hole)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -1.8 -1.8)
+			(end 4.34 -1.8)
+			(stroke (width 0.05) (type solid))
+			(layer "F.CrtYd")
+			(uuid "eea2725a-a2ff-4d74-a133-4fc31aac8bae")
+		)
+		(fp_line
+			(start -1.8 -1.8)
+			(end -1.8 1.8)
+			(stroke (width 0.05) (type solid))
+			(layer "F.CrtYd")
+			(uuid "94e866a6-8ff1-4ef1-ab7d-89d38b44c2a8")
+		)
+		(fp_line
+			(start 4.34 1.8)
+			(end 4.34 -1.8)
+			(stroke (width 0.05) (type solid))
+			(layer "F.CrtYd")
+			(uuid "78ebe50f-3792-49f2-93a0-1ade67a517ec")
+		)
+		(fp_line
+			(start 4.34 1.8)
+			(end -1.8 1.8)
+			(stroke (width 0.05) (type solid))
+			(layer "F.CrtYd")
+			(uuid "c77960b7-5428-4890-b9b6-5543f216bb41")
+		)
+		(fp_line
+			(start 2.54 0)
+			(end 0 0)
+			(stroke (width 0.12) (type solid))
+			(layer "F.Fab")
+			(uuid "901bb26f-8970-4f2e-aed7-bbd6eee67225")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 1.1 2.3 0)
+			(layer "F.Fab")
+			(uuid "b9a79fb8-c2fd-4054-aa60-0af324919e8f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 2.6 2.6)
+			(drill 1.3)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "/4S_B-")
+			(pinfunction "Pin_1_1")
+			(pintype "passive")
+			(uuid "fbb86fcb-f2d7-4045-9338-ba6a6a49e0a2")
+		)
+		(pad "1" thru_hole circle
+			(at 2.54 0)
+			(size 2.6 2.6)
+			(drill 1.3)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "/4S_B-")
+			(pinfunction "Pin_1_1")
+			(pintype "passive")
+			(uuid "4e819646-0328-4ab9-b6e8-d3a9a4854d41")
+		)
+		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Bridge_Pitch2.54mm_Drill1.3mm.step"
+			(offset (xyz 0 0 0))
+			(scale (xyz 1 1 1))
+			(rotate (xyz 0 0 0))
+		)
+	)
+	(segment (start 216.00 135.00) (end 216.00 167.03) (width 8.0) (layer "F.Cu") (net "Net-(BT2--)") (uuid "68db10dc-17e4-4bfd-9726-ae3aaf41389a"))
+	(segment (start 216.00 135.00) (end 216.00 167.03) (width 8.0) (layer "B.Cu") (net "Net-(BT2--)") (uuid "ac789a95-9962-4d6d-a08e-28351c92c707"))
+	(segment (start 216.00 182.78) (end 216.00 214.80) (width 8.0) (layer "F.Cu") (net "Net-(BT4--)") (uuid "0fa8632f-f36c-4924-9f14-bd35ac127bdb"))
+	(segment (start 216.00 182.78) (end 216.00 214.80) (width 8.0) (layer "B.Cu") (net "Net-(BT4--)") (uuid "f44a852d-a9eb-4155-9842-2d904e76d084"))
+	(segment (start 320.36 135.28) (end 320.36 143.28) (width 8.0) (layer "F.Cu") (net "/4S_B+") (uuid "7fb16ed1-a474-4aab-ad1e-90d2af95da73"))
+	(segment (start 320.36 135.28) (end 320.36 143.28) (width 8.0) (layer "B.Cu") (net "/4S_B+") (uuid "59f55d23-6ba8-4c52-a775-035b4ca8330f"))
+	(segment (start 320.36 159.03) (end 320.36 190.78) (width 8.0) (layer "F.Cu") (net "Net-(BT3--)") (uuid "93273d6b-64f6-45e6-8bf9-6ef3ae4a74a0"))
+	(segment (start 320.36 159.03) (end 320.36 190.78) (width 8.0) (layer "B.Cu") (net "Net-(BT3--)") (uuid "5b0b761d-a6f5-4b83-8a33-9ec830f9c1a2"))
+	(segment (start 320.36 206.53) (end 320.36 214.53) (width 8.0) (layer "F.Cu") (net "/4S_B-") (uuid "fee54d4a-b945-4bbf-b319-c02ee9014228"))
+	(segment (start 320.36 206.53) (end 320.36 214.53) (width 8.0) (layer "B.Cu") (net "/4S_B-") (uuid "3544665c-01f9-4329-b63b-d14ab4490a11"))
+	(segment (start 216.00 139.28) (end 246.90 139.28) (width 8.0) (layer "F.Cu") (net "Net-(BT2--)") (uuid "8e2ed176-c83f-4130-b4d7-ad261eaa474a"))
+	(segment (start 216.00 139.28) (end 246.90 139.28) (width 8.0) (layer "B.Cu") (net "Net-(BT2--)") (uuid "dc8adae2-cd81-4e75-8693-36ecc6cd6708"))
+	(segment (start 216.00 163.03) (end 246.90 163.03) (width 8.0) (layer "F.Cu") (net "Net-(BT2--)") (uuid "2c1e2371-432c-4c8b-88f8-371582e3689d"))
+	(segment (start 216.00 163.03) (end 246.90 163.03) (width 8.0) (layer "B.Cu") (net "Net-(BT2--)") (uuid "0061577d-f896-4563-9e7a-be90b73163ef"))
+	(segment (start 216.00 186.78) (end 246.90 186.78) (width 8.0) (layer "F.Cu") (net "Net-(BT4--)") (uuid "05ea4567-4473-4c74-a876-8360d4bcbf9b"))
+	(segment (start 216.00 186.78) (end 246.90 186.78) (width 8.0) (layer "B.Cu") (net "Net-(BT4--)") (uuid "c11d0c2d-ae1d-427f-92d3-106fb236088d"))
+	(segment (start 216.00 210.53) (end 246.90 210.53) (width 8.0) (layer "F.Cu") (net "Net-(BT4--)") (uuid "fe846259-572c-457e-8aeb-8e67ca213746"))
+	(segment (start 216.00 210.53) (end 246.90 210.53) (width 8.0) (layer "B.Cu") (net "Net-(BT4--)") (uuid "3e4f4e4a-f32e-4308-8182-6d1d64667f8c"))
+	(segment (start 289.46 139.28) (end 320.36 139.28) (width 8.0) (layer "F.Cu") (net "/4S_B+") (uuid "10c01cce-92f7-4969-89ea-4c6a0ab2f1d8"))
+	(segment (start 289.46 139.28) (end 320.36 139.28) (width 8.0) (layer "B.Cu") (net "/4S_B+") (uuid "d1e445e5-3c87-4da3-85b1-10aca4c73e97"))
+	(segment (start 289.46 163.03) (end 320.36 163.03) (width 8.0) (layer "F.Cu") (net "Net-(BT3--)") (uuid "fe3bb639-049f-4b66-840a-add338a74495"))
+	(segment (start 289.46 163.03) (end 320.36 163.03) (width 8.0) (layer "B.Cu") (net "Net-(BT3--)") (uuid "ac0c99b7-78a8-4937-812d-55cdd00412b9"))
+	(segment (start 289.46 186.78) (end 320.36 186.78) (width 8.0) (layer "F.Cu") (net "Net-(BT3--)") (uuid "54baad27-d891-4ee9-9e83-82a9f7b062ff"))
+	(segment (start 289.46 186.78) (end 320.36 186.78) (width 8.0) (layer "B.Cu") (net "Net-(BT3--)") (uuid "00339bf1-1e0a-4eb0-8745-41117ecf7cc9"))
+	(segment (start 289.46 210.53) (end 320.36 210.53) (width 8.0) (layer "F.Cu") (net "/4S_B-") (uuid "a949b513-91e7-4692-b3e4-f0067066cb3c"))
+	(segment (start 289.46 210.53) (end 320.36 210.53) (width 8.0) (layer "B.Cu") (net "/4S_B-") (uuid "ec9624a5-6dcb-48f2-bb0a-ffa4fb6ead2b"))
+	(segment (start 246.90 136.74) (end 246.90 141.82) (width 8.0) (layer "F.Cu") (net "Net-(BT2--)") (uuid "c40609f0-5561-4924-b8fe-f92ca669a502"))
+	(segment (start 246.90 136.74) (end 246.90 141.82) (width 8.0) (layer "B.Cu") (net "Net-(BT2--)") (uuid "5e948293-be16-46f0-8d29-04ecf0b8c144"))
+	(segment (start 246.90 160.49) (end 246.90 165.57) (width 8.0) (layer "F.Cu") (net "Net-(BT2--)") (uuid "d36ef1ad-5030-4119-9e8c-75f2d0dba1dd"))
+	(segment (start 246.90 160.49) (end 246.90 165.57) (width 8.0) (layer "B.Cu") (net "Net-(BT2--)") (uuid "76d8d7a0-b4f8-4a85-bd22-7eff83504837"))
+	(segment (start 246.90 184.24) (end 246.90 189.32) (width 8.0) (layer "F.Cu") (net "Net-(BT4--)") (uuid "40be5a5d-2451-4ce0-b742-6feb8593c5fa"))
+	(segment (start 246.90 184.24) (end 246.90 189.32) (width 8.0) (layer "B.Cu") (net "Net-(BT4--)") (uuid "cbacde3a-2668-4969-aeaa-b9756ac41c5c"))
+	(segment (start 246.90 207.99) (end 246.90 213.07) (width 8.0) (layer "F.Cu") (net "Net-(BT4--)") (uuid "7df62e40-ab61-4add-a69f-12df91e6bcd0"))
+	(segment (start 246.90 207.99) (end 246.90 213.07) (width 8.0) (layer "B.Cu") (net "Net-(BT4--)") (uuid "49306d35-2aaf-4022-a418-719134e3aa5b"))
+	(segment (start 289.46 136.74) (end 289.46 141.82) (width 8.0) (layer "F.Cu") (net "/4S_B+") (uuid "5bcda03c-5ec6-4802-a55a-13a1878bb6c6"))
+	(segment (start 289.46 136.74) (end 289.46 141.82) (width 8.0) (layer "B.Cu") (net "/4S_B+") (uuid "b43a4e96-6356-4d11-a4ff-c9264eca32cf"))
+	(segment (start 289.46 160.49) (end 289.46 165.57) (width 8.0) (layer "F.Cu") (net "Net-(BT3--)") (uuid "51e07b3d-1cbf-4ef6-a5eb-4a5647615f7b"))
+	(segment (start 289.46 160.49) (end 289.46 165.57) (width 8.0) (layer "B.Cu") (net "Net-(BT3--)") (uuid "4ccdcfca-bd4b-4d02-a419-aecf2c4796b3"))
+	(segment (start 289.46 184.24) (end 289.46 189.32) (width 8.0) (layer "F.Cu") (net "Net-(BT3--)") (uuid "4b825fe1-add0-41eb-8594-e3c21d75b6f3"))
+	(segment (start 289.46 184.24) (end 289.46 189.32) (width 8.0) (layer "B.Cu") (net "Net-(BT3--)") (uuid "8de7b2b7-923b-4364-a1d2-88546b343bcb"))
+	(segment (start 289.46 207.99) (end 289.46 213.07) (width 8.0) (layer "F.Cu") (net "/4S_B-") (uuid "f0861487-b58c-4561-ad02-85172cba2d86"))
+	(segment (start 289.46 207.99) (end 289.46 213.07) (width 8.0) (layer "B.Cu") (net "/4S_B-") (uuid "e0e1a165-e690-4fde-a8db-19ac1083fa62"))
+	(gr_circle (center 216.00 139.28) (end 219.00 139.28)
+		(stroke (width 0) (type default))
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "567e2148-8a76-4e89-8839-1a09417c07ef")
+	)
+	(gr_circle (center 320.36 139.28) (end 323.36 139.28)
+		(stroke (width 0) (type default))
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "1a69b44e-d7e1-4871-aa6a-22ec635213a3")
+	)
+	(gr_circle (center 216.00 163.03) (end 219.00 163.03)
+		(stroke (width 0) (type default))
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "b65fa989-857c-4e2d-b352-a09d355281b2")
+	)
+	(gr_circle (center 320.36 163.03) (end 323.36 163.03)
+		(stroke (width 0) (type default))
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "7dea662f-107d-4363-be37-7f87b0a2f737")
+	)
+	(gr_circle (center 216.00 186.78) (end 219.00 186.78)
+		(stroke (width 0) (type default))
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "dd78794c-d82d-420c-bda7-1ba310f1047d")
+	)
+	(gr_circle (center 320.36 186.78) (end 323.36 186.78)
+		(stroke (width 0) (type default))
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "a49bc4d7-cb4a-49a7-910a-7d41a4e9105c")
+	)
+	(gr_circle (center 216.00 210.53) (end 219.00 210.53)
+		(stroke (width 0) (type default))
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "3c079782-b5ee-46fe-86b5-a0684df7281a")
+	)
+	(gr_circle (center 320.36 210.53) (end 323.36 210.53)
+		(stroke (width 0) (type default))
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "9fe9c8b9-1144-42a5-9e8b-ea241748723d")
+	)
 	(gr_text "1S 1P -ve"
-		(at 206.80 150.80)
+		(at 206.80 139.28)
 		(layer "F.SilkS" knockout)
-		(uuid "ko_1S_1P_-ve_206.8_150.8")
+		(uuid "942b0721-7529-47fa-843f-f0edfdc43781")
 		(effects
 			(font
 				(face "PT Sans")
-				(size 1.05 1.05)
-				(thickness 0.16)
+				(size 0.95 0.95)
+				(thickness 0.15)
 				(bold yes)
 			)
 		)
 	)
-
+	(gr_line (start 210.50 139.28) (end 212.60 139.28)
+		(stroke (width 0.15) (type solid))
+		(layer "F.SilkS")
+		(uuid "62eb2c8c-242e-4176-a694-7332e35a9afe")
+	)
+	(gr_line (start 212.60 139.28) (end 211.80 139.58)
+		(stroke (width 0.15) (type solid))
+		(layer "F.SilkS")
+		(uuid "02f5da96-c02d-4fec-adb0-5bd96239cb48")
+	)
+	(gr_line (start 212.60 139.28) (end 211.80 138.98)
+		(stroke (width 0.15) (type solid))
+		(layer "F.SilkS")
+		(uuid "b58c1c5b-ed6f-462f-ba72-3ed3c79be9f4")
+	)
 	(gr_text "2S 1P +ve"
-		(at 206.80 154.00)
+		(at 206.80 163.03)
 		(layer "F.SilkS" knockout)
-		(uuid "ko_2S_1P_+ve_206.8_154.0")
+		(uuid "c0a07277-bfe7-4608-a6bd-b5135e981ccf")
 		(effects
 			(font
 				(face "PT Sans")
-				(size 1.05 1.05)
-				(thickness 0.16)
+				(size 0.95 0.95)
+				(thickness 0.15)
 				(bold yes)
 			)
 		)
 	)
-
-	(gr_line (start 210.40 152.43) (end 212.50 152.43)
+	(gr_line (start 210.50 163.03) (end 212.60 163.03)
 		(stroke (width 0.15) (type solid))
 		(layer "F.SilkS")
-		(uuid "line_210.40_152.43_212.50_152.43")
+		(uuid "14c7de26-6320-476e-acb8-a0aafc04684f")
 	)
-	(gr_line (start 212.50 152.43) (end 211.66 152.77)
+	(gr_line (start 212.60 163.03) (end 211.80 163.33)
 		(stroke (width 0.15) (type solid))
 		(layer "F.SilkS")
-		(uuid "head1_210.40_152.43_212.50_152.43")
+		(uuid "386bbebd-b3b0-4df2-990b-c37f69733c0c")
 	)
-	(gr_line (start 212.50 152.43) (end 211.66 152.09)
+	(gr_line (start 212.60 163.03) (end 211.80 162.73)
 		(stroke (width 0.15) (type solid))
 		(layer "F.SilkS")
-		(uuid "head2_210.40_152.43_212.50_152.43")
+		(uuid "dbd46a87-35c3-4741-a080-164a53ac1423")
 	)
-
-	(gr_text "2S 1P -ve"
-		(at 329.50 174.50)
-		(layer "F.SilkS" knockout)
-		(uuid "ko_2S_1P_-ve_329.5_174.5")
-		(effects
-			(font
-				(face "PT Sans")
-				(size 1.05 1.05)
-				(thickness 0.16)
-				(bold yes)
-			)
-		)
-	)
-
-	(gr_text "3S 1P +ve"
-		(at 329.50 177.80)
-		(layer "F.SilkS" knockout)
-		(uuid "ko_3S_1P_+ve_329.5_177.8")
-		(effects
-			(font
-				(face "PT Sans")
-				(size 1.05 1.05)
-				(thickness 0.16)
-				(bold yes)
-			)
-		)
-	)
-
-	(gr_line (start 325.80 176.18) (end 323.80 176.18)
-		(stroke (width 0.15) (type solid))
-		(layer "F.SilkS")
-		(uuid "line_325.80_176.18_323.80_176.18")
-	)
-	(gr_line (start 323.80 176.18) (end 324.60 175.86)
-		(stroke (width 0.15) (type solid))
-		(layer "F.SilkS")
-		(uuid "head1_325.80_176.18_323.80_176.18")
-	)
-	(gr_line (start 323.80 176.18) (end 324.60 176.50)
-		(stroke (width 0.15) (type solid))
-		(layer "F.SilkS")
-		(uuid "head2_325.80_176.18_323.80_176.18")
-	)
-
 	(gr_text "3S 1P -ve"
-		(at 206.80 198.30)
+		(at 206.80 186.78)
 		(layer "F.SilkS" knockout)
-		(uuid "ko_3S_1P_-ve_206.8_198.3")
+		(uuid "9aff430d-b702-492e-9cc4-44845e82d4cb")
 		(effects
 			(font
 				(face "PT Sans")
-				(size 1.05 1.05)
-				(thickness 0.16)
+				(size 0.95 0.95)
+				(thickness 0.15)
 				(bold yes)
 			)
 		)
 	)
-
+	(gr_line (start 210.50 186.78) (end 212.60 186.78)
+		(stroke (width 0.15) (type solid))
+		(layer "F.SilkS")
+		(uuid "7f1668ef-23b5-4126-ac06-3465ca29d5ea")
+	)
+	(gr_line (start 212.60 186.78) (end 211.80 187.08)
+		(stroke (width 0.15) (type solid))
+		(layer "F.SilkS")
+		(uuid "cca6603d-03ef-41c8-9aa8-77b15fee2258")
+	)
+	(gr_line (start 212.60 186.78) (end 211.80 186.48)
+		(stroke (width 0.15) (type solid))
+		(layer "F.SilkS")
+		(uuid "489ecb28-ab88-46dd-843f-45467741ebc9")
+	)
 	(gr_text "4S 1P +ve"
-		(at 206.80 201.50)
+		(at 206.80 210.53)
 		(layer "F.SilkS" knockout)
-		(uuid "ko_4S_1P_+ve_206.8_201.5")
+		(uuid "e8346ef0-1e78-49cb-b0ac-a7a94eebabd2")
 		(effects
 			(font
 				(face "PT Sans")
-				(size 1.05 1.05)
-				(thickness 0.16)
+				(size 0.95 0.95)
+				(thickness 0.15)
 				(bold yes)
 			)
 		)
 	)
-
-	(gr_line (start 210.40 199.93) (end 212.50 199.93)
+	(gr_line (start 210.50 210.53) (end 212.60 210.53)
 		(stroke (width 0.15) (type solid))
 		(layer "F.SilkS")
-		(uuid "line_210.40_199.93_212.50_199.93")
+		(uuid "e11e7eb9-f65c-4f9a-9da8-8cd67a985f75")
 	)
-	(gr_line (start 212.50 199.93) (end 211.66 200.27)
+	(gr_line (start 212.60 210.53) (end 211.80 210.83)
 		(stroke (width 0.15) (type solid))
 		(layer "F.SilkS")
-		(uuid "head1_210.40_199.93_212.50_199.93")
+		(uuid "a81d8946-c35a-48fc-bf81-3a06a00b8692")
 	)
-	(gr_line (start 212.50 199.93) (end 211.66 199.59)
+	(gr_line (start 212.60 210.53) (end 211.80 210.23)
 		(stroke (width 0.15) (type solid))
 		(layer "F.SilkS")
-		(uuid "head2_210.40_199.93_212.50_199.93")
+		(uuid "7429d281-1fee-48e2-8038-d93fc92f5d27")
 	)
-
+	(gr_text "1S 1P +ve"
+		(at 329.50 137.90)
+		(layer "F.SilkS" knockout)
+		(uuid "04453248-becf-4cc9-a363-0f75c50151b7")
+		(effects
+			(font
+				(face "PT Sans")
+				(size 0.95 0.95)
+				(thickness 0.15)
+				(bold yes)
+			)
+		)
+	)
+	(gr_text "B +ve"
+		(at 329.50 140.60)
+		(layer "F.SilkS" knockout)
+		(uuid "45f9f841-929d-4cac-a26e-270eccb6537e")
+		(effects
+			(font
+				(face "PT Sans")
+				(size 0.95 0.95)
+				(thickness 0.15)
+				(bold yes)
+			)
+		)
+	)
+	(gr_line (start 326.00 139.28) (end 323.80 139.28)
+		(stroke (width 0.15) (type solid))
+		(layer "F.SilkS")
+		(uuid "b049425f-6e5e-4ee2-810c-f8e3380ca237")
+	)
+	(gr_line (start 323.80 139.28) (end 324.60 138.98)
+		(stroke (width 0.15) (type solid))
+		(layer "F.SilkS")
+		(uuid "818aa473-a350-46c1-962a-0b596e94784c")
+	)
+	(gr_line (start 323.80 139.28) (end 324.60 139.58)
+		(stroke (width 0.15) (type solid))
+		(layer "F.SilkS")
+		(uuid "20347f55-a856-4723-9110-773211eb8384")
+	)
+	(gr_text "2S 1P -ve"
+		(at 329.50 163.03)
+		(layer "F.SilkS" knockout)
+		(uuid "c2d35c1e-7592-44cd-8382-34477b3f2ed1")
+		(effects
+			(font
+				(face "PT Sans")
+				(size 0.95 0.95)
+				(thickness 0.15)
+				(bold yes)
+			)
+		)
+	)
+	(gr_line (start 326.00 163.03) (end 323.80 163.03)
+		(stroke (width 0.15) (type solid))
+		(layer "F.SilkS")
+		(uuid "8e35ab59-fc2b-442c-8830-1f994d663eb1")
+	)
+	(gr_line (start 323.80 163.03) (end 324.60 162.73)
+		(stroke (width 0.15) (type solid))
+		(layer "F.SilkS")
+		(uuid "7bf6ce1d-e4e6-4492-b301-f81fa670015f")
+	)
+	(gr_line (start 323.80 163.03) (end 324.60 163.33)
+		(stroke (width 0.15) (type solid))
+		(layer "F.SilkS")
+		(uuid "ddfca2b2-7630-4c8c-9f2c-48ef61b378ae")
+	)
+	(gr_text "3S 1P +ve"
+		(at 329.50 186.78)
+		(layer "F.SilkS" knockout)
+		(uuid "14918245-da6f-4c77-9506-455904eb0b84")
+		(effects
+			(font
+				(face "PT Sans")
+				(size 0.95 0.95)
+				(thickness 0.15)
+				(bold yes)
+			)
+		)
+	)
+	(gr_line (start 326.00 186.78) (end 323.80 186.78)
+		(stroke (width 0.15) (type solid))
+		(layer "F.SilkS")
+		(uuid "3875f07e-0c22-4c6f-ac58-195b4e9cff5a")
+	)
+	(gr_line (start 323.80 186.78) (end 324.60 186.48)
+		(stroke (width 0.15) (type solid))
+		(layer "F.SilkS")
+		(uuid "10642f5a-249d-42e5-8423-58d52d8d90c4")
+	)
+	(gr_line (start 323.80 186.78) (end 324.60 187.08)
+		(stroke (width 0.15) (type solid))
+		(layer "F.SilkS")
+		(uuid "789f79c9-8075-4cf9-9a63-0891ae30f062")
+	)
 	(gr_text "4S 1P -ve"
-		(at 320.36 221.00)
+		(at 329.50 209.20)
 		(layer "F.SilkS" knockout)
-		(uuid "ko_4S_1P_-ve_320.4_221.0")
+		(uuid "39b4164d-3767-4169-903c-9344589f92b8")
 		(effects
 			(font
 				(face "PT Sans")
-				(size 1.05 1.05)
-				(thickness 0.16)
+				(size 0.95 0.95)
+				(thickness 0.15)
 				(bold yes)
 			)
 		)
 	)
-
 	(gr_text "B -ve"
-		(at 320.36 224.50)
+		(at 329.50 211.90)
 		(layer "F.SilkS" knockout)
-		(uuid "ko_B_-ve_320.4_224.5")
+		(uuid "35d41943-7695-4109-aa87-346731601ed8")
 		(effects
 			(font
 				(face "PT Sans")
-				(size 1.05 1.05)
-				(thickness 0.16)
+				(size 0.95 0.95)
+				(thickness 0.15)
 				(bold yes)
 			)
 		)
 	)
-
-	(gr_line (start 320.36 219.20) (end 320.36 216.80)
+	(gr_line (start 326.00 210.53) (end 323.80 210.53)
 		(stroke (width 0.15) (type solid))
 		(layer "F.SilkS")
-		(uuid "line_320.36_219.20_320.36_216.80")
+		(uuid "3e267dd6-e542-45d0-a959-a695defbe062")
 	)
-	(gr_line (start 320.36 216.80) (end 320.72 217.70)
+	(gr_line (start 323.80 210.53) (end 324.60 210.23)
 		(stroke (width 0.15) (type solid))
 		(layer "F.SilkS")
-		(uuid "head1_320.36_219.20_320.36_216.80")
+		(uuid "86a5895f-08e2-4e46-af72-1e6b7d65f3e3")
 	)
-	(gr_line (start 320.36 216.80) (end 320.00 217.70)
+	(gr_line (start 323.80 210.53) (end 324.60 210.83)
 		(stroke (width 0.15) (type solid))
 		(layer "F.SilkS")
-		(uuid "head2_320.36_219.20_320.36_216.80")
+		(uuid "122ad5ca-2fa0-47e6-b51d-49c269c6b7c2")
 	)
-
 )
