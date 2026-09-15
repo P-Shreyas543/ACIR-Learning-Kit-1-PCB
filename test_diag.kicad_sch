@@ -4,7 +4,7 @@
 	(generator_version "10.0")
 	(uuid "55445bf8-1e44-4cff-8573-6b24cd106f65")
 	(paper "A3")
-	(title_block
+(title_block
 		(title "ACIR LEARNING KIT 1 - CHARACTERIZATION & EXPERIMENTATION BOARD")
 		(date "2026-09-14")
 		(rev "v2.0")
@@ -14,6 +14,7 @@
 		(comment 3 "High-Frequency 1kHz Kelvin 4-Wire EIS Sensing Architecture & Ultra-Dense Via Arrays")
 		(comment 4 "Production-Ready Hardware Design & Educational Measurement Kit")
 	)
+
 (lib_symbols
 		(symbol "Connector:Conn_01x01_Pin"
 			(pin_names
@@ -487,7 +488,7 @@
 			(width 0.25)
 			(type dash)
 		)
-		(uuid "34728094-c664-474e-b427-d88bd0d8f057")
+		(uuid "e2e7a276-9bc1-4074-a03f-036f0af74cea")
 	)
 	(polyline
 		(pts
@@ -497,7 +498,7 @@
 			(width 0.25)
 			(type dash)
 		)
-		(uuid "e94beff0-5350-4d70-a52c-dae142674a30")
+		(uuid "77f0a7ea-15cb-4dc4-9ee0-d0b6509b4ed6")
 	)
 	(polyline
 		(pts
@@ -507,7 +508,7 @@
 			(width 0.25)
 			(type dash)
 		)
-		(uuid "acd85623-ad13-4be2-848d-dde30b6e8048")
+		(uuid "a5adb396-21ce-4866-929c-20898afb5372")
 	)
 	(polyline
 		(pts
@@ -517,7 +518,7 @@
 			(width 0.25)
 			(type dash)
 		)
-		(uuid "e494e8f1-b656-4976-9986-955a8cd8f335")
+		(uuid "5de26f15-fbd0-4595-aed8-20bd837a21f0")
 	)
 	(polyline
 		(pts
@@ -527,9 +528,8 @@
 			(width 0.25)
 			(type dash)
 		)
-		(uuid "bea338fe-414b-40cd-9aba-5239d7e93d77")
+		(uuid "0012ddc1-a727-4d84-b669-3c732498419f")
 	)
-
 	(text "1S 1P MODULE (Single Cell ACIR Baseline)"
 		(at 35.56 33.02 0)
 		(effects
@@ -539,7 +539,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "539a465c-9a18-4c9d-bcaa-605601af1277")
+		(uuid "8bc79a5a-3756-4028-9993-5c04f608537a")
 	)
 	(text "Baseline 18650 EIS Measurement: ACIR = R_cell"
 		(at 35.56 38.10 0)
@@ -549,7 +549,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "edfa6f9e-a7b8-4f0c-8030-b7af8b6cceee")
+		(uuid "5427245a-d2a9-4ffe-b5d0-2de2b2ea40b5")
 	)
 	(text "4-Wire Kelvin ACIR Measurement:"
 		(at 35.56 96.00 0)
@@ -560,7 +560,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "294c6472-e88e-4f84-ac39-7d6e4ae388fb")
+		(uuid "1a49a189-8614-4248-92c6-b7977df3e423")
 	)
 	(text "Inject 1 kHz AC current across B+ and B- terminals."
 		(at 35.56 101.00 0)
@@ -570,7 +570,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "600a4d1d-7b15-46ce-be78-dd5cb481cdc6")
+		(uuid "77588131-06c0-4571-b7bb-83b3e3c47493")
 	)
 	(text "Sense AC voltage drop to isolate purely ohmic internal cell resistance."
 		(at 35.56 106.00 0)
@@ -580,7 +580,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "3a4311f3-869a-454e-960a-286a2e5933a7")
+		(uuid "ab606fa9-4b67-4c9a-87e7-c534e597d418")
 	)
 	(text "1S 4P MODULE (Parallel Current Sharing & R/4 ACIR Pack)"
 		(at 132.08 33.02 0)
@@ -591,7 +591,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "e1090e34-c5bf-487c-98f8-aea26dc277b4")
+		(uuid "5269608c-8df1-4105-a796-9f25952e37dd")
 	)
 	(text "Current Distribution & Branch Kelvin Sensing: 1/R_eq = 1/R1 + 1/R2 + 1/R3 + 1/R4  (R_eq ≈ R/4)"
 		(at 132.08 38.10 0)
@@ -601,7 +601,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "962558d1-b4cf-4543-8832-55d5d6bcab4f")
+		(uuid "d59b872e-7f25-4806-ab25-e909576e84fb")
 	)
 	(text "Individual cell branch test points (J10-J17) enable Kelvin characterization of each parallel cell & current sharing."
 		(at 132.08 108.00 0)
@@ -611,7 +611,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "1fe755c4-f974-4c53-a54f-87cb76cd9759")
+		(uuid "b562956b-e212-4384-9489-712f39c20899")
 	)
 	(text "4S 1P MODULE (Series String - Voltage Stacking & 4x ACIR)"
 		(at 35.56 134.62 0)
@@ -622,7 +622,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "5be0612d-2ee1-401b-a9a7-7d072787bf29")
+		(uuid "2157fe3c-96ac-4dbd-8100-df40479c5098")
 	)
 	(text "Total Series Impedance: R_eq = R1 + R2 + R3 + R4 + R_interconnect  (R_eq ≈ 4 * R)"
 		(at 35.56 139.70 0)
@@ -632,7 +632,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "d69216cc-b6e9-4a2f-b805-46612057e1c8")
+		(uuid "1f535e3e-b5c7-4b27-82a9-d54f76fe40ac")
 	)
 	(text "Inter-cell Kelvin probing pairs (J18/J7, J19/J8, J20/J9) allow measuring:"
 		(at 35.56 252.00 0)
@@ -643,7 +643,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "f4d641d8-da29-428c-9ff7-65a43f7492b0")
+		(uuid "2f0a1cb1-aba1-4726-8a20-067e658e7a9b")
 	)
 	(text "1) Individual cell ACIR in-situ under series string current loading."
 		(at 35.56 258.00 0)
@@ -653,7 +653,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "a35a1076-def8-458a-bb8a-d0cd74b7920d")
+		(uuid "924b799e-49d5-438a-827a-3f59b9655e15")
 	)
 	(text "2) Interconnect contact resistance across cell-to-cell busbars."
 		(at 35.56 264.00 0)
@@ -663,7 +663,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "142a656a-d19d-4129-b97b-4a8ae32e0fb3")
+		(uuid "284f5e8a-615b-4420-9c53-d325caf01b30")
 	)
 	(text "MECHANICAL MOUNTING HOLES"
 		(at 200.00 134.62 0)
@@ -674,7 +674,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "5991222e-c326-4e45-852c-70a93ed9ebc2")
+		(uuid "e4d7c362-5f5e-4952-8f11-3011f8d95651")
 	)
 	(text "8x M3 Plated Chassis Grounding / Standoff Fixtures"
 		(at 200.00 139.70 0)
@@ -684,7 +684,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "0a1e5628-7ed9-4bb4-8e01-ad16281d49e4")
+		(uuid "17dcbc1f-2a20-4183-ab2f-1692caf63ffe")
 	)
 	(text "EIS DESIGN & FABRICATION SPECS"
 		(at 200.00 219.00 0)
@@ -695,7 +695,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "7c9073a5-20e2-4fd9-9cf2-69e6d788a16e")
+		(uuid "cb7db64c-1e3e-4a5a-a1a3-c0112fe6c59d")
 	)
 	(text "1) Kelvin 4-Wire EIS Architecture:"
 		(at 200.00 226.00 0)
@@ -706,7 +706,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "414d0765-3c01-42c9-8c39-e5ec277fc692")
+		(uuid "4d98e146-54cb-4451-8662-3a7528eac036")
 	)
 	(text "   Separate excitation and sensing paths eliminate test lead resistance."
 		(at 200.00 231.00 0)
@@ -716,7 +716,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "2f8b607e-42ac-4102-987f-61a3f5f883cb")
+		(uuid "55c5e002-e250-4516-9166-ab3b5c1b17d9")
 	)
 	(text "2) Ultra-Dense Micro-Via Array Stitching:"
 		(at 200.00 238.00 0)
@@ -727,7 +727,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "349263e5-238c-48a9-a2ea-e0221793bf7f")
+		(uuid "2eddc8c6-0702-4c81-870c-dde9fd0150ae")
 	)
 	(text "   1,792 stitched vias across high-current copper planes."
 		(at 200.00 243.00 0)
@@ -737,7 +737,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "1853f5ea-0dcf-49ee-914e-1650022a55ec")
+		(uuid "f2d8e460-fd68-43ff-bb74-c742339b4bb3")
 	)
 	(text "   Effective parallel capacitance C_eff < 0.001 pF (negligible)."
 		(at 200.00 248.00 0)
@@ -747,7 +747,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "beed086b-e68f-4f39-871f-640e0f3cccbd")
+		(uuid "6848f3b6-b0cf-4529-8a18-d4e749853f99")
 	)
 	(text "   Halved DC resistance (R_dc / 2) for maximum measurement SNR."
 		(at 200.00 253.00 0)
@@ -757,7 +757,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "f727f412-4f45-4574-9a5f-4dc0850710c0")
+		(uuid "6b751ef8-01bb-4281-ae26-487d44f82808")
 	)
 	(text "3) PCB Stackup & Layer Specs:"
 		(at 200.00 260.00 0)
@@ -768,7 +768,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "8d910c4f-b6a0-4194-89cc-34ce7eae2e97")
+		(uuid "5797f495-c4bc-493f-9b72-ab921c1a60bf")
 	)
 	(text "   2-Layer 1.6mm FR4, 1oz Cu, Matte Black Mask, HASL Lead-Free."
 		(at 200.00 265.00 0)
@@ -778,9 +778,8 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "75ad3673-1677-4d93-b808-cdb11e1473a5")
+		(uuid "258009d7-8279-4f3b-8fac-7f08da9c183a")
 	)
-
 	(wire
 		(pts
 			(xy 73.66 50.80) (xy 73.66 60.96)
@@ -789,7 +788,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "a716789c-f43b-4978-a46c-d007bb749fff")
+		(uuid "801650c0-de4c-4a22-bb8c-ed6e8dd03b52")
 	)
 	(wire
 		(pts
@@ -799,7 +798,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "9fd818e4-4992-4948-9b71-64edb88963e0")
+		(uuid "f5f4f653-969b-428e-af49-449b53c0abf4")
 	)
 	(wire
 		(pts
@@ -809,7 +808,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "7d2763ad-ba6a-43f6-acf0-b1bfc820d49c")
+		(uuid "592941cd-c8cb-4fd9-8a9a-df1d68b467d7")
 	)
 	(wire
 		(pts
@@ -819,7 +818,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "fd671142-93aa-4a89-89d7-8c9ea16b70d6")
+		(uuid "3310fe53-2908-4420-b9d8-cba7fcc3a332")
 	)
 	(wire
 		(pts
@@ -829,7 +828,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "562af356-51f9-4d55-9235-cacd83f1ed3c")
+		(uuid "28103e27-e6f3-4eca-88dc-b93fc25944b7")
 	)
 	(wire
 		(pts
@@ -839,7 +838,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "71dd6b1c-ecaf-4920-9b65-c005a2bf138a")
+		(uuid "6c869f1f-3b35-49c4-bc03-8834d3424817")
 	)
 	(wire
 		(pts
@@ -849,7 +848,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "93ba5ed3-a187-43cb-9e3a-9dc89d653376")
+		(uuid "bbf31089-031e-4e89-9588-48609739045f")
 	)
 	(wire
 		(pts
@@ -859,7 +858,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "120a50bc-783a-43e9-b9db-a108250b7873")
+		(uuid "1e3f7af4-f431-42e4-82b9-398a3a74f839")
 	)
 	(wire
 		(pts
@@ -869,7 +868,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "96bdb38e-4690-439b-a0f7-315f15d6b8a4")
+		(uuid "ad553ede-4bbf-4670-86d2-7eaf2ccf5e46")
 	)
 	(wire
 		(pts
@@ -879,7 +878,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "47de825a-75c2-4688-b96c-0cc89cba58a4")
+		(uuid "9b15e254-620a-4bc4-b311-e1f852fe21b4")
 	)
 	(wire
 		(pts
@@ -889,7 +888,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "870911ec-fc20-4fac-93c4-240ae8a301bf")
+		(uuid "8a04cbd8-81a9-4035-b5a9-38817716b90a")
 	)
 	(wire
 		(pts
@@ -899,7 +898,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "3ac19f08-1afd-40f0-86e9-6e8ecfbe7f29")
+		(uuid "80f37234-971b-491c-b2dd-6f47cd6cd2d8")
 	)
 	(wire
 		(pts
@@ -909,7 +908,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "9903a413-ea19-4c67-8c7d-1cf83ae50530")
+		(uuid "3e5fb269-45ec-4e02-bbbb-c20d910131ab")
 	)
 	(wire
 		(pts
@@ -919,7 +918,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "1e8aa4e9-b467-4edb-adb6-7fee09db76b0")
+		(uuid "f70d499d-9d12-401c-bee8-da7cde8e04ce")
 	)
 	(wire
 		(pts
@@ -929,7 +928,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "d278dd54-223c-4118-bafc-b219c598b4d3")
+		(uuid "76a7a6f6-0957-4f25-9f0c-29efdeb50373")
 	)
 	(wire
 		(pts
@@ -939,7 +938,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "6197a395-dcd4-4205-a91a-46a42106f6e0")
+		(uuid "95d0f1e5-5542-4de9-a542-d2c072f10d85")
 	)
 	(wire
 		(pts
@@ -949,7 +948,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "7347f473-00b9-4331-b186-177ab0297fc0")
+		(uuid "e41de262-b847-4692-bfee-ada9011b8bea")
 	)
 	(wire
 		(pts
@@ -959,7 +958,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "359f5fce-6c23-4b79-82ff-4483815dde05")
+		(uuid "f50ef788-3924-4654-a0e1-a8240ca5325a")
 	)
 	(wire
 		(pts
@@ -969,7 +968,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "b52e7643-cd4b-42ae-b083-d4d9ff60a95d")
+		(uuid "b4b5fbd9-a328-43ea-b950-8557a4a892de")
 	)
 	(wire
 		(pts
@@ -979,7 +978,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "1fa5b47a-960f-4a46-9bea-8b1c8c6e324d")
+		(uuid "366fe5a2-dee0-4ad9-a1dd-079c7fa6cf32")
 	)
 	(wire
 		(pts
@@ -989,7 +988,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "654c68c6-9a2a-47b3-b173-4304b3e53867")
+		(uuid "06444035-00f2-4af2-a17a-8b4afd003275")
 	)
 	(wire
 		(pts
@@ -999,7 +998,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "8b75988a-5aeb-460a-bc83-0a669e4141b4")
+		(uuid "fdb09d9a-f4cc-4993-890c-f0f07271a913")
 	)
 	(wire
 		(pts
@@ -1009,7 +1008,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "ab88dd33-d926-483f-a837-0c1bb8abcf3f")
+		(uuid "832ff062-6a3a-4aa9-b7b8-24d22d0ca44e")
 	)
 	(wire
 		(pts
@@ -1019,7 +1018,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "39703ffe-ba9c-496a-a207-3beb105cd2b4")
+		(uuid "16329a39-f39a-4fce-8718-c222b84db9ae")
 	)
 	(wire
 		(pts
@@ -1029,7 +1028,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "181f2d90-9fee-4104-843f-a0f442645c4a")
+		(uuid "efef2a8b-c3ef-421f-a461-2f07f072d1a1")
 	)
 	(wire
 		(pts
@@ -1039,7 +1038,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "daa24087-f54c-44d1-b4b1-18413113f129")
+		(uuid "7fc61d63-a3fc-46dc-85f2-c8e92613e85d")
 	)
 	(wire
 		(pts
@@ -1049,7 +1048,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "a23fde35-633f-426a-b903-bbc392f8c1c6")
+		(uuid "f27595ba-9112-466a-bf43-b33f77c0f51d")
 	)
 	(wire
 		(pts
@@ -1059,7 +1058,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "0016e2a2-4908-4c6f-a0de-9780f231b630")
+		(uuid "224edea4-b286-4ef1-a0f3-147a6eb6acef")
 	)
 	(wire
 		(pts
@@ -1069,7 +1068,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "9199f058-8bda-4805-94aa-86ede391c9ef")
+		(uuid "8a0986b2-32ed-4cbc-82fc-67d36e8c8601")
 	)
 	(wire
 		(pts
@@ -1079,7 +1078,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "43aec16e-94b1-4487-ba80-6d007a663c2c")
+		(uuid "f7c27fbb-ef60-495e-a551-0896faa491d3")
 	)
 	(wire
 		(pts
@@ -1089,76 +1088,74 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "ef7f1f8e-6845-4b26-b9ec-1506e5be458a")
+		(uuid "e665fbef-1a9c-4381-93ea-e1bd338b881b")
 	)
-
 	(junction
 		(at 210.82 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5e888629-64e1-489a-b35d-b8db3718d203")
+		(uuid "f38da9f6-78ff-4c0c-ae84-4262b942f623")
 	)
 	(junction
 		(at 210.82 88.90)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7240a1b8-95b4-4c0b-aca3-93f7f1f34cef")
+		(uuid "c79dd7cd-b003-4ffc-8e0b-9adba57640ce")
 	)
 	(junction
 		(at 261.62 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a0ccada9-80f5-4cfe-be90-664fb4f8da02")
+		(uuid "c57e1606-4bad-4269-93aa-c62b6edb716a")
 	)
 	(junction
 		(at 261.62 88.90)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b6c28567-7a18-4f4c-8196-e983a4fda13d")
+		(uuid "d3476bed-2bf9-40ce-9046-8885f6e94ff6")
 	)
 	(junction
 		(at 312.42 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b70b801a-3332-478b-bd67-aa0167bcf608")
+		(uuid "fa706754-d3f6-45b0-a9c1-b14048729dcb")
 	)
 	(junction
 		(at 312.42 88.90)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "860bc811-6d35-43ef-b193-a68d5e193e61")
+		(uuid "4eead999-6edc-4543-b9c5-9a4e101d7cad")
 	)
 	(junction
 		(at 363.22 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "777a1122-aa7d-4880-9a54-cf59c1231491")
+		(uuid "a99936e0-590a-4a90-8f68-adc8f553b823")
 	)
 	(junction
 		(at 363.22 88.90)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c7294286-371f-41be-a250-39fb4cead32c")
+		(uuid "069eec1c-f7e8-4b20-9136-8b4a7c41dbfa")
 	)
 	(junction
 		(at 101.60 166.37)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e06c9925-9087-44ae-b601-ff5090660d4a")
+		(uuid "73728164-1c23-4070-9131-ca1beb4de48d")
 	)
 	(junction
 		(at 101.60 186.69)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "80f35440-3d2f-458f-86fb-ba5bf73347bc")
+		(uuid "28449f16-8b87-4c76-8713-8b4ca10fc628")
 	)
 	(junction
 		(at 101.60 207.01)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "24442f09-cd29-432c-a121-3f978bfefd07")
+		(uuid "29e665f7-a8b7-429c-b7c6-0b59f0af373c")
 	)
-
 	(label "1S_B+"
 		(at 73.66 55.88 0)
 		(effects
@@ -1168,7 +1165,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "e2d5e4d1-bf39-4251-b425-72e158c0c115")
+		(uuid "6312be3e-6eb6-4b0e-8f9d-348f0cf69160")
 	)
 	(label "1S_B-"
 		(at 73.66 73.66 0)
@@ -1179,7 +1176,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "1ff599f9-044a-4bd5-9f6a-ce85ba6f58cd")
+		(uuid "72582113-de73-4dc8-ac8a-03f24b620fba")
 	)
 	(label "4P_B+"
 		(at 172.72 53.34 0)
@@ -1190,7 +1187,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "fc91d818-6919-45cd-9ecb-76e450fd2565")
+		(uuid "bf44f76e-deb1-4f9e-b517-34da52bfa920")
 	)
 	(label "4P_B-"
 		(at 172.72 88.90 0)
@@ -1201,7 +1198,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "9f00f67d-fa08-4df3-9763-c4636568a4fb")
+		(uuid "0687bfb1-8c31-4614-a935-ddacca2b4475")
 	)
 	(label "4S_B+"
 		(at 101.60 149.86 0)
@@ -1212,7 +1209,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "c87031ce-cd4a-4299-92bb-c2aaa94961e8")
+		(uuid "b1b28506-3f41-4348-a132-eb2034e4f607")
 	)
 	(label "4S_B-"
 		(at 101.60 226.06 0)
@@ -1223,9 +1220,8 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "ba78943a-b27d-4f09-9940-7457650268a3")
+		(uuid "a3317be8-dd17-4b0b-8cef-94d887e54104")
 	)
-
 	(symbol
 		(lib_id "Device:Battery_Cell")
 		(at 73.66 66.04 0)
@@ -3546,6 +3542,7 @@
 		(property "Description" "4S 1P Cell 1 Negative Interconnect Test Point"
 			(at 66.04 166.37 0)
 			(hide yes)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3851,6 +3848,7 @@
 		)
 		(property "Description" "4S 1P Cell 2 Negative Interconnect Test Point"
 			(at 66.04 186.69 0)
+			(hide yes)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4158,6 +4156,7 @@
 		(property "Description" "4S 1P Cell 3 Negative Interconnect Test Point"
 			(at 66.04 207.01 0)
 			(hide yes)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4415,25 +4414,25 @@
 		(fields_autoplaced yes)
 		(uuid "cb661354-2730-493e-9417-ee9a3332ec65")
 		(property "Reference" "H1"
-			(at 223.81 151.13 0)
+			(at 220.00 149.86 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify center)
 			)
 		)
 		(property "Value" "MountingHole_M3_Pad"
-			(at 223.81 153.67 0)
+			(at 220.00 154.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify center)
 			)
 		)
 		(property "Footprint" "footprints:MountingHole_3.2mm_M3"
@@ -4460,6 +4459,7 @@
 		)
 		(property "Description" "M3 Plated Ground / Chassis Mounting Hole"
 			(at 220.00 152.40 0)
+			(hide yes)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4511,770 +4511,6 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 220.00 165.10 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3be0f26e-065a-481f-9b5f-881ab38a4026")
-		(property "Reference" "H2"
-			(at 223.81 163.83 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_M3_Pad"
-			(at 223.81 166.37 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "footprints:MountingHole_3.2mm_M3"
-			(at 220.00 165.10 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 177.8 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "M3 Plated Ground / Chassis Mounting Hole"
-			(at 220.00 165.10 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 177.8 46.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 177.8 46.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 177.8 46.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "ACIR_PCB"
-				(path "/55445bf8-1e44-4cff-8573-6b24cd106f65"
-					(reference "H2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 220.00 177.80 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "00b097c3-aaa1-44d6-ac02-fc71b036306e")
-		(property "Reference" "H3"
-			(at 223.81 176.53 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_M3_Pad"
-			(at 223.81 179.07 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "footprints:MountingHole_3.2mm_M3"
-			(at 220.00 177.80 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 177.8 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "M3 Plated Ground / Chassis Mounting Hole"
-			(at 220.00 177.80 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 177.8 61.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 177.8 61.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 177.8 61.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "ACIR_PCB"
-				(path "/55445bf8-1e44-4cff-8573-6b24cd106f65"
-					(reference "H3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 220.00 190.50 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2bede5c9-407d-45a0-a098-7b61db5037fd")
-		(property "Reference" "H4"
-			(at 223.81 189.23 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_M3_Pad"
-			(at 223.81 191.77 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "footprints:MountingHole_3.2mm_M3"
-			(at 220.00 190.50 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 177.8 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "M3 Plated Ground / Chassis Mounting Hole"
-			(at 220.00 190.50 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 177.8 76.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 177.8 76.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 177.8 76.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "ACIR_PCB"
-				(path "/55445bf8-1e44-4cff-8573-6b24cd106f65"
-					(reference "H4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 270.00 152.40 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f6f49155-b79c-49da-9e1a-249fb0e58002")
-		(property "Reference" "H5"
-			(at 273.81 151.13 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_M3_Pad"
-			(at 273.81 153.67 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "footprints:MountingHole_3.2mm_M3"
-			(at 270.00 152.40 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 177.8 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "M3 Plated Ground / Chassis Mounting Hole"
-			(at 270.00 152.40 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 177.8 91.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 177.8 91.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 177.8 91.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "ACIR_PCB"
-				(path "/55445bf8-1e44-4cff-8573-6b24cd106f65"
-					(reference "H5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 270.00 165.10 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fada2836-7e3c-4b04-a21e-d128659e10cc")
-		(property "Reference" "H6"
-			(at 273.81 163.83 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_M3_Pad"
-			(at 273.81 166.37 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "footprints:MountingHole_3.2mm_M3"
-			(at 270.00 165.10 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 177.8 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "M3 Plated Ground / Chassis Mounting Hole"
-			(at 270.00 165.10 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 177.8 106.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 177.8 106.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 177.8 106.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "ACIR_PCB"
-				(path "/55445bf8-1e44-4cff-8573-6b24cd106f65"
-					(reference "H6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 270.00 177.80 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "740559f2-a3c6-4a94-b1f4-c5ae58226785")
-		(property "Reference" "H7"
-			(at 273.81 176.53 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_M3_Pad"
-			(at 273.81 179.07 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "footprints:MountingHole_3.2mm_M3"
-			(at 270.00 177.80 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 177.8 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "M3 Plated Ground / Chassis Mounting Hole"
-			(at 270.00 177.80 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 177.8 121.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 177.8 121.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 177.8 121.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "ACIR_PCB"
-				(path "/55445bf8-1e44-4cff-8573-6b24cd106f65"
-					(reference "H7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 270.00 190.50 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "961331ad-3488-4e7f-83e4-c2733d011571")
-		(property "Reference" "H8"
-			(at 273.81 189.23 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_M3_Pad"
-			(at 273.81 191.77 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "footprints:MountingHole_3.2mm_M3"
-			(at 270.00 190.50 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 177.8 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "M3 Plated Ground / Chassis Mounting Hole"
-			(at 270.00 190.50 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 177.8 136.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 177.8 136.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 177.8 136.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "ACIR_PCB"
-				(path "/55445bf8-1e44-4cff-8573-6b24cd106f65"
-					(reference "H8")
-					(unit 1)
-				)
-			)
-		)
-	)
-
 	(sheet_instances
 		(path "/"
 			(page "1")

@@ -487,7 +487,7 @@
 			(width 0.25)
 			(type dash)
 		)
-		(uuid "34728094-c664-474e-b427-d88bd0d8f057")
+		(uuid "477e51fe-170f-4af3-9240-777f10c7b37f")
 	)
 	(polyline
 		(pts
@@ -497,7 +497,7 @@
 			(width 0.25)
 			(type dash)
 		)
-		(uuid "e94beff0-5350-4d70-a52c-dae142674a30")
+		(uuid "8e668aca-1653-4589-b2a8-d86678f6f0e0")
 	)
 	(polyline
 		(pts
@@ -507,7 +507,7 @@
 			(width 0.25)
 			(type dash)
 		)
-		(uuid "acd85623-ad13-4be2-848d-dde30b6e8048")
+		(uuid "32aece3a-e065-4147-91e7-50e7e62a84f1")
 	)
 	(polyline
 		(pts
@@ -517,7 +517,7 @@
 			(width 0.25)
 			(type dash)
 		)
-		(uuid "e494e8f1-b656-4976-9986-955a8cd8f335")
+		(uuid "e9ea5912-f240-43ce-bd15-cd70b6858e33")
 	)
 	(polyline
 		(pts
@@ -527,7 +527,7 @@
 			(width 0.25)
 			(type dash)
 		)
-		(uuid "bea338fe-414b-40cd-9aba-5239d7e93d77")
+		(uuid "2a95ef56-6b74-419b-ba24-3a597fa1ef7b")
 	)
 
 	(text "1S 1P MODULE (Single Cell ACIR Baseline)"
@@ -539,7 +539,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "539a465c-9a18-4c9d-bcaa-605601af1277")
+		(uuid "8fb170a8-40f2-4694-b7e7-bb5d52953b35")
 	)
 	(text "Baseline 18650 EIS Measurement: ACIR = R_cell"
 		(at 35.56 38.10 0)
@@ -549,7 +549,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "edfa6f9e-a7b8-4f0c-8030-b7af8b6cceee")
+		(uuid "2198be49-3a03-463f-838f-d426edcc9e7c")
 	)
 	(text "4-Wire Kelvin ACIR Measurement:"
 		(at 35.56 96.00 0)
@@ -560,7 +560,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "294c6472-e88e-4f84-ac39-7d6e4ae388fb")
+		(uuid "1c609990-b2fa-4b4b-91ef-64803067fe49")
 	)
 	(text "Inject 1 kHz AC current across B+ and B- terminals."
 		(at 35.56 101.00 0)
@@ -570,7 +570,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "600a4d1d-7b15-46ce-be78-dd5cb481cdc6")
+		(uuid "79f8ef4d-a460-4ff0-9a4f-2cf36a41acd6")
 	)
 	(text "Sense AC voltage drop to isolate purely ohmic internal cell resistance."
 		(at 35.56 106.00 0)
@@ -580,7 +580,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "3a4311f3-869a-454e-960a-286a2e5933a7")
+		(uuid "d039a3f3-2b3f-406a-a6a5-a092e072ba48")
 	)
 	(text "1S 4P MODULE (Parallel Current Sharing & R/4 ACIR Pack)"
 		(at 132.08 33.02 0)
@@ -591,7 +591,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "e1090e34-c5bf-487c-98f8-aea26dc277b4")
+		(uuid "6ec3fd59-cdc7-42ce-b5fd-d1233238d7c6")
 	)
 	(text "Current Distribution & Branch Kelvin Sensing: 1/R_eq = 1/R1 + 1/R2 + 1/R3 + 1/R4  (R_eq ≈ R/4)"
 		(at 132.08 38.10 0)
@@ -601,7 +601,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "962558d1-b4cf-4543-8832-55d5d6bcab4f")
+		(uuid "da408be6-eb9e-4cfb-bf87-334656e0b83b")
 	)
 	(text "Individual cell branch test points (J10-J17) enable Kelvin characterization of each parallel cell & current sharing."
 		(at 132.08 108.00 0)
@@ -611,7 +611,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "1fe755c4-f974-4c53-a54f-87cb76cd9759")
+		(uuid "043e5b05-9d85-41de-86a1-5cb30d110328")
 	)
 	(text "4S 1P MODULE (Series String - Voltage Stacking & 4x ACIR)"
 		(at 35.56 134.62 0)
@@ -622,7 +622,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "5be0612d-2ee1-401b-a9a7-7d072787bf29")
+		(uuid "001b6927-d64a-4295-995f-0ba2eb2c4735")
 	)
 	(text "Total Series Impedance: R_eq = R1 + R2 + R3 + R4 + R_interconnect  (R_eq ≈ 4 * R)"
 		(at 35.56 139.70 0)
@@ -632,7 +632,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "d69216cc-b6e9-4a2f-b805-46612057e1c8")
+		(uuid "9905a45a-3508-417a-9f58-68228aaf0cb4")
 	)
 	(text "Inter-cell Kelvin probing pairs (J18/J7, J19/J8, J20/J9) allow measuring:"
 		(at 35.56 252.00 0)
@@ -643,7 +643,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "f4d641d8-da29-428c-9ff7-65a43f7492b0")
+		(uuid "3d4cc4bf-cbeb-413c-b5d1-7f4fdec2288f")
 	)
 	(text "1) Individual cell ACIR in-situ under series string current loading."
 		(at 35.56 258.00 0)
@@ -653,7 +653,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "a35a1076-def8-458a-bb8a-d0cd74b7920d")
+		(uuid "18a18ad1-69ee-42f5-92e8-fbf3c17ea996")
 	)
 	(text "2) Interconnect contact resistance across cell-to-cell busbars."
 		(at 35.56 264.00 0)
@@ -663,7 +663,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "142a656a-d19d-4129-b97b-4a8ae32e0fb3")
+		(uuid "4e1b609b-58d5-4f1f-91f6-8b278ab65829")
 	)
 	(text "MECHANICAL MOUNTING HOLES"
 		(at 200.00 134.62 0)
@@ -674,7 +674,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "5991222e-c326-4e45-852c-70a93ed9ebc2")
+		(uuid "cd977540-c33b-41b3-bca7-f5be5790eff8")
 	)
 	(text "8x M3 Plated Chassis Grounding / Standoff Fixtures"
 		(at 200.00 139.70 0)
@@ -684,7 +684,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "0a1e5628-7ed9-4bb4-8e01-ad16281d49e4")
+		(uuid "3fdce9a3-35e9-4a27-888c-e9b45354c055")
 	)
 	(text "EIS DESIGN & FABRICATION SPECS"
 		(at 200.00 219.00 0)
@@ -695,7 +695,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "7c9073a5-20e2-4fd9-9cf2-69e6d788a16e")
+		(uuid "f48969bf-c168-4af7-8768-913458d9c36e")
 	)
 	(text "1) Kelvin 4-Wire EIS Architecture:"
 		(at 200.00 226.00 0)
@@ -706,7 +706,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "414d0765-3c01-42c9-8c39-e5ec277fc692")
+		(uuid "fa428d15-dbd9-42e3-90d4-6c3cf03c527a")
 	)
 	(text "   Separate excitation and sensing paths eliminate test lead resistance."
 		(at 200.00 231.00 0)
@@ -716,7 +716,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "2f8b607e-42ac-4102-987f-61a3f5f883cb")
+		(uuid "d5c84e23-7bbd-4b4d-98a3-44d83ea51171")
 	)
 	(text "2) Ultra-Dense Micro-Via Array Stitching:"
 		(at 200.00 238.00 0)
@@ -727,7 +727,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "349263e5-238c-48a9-a2ea-e0221793bf7f")
+		(uuid "43015f29-13b8-48f5-87f1-27f7f4e4c314")
 	)
 	(text "   1,792 stitched vias across high-current copper planes."
 		(at 200.00 243.00 0)
@@ -737,7 +737,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "1853f5ea-0dcf-49ee-914e-1650022a55ec")
+		(uuid "46563531-0c06-44eb-a877-d943340e06ab")
 	)
 	(text "   Effective parallel capacitance C_eff < 0.001 pF (negligible)."
 		(at 200.00 248.00 0)
@@ -747,7 +747,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "beed086b-e68f-4f39-871f-640e0f3cccbd")
+		(uuid "f627f3ce-cd01-4431-8105-5a2448432510")
 	)
 	(text "   Halved DC resistance (R_dc / 2) for maximum measurement SNR."
 		(at 200.00 253.00 0)
@@ -757,7 +757,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "f727f412-4f45-4574-9a5f-4dc0850710c0")
+		(uuid "b45f357c-aced-4406-9da3-2122b8b5824f")
 	)
 	(text "3) PCB Stackup & Layer Specs:"
 		(at 200.00 260.00 0)
@@ -768,7 +768,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "8d910c4f-b6a0-4194-89cc-34ce7eae2e97")
+		(uuid "13d15314-8372-41f0-89e1-86163f820921")
 	)
 	(text "   2-Layer 1.6mm FR4, 1oz Cu, Matte Black Mask, HASL Lead-Free."
 		(at 200.00 265.00 0)
@@ -778,7 +778,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "75ad3673-1677-4d93-b808-cdb11e1473a5")
+		(uuid "1cccec77-a6ca-46ee-be3b-38cf2df1cec3")
 	)
 
 	(wire
@@ -789,7 +789,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "a716789c-f43b-4978-a46c-d007bb749fff")
+		(uuid "b40569fd-f8dd-42e6-9bf9-6afc452f1e15")
 	)
 	(wire
 		(pts
@@ -799,7 +799,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "9fd818e4-4992-4948-9b71-64edb88963e0")
+		(uuid "ed81db47-f84a-454c-b4f8-73545b9ee0d5")
 	)
 	(wire
 		(pts
@@ -809,7 +809,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "7d2763ad-ba6a-43f6-acf0-b1bfc820d49c")
+		(uuid "a1463d95-4bf9-41f9-bdfe-24910bae5e78")
 	)
 	(wire
 		(pts
@@ -819,7 +819,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "fd671142-93aa-4a89-89d7-8c9ea16b70d6")
+		(uuid "64f6a0dd-1356-4aa0-85b5-91a9ea4c3f55")
 	)
 	(wire
 		(pts
@@ -829,7 +829,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "562af356-51f9-4d55-9235-cacd83f1ed3c")
+		(uuid "4fde5e17-33e7-4345-95e3-95d7e9ed5f86")
 	)
 	(wire
 		(pts
@@ -839,7 +839,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "71dd6b1c-ecaf-4920-9b65-c005a2bf138a")
+		(uuid "8fa1808a-f37a-432b-ab6d-b5ca5bbbbbd8")
 	)
 	(wire
 		(pts
@@ -849,7 +849,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "93ba5ed3-a187-43cb-9e3a-9dc89d653376")
+		(uuid "518e0fd5-3b0f-4955-970e-c60dd82a2238")
 	)
 	(wire
 		(pts
@@ -859,7 +859,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "120a50bc-783a-43e9-b9db-a108250b7873")
+		(uuid "f697e02d-384d-4191-9fca-7533a69bf946")
 	)
 	(wire
 		(pts
@@ -869,7 +869,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "96bdb38e-4690-439b-a0f7-315f15d6b8a4")
+		(uuid "0e780d97-61e2-4348-aaf8-c60356b51522")
 	)
 	(wire
 		(pts
@@ -879,7 +879,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "47de825a-75c2-4688-b96c-0cc89cba58a4")
+		(uuid "f0076c47-e1b5-45aa-88ab-ee33a07a54fc")
 	)
 	(wire
 		(pts
@@ -889,7 +889,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "870911ec-fc20-4fac-93c4-240ae8a301bf")
+		(uuid "69d8d77d-8261-4ea9-b3f8-ebe78845e25c")
 	)
 	(wire
 		(pts
@@ -899,7 +899,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "3ac19f08-1afd-40f0-86e9-6e8ecfbe7f29")
+		(uuid "401b6fb1-5a39-4deb-b9a0-16207b06bfd2")
 	)
 	(wire
 		(pts
@@ -909,7 +909,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "9903a413-ea19-4c67-8c7d-1cf83ae50530")
+		(uuid "0a1339f4-9139-4cf2-9f26-59bd4071392d")
 	)
 	(wire
 		(pts
@@ -919,7 +919,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "1e8aa4e9-b467-4edb-adb6-7fee09db76b0")
+		(uuid "6ea4b0b5-c99e-4a96-8761-d954444ac5bf")
 	)
 	(wire
 		(pts
@@ -929,7 +929,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "d278dd54-223c-4118-bafc-b219c598b4d3")
+		(uuid "9731e041-bf20-4688-a935-fdecded39aae")
 	)
 	(wire
 		(pts
@@ -939,7 +939,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "6197a395-dcd4-4205-a91a-46a42106f6e0")
+		(uuid "593cf125-ebc1-4ca0-8a5a-976495cbacb2")
 	)
 	(wire
 		(pts
@@ -949,7 +949,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "7347f473-00b9-4331-b186-177ab0297fc0")
+		(uuid "e486ff01-95a6-4f89-9292-ccab7b13d6a9")
 	)
 	(wire
 		(pts
@@ -959,7 +959,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "359f5fce-6c23-4b79-82ff-4483815dde05")
+		(uuid "de889c70-6adc-43e6-9b8a-c0f3bf260b4a")
 	)
 	(wire
 		(pts
@@ -969,7 +969,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "b52e7643-cd4b-42ae-b083-d4d9ff60a95d")
+		(uuid "79846314-4dd0-4d76-ae42-6c64864e6bb0")
 	)
 	(wire
 		(pts
@@ -979,7 +979,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "1fa5b47a-960f-4a46-9bea-8b1c8c6e324d")
+		(uuid "54e45e94-1d29-476f-abf1-7f0a33827757")
 	)
 	(wire
 		(pts
@@ -989,7 +989,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "654c68c6-9a2a-47b3-b173-4304b3e53867")
+		(uuid "ae1e8c2c-2f60-43aa-9282-bf26e88de7c3")
 	)
 	(wire
 		(pts
@@ -999,7 +999,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "8b75988a-5aeb-460a-bc83-0a669e4141b4")
+		(uuid "d84932ac-2dba-496b-ac91-d79cb3588595")
 	)
 	(wire
 		(pts
@@ -1009,7 +1009,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "ab88dd33-d926-483f-a837-0c1bb8abcf3f")
+		(uuid "dd85f4c0-385d-4e43-970b-d06d4705cef6")
 	)
 	(wire
 		(pts
@@ -1019,7 +1019,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "39703ffe-ba9c-496a-a207-3beb105cd2b4")
+		(uuid "5dee1ad2-e288-47c7-909d-e4b3f1421639")
 	)
 	(wire
 		(pts
@@ -1029,7 +1029,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "181f2d90-9fee-4104-843f-a0f442645c4a")
+		(uuid "936ce86c-b0d5-4bae-92d6-a5264fed04b8")
 	)
 	(wire
 		(pts
@@ -1039,7 +1039,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "daa24087-f54c-44d1-b4b1-18413113f129")
+		(uuid "1840615c-2371-40e9-9402-4729b1c01d59")
 	)
 	(wire
 		(pts
@@ -1049,7 +1049,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "a23fde35-633f-426a-b903-bbc392f8c1c6")
+		(uuid "5b33a948-2d3e-46fc-ba06-82df47c537b3")
 	)
 	(wire
 		(pts
@@ -1059,7 +1059,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "0016e2a2-4908-4c6f-a0de-9780f231b630")
+		(uuid "4bde616c-7ff0-4412-ab5f-db85df8cc2fb")
 	)
 	(wire
 		(pts
@@ -1069,7 +1069,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "9199f058-8bda-4805-94aa-86ede391c9ef")
+		(uuid "98acedb7-2da2-42d4-a0a5-7a5fb3a3c7d7")
 	)
 	(wire
 		(pts
@@ -1079,7 +1079,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "43aec16e-94b1-4487-ba80-6d007a663c2c")
+		(uuid "c5b26e14-3edd-48c0-8563-0e6b7e2c894f")
 	)
 	(wire
 		(pts
@@ -1089,74 +1089,74 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "ef7f1f8e-6845-4b26-b9ec-1506e5be458a")
+		(uuid "c726fe19-32be-42b4-98da-a27cec7af131")
 	)
 
 	(junction
 		(at 210.82 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5e888629-64e1-489a-b35d-b8db3718d203")
+		(uuid "09bbfe87-b9fc-4f27-9e51-7932165b7edb")
 	)
 	(junction
 		(at 210.82 88.90)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7240a1b8-95b4-4c0b-aca3-93f7f1f34cef")
+		(uuid "3800a8aa-90d9-4ebe-95f5-61275fc5e828")
 	)
 	(junction
 		(at 261.62 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a0ccada9-80f5-4cfe-be90-664fb4f8da02")
+		(uuid "c1163932-5cfd-4785-9b40-220baacefeef")
 	)
 	(junction
 		(at 261.62 88.90)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b6c28567-7a18-4f4c-8196-e983a4fda13d")
+		(uuid "5baf632f-a174-4879-b53e-f3da9f923483")
 	)
 	(junction
 		(at 312.42 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b70b801a-3332-478b-bd67-aa0167bcf608")
+		(uuid "9dbd4047-37bc-4251-a5b8-908c90963b21")
 	)
 	(junction
 		(at 312.42 88.90)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "860bc811-6d35-43ef-b193-a68d5e193e61")
+		(uuid "35cd5d31-624e-466d-affd-28fa1d58bf6e")
 	)
 	(junction
 		(at 363.22 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "777a1122-aa7d-4880-9a54-cf59c1231491")
+		(uuid "208536ed-fabe-41fc-a91e-3ac5545c4c33")
 	)
 	(junction
 		(at 363.22 88.90)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c7294286-371f-41be-a250-39fb4cead32c")
+		(uuid "d4339653-9657-458a-b2ff-fc9d8088c996")
 	)
 	(junction
 		(at 101.60 166.37)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e06c9925-9087-44ae-b601-ff5090660d4a")
+		(uuid "a3aa773b-d49b-41cb-b365-e1d11293efa9")
 	)
 	(junction
 		(at 101.60 186.69)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "80f35440-3d2f-458f-86fb-ba5bf73347bc")
+		(uuid "3595d65e-75ea-4a1f-9bff-1e3e66b91b8a")
 	)
 	(junction
 		(at 101.60 207.01)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "24442f09-cd29-432c-a121-3f978bfefd07")
+		(uuid "bbb24a99-2a0f-4c69-8fe0-6a2a18e651f8")
 	)
 
 	(label "1S_B+"
@@ -1168,7 +1168,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "e2d5e4d1-bf39-4251-b425-72e158c0c115")
+		(uuid "bebeafe3-e4e2-44d8-bdca-67471a83f1eb")
 	)
 	(label "1S_B-"
 		(at 73.66 73.66 0)
@@ -1179,7 +1179,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "1ff599f9-044a-4bd5-9f6a-ce85ba6f58cd")
+		(uuid "ac4efc50-df94-45fb-ae35-a2e54162468c")
 	)
 	(label "4P_B+"
 		(at 172.72 53.34 0)
@@ -1190,7 +1190,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "fc91d818-6919-45cd-9ecb-76e450fd2565")
+		(uuid "7602b46e-e0fe-46da-bd2a-763aa3482711")
 	)
 	(label "4P_B-"
 		(at 172.72 88.90 0)
@@ -1201,7 +1201,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "9f00f67d-fa08-4df3-9763-c4636568a4fb")
+		(uuid "98bd5a38-dec7-4629-be95-36d3a2e0b7c7")
 	)
 	(label "4S_B+"
 		(at 101.60 149.86 0)
@@ -1212,7 +1212,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "c87031ce-cd4a-4299-92bb-c2aaa94961e8")
+		(uuid "cc9d4d20-86de-49b9-9c08-0d86a624d437")
 	)
 	(label "4S_B-"
 		(at 101.60 226.06 0)
@@ -1223,7 +1223,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "ba78943a-b27d-4f09-9940-7457650268a3")
+		(uuid "e83a0761-af03-44a4-9bc2-25cd38ea9436")
 	)
 
 	(symbol
@@ -1239,7 +1239,7 @@
 		(fields_autoplaced yes)
 		(uuid "87c59486-7a3b-428a-83e1-7757982aef88")
 		(property "Reference" "BT1"
-			(at 67.31 64.77 0)
+			(at 69.85 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1250,7 +1250,7 @@
 			)
 		)
 		(property "Value" "18650_Cell"
-			(at 67.31 67.31 0)
+			(at 69.85 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1361,7 +1361,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "1S 1P +ve"
@@ -1372,7 +1371,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill1.3mm"
@@ -1473,7 +1471,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "1S 1P -ve"
@@ -1484,7 +1482,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill1.3mm"
@@ -1578,25 +1576,23 @@
 		(fields_autoplaced yes)
 		(uuid "0cb5ffb0-e2db-460a-8990-092b89bd2b09")
 		(property "Reference" "J5"
-			(at 148.59 52.07 0)
+			(at 151.13 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "4P B +ve"
-			(at 148.59 54.61 0)
+			(at 151.13 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill1.3mm"
@@ -1690,25 +1686,23 @@
 		(fields_autoplaced yes)
 		(uuid "c807e344-0a3f-4132-93cd-01120694d04b")
 		(property "Reference" "J6"
-			(at 148.59 87.63 0)
+			(at 151.13 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "4P B -ve"
-			(at 148.59 90.17 0)
+			(at 151.13 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill1.3mm"
@@ -1802,25 +1796,25 @@
 		(fields_autoplaced yes)
 		(uuid "f66f5b91-83b1-4972-a568-70505967b0c8")
 		(property "Reference" "BT6"
-			(at 204.47 69.85 0)
+			(at 207.01 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "18650_Cell"
-			(at 204.47 72.39 0)
+			(at 207.01 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "footprints:BH18650B1BA002"
@@ -2036,7 +2030,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "1S 1P -ve"
@@ -2047,7 +2041,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill1.3mm"
@@ -2141,25 +2135,25 @@
 		(fields_autoplaced yes)
 		(uuid "7c30120b-bfe2-48be-a600-80bec8f605a4")
 		(property "Reference" "BT7"
-			(at 255.27 69.85 0)
+			(at 257.81 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "18650_Cell"
-			(at 255.27 72.39 0)
+			(at 257.81 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "footprints:BH18650B1BA002"
@@ -2375,7 +2369,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "1S 2P -ve"
@@ -2386,7 +2380,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill1.3mm"
@@ -2480,25 +2474,25 @@
 		(fields_autoplaced yes)
 		(uuid "3ab924ea-c3aa-4064-9a78-01b5a5ed953d")
 		(property "Reference" "BT8"
-			(at 306.07 69.85 0)
+			(at 308.61 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "18650_Cell"
-			(at 306.07 72.39 0)
+			(at 308.61 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "footprints:BH18650B1BA002"
@@ -2714,7 +2708,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "1S 3P -ve"
@@ -2725,7 +2719,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill1.3mm"
@@ -2819,25 +2813,25 @@
 		(fields_autoplaced yes)
 		(uuid "5be91302-92fb-45d3-980f-107157e575e5")
 		(property "Reference" "BT9"
-			(at 356.87 69.85 0)
+			(at 359.41 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "18650_Cell"
-			(at 356.87 72.39 0)
+			(at 359.41 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "footprints:BH18650B1BA002"
@@ -3053,7 +3047,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "1S 4P -ve"
@@ -3064,7 +3058,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill1.3mm"
@@ -3158,25 +3152,25 @@
 		(fields_autoplaced yes)
 		(uuid "7a29498a-732a-491d-8453-37a0e3886726")
 		(property "Reference" "BT2"
-			(at 95.25 156.21 0)
+			(at 97.79 156.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "Cell_1_18650"
-			(at 95.25 158.75 0)
+			(at 97.79 158.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "footprints:BH18650B1BA002"
@@ -3280,7 +3274,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "4S B +ve"
@@ -3291,7 +3284,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill1.3mm"
@@ -3385,25 +3377,25 @@
 		(fields_autoplaced yes)
 		(uuid "b0121c09-c8ba-4e28-bcb9-4d16b976d71e")
 		(property "Reference" "BT3"
-			(at 95.25 176.53 0)
+			(at 97.79 176.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "Cell_2_18650"
-			(at 95.25 179.07 0)
+			(at 97.79 179.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "footprints:BH18650B1BA002"
@@ -3500,25 +3492,23 @@
 		(fields_autoplaced yes)
 		(uuid "e47b013d-31f8-4d87-91f4-d013aa576bd3")
 		(property "Reference" "J18"
-			(at 59.69 165.10 0)
+			(at 62.23 165.10 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "1S 1P -ve"
-			(at 59.69 167.64 0)
+			(at 62.23 167.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill1.3mm"
@@ -3545,6 +3535,7 @@
 		)
 		(property "Description" "4S 1P Cell 1 Negative Interconnect Test Point"
 			(at 66.04 166.37 0)
+			(hide yes)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3586,7 +3577,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "2S 1P +ve"
@@ -3597,7 +3587,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill1.3mm"
@@ -3691,7 +3680,7 @@
 		(fields_autoplaced yes)
 		(uuid "03359c05-70ce-478e-a08f-1d17e89b55bf")
 		(property "Reference" "BT4"
-			(at 95.25 196.85 0)
+			(at 97.79 196.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3702,7 +3691,7 @@
 			)
 		)
 		(property "Value" "Cell_3_18650"
-			(at 95.25 199.39 0)
+			(at 97.79 199.39 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3806,25 +3795,23 @@
 		(fields_autoplaced yes)
 		(uuid "4d82faf8-6adc-42fa-b28a-c9fa356d445d")
 		(property "Reference" "J19"
-			(at 59.69 185.42 0)
+			(at 62.23 185.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "2S 1P -ve"
-			(at 59.69 187.96 0)
+			(at 62.23 187.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill1.3mm"
@@ -3851,6 +3838,7 @@
 		)
 		(property "Description" "4S 1P Cell 2 Negative Interconnect Test Point"
 			(at 66.04 186.69 0)
+			(hide yes)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3885,25 +3873,23 @@
 		(fields_autoplaced yes)
 		(uuid "bb233757-68f0-4a34-b7da-a45060d3d908")
 		(property "Reference" "J8"
-			(at 140.97 185.42 0)
+			(at 140.97 185.42 180)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "3S 1P +ve"
-			(at 140.97 187.96 0)
+			(at 140.97 187.96 180)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill1.3mm"
@@ -3997,25 +3983,25 @@
 		(fields_autoplaced yes)
 		(uuid "a3d81823-1e29-4688-a70a-569fad3db46d")
 		(property "Reference" "BT5"
-			(at 95.25 217.17 0)
+			(at 97.79 217.17 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "Cell_4_18650"
-			(at 95.25 219.71 0)
+			(at 97.79 219.71 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "footprints:BH18650B1BA002"
@@ -4112,25 +4098,23 @@
 		(fields_autoplaced yes)
 		(uuid "56ee77e5-3c1a-494d-80a5-a7d3720f4ae1")
 		(property "Reference" "J20"
-			(at 59.69 205.74 0)
+			(at 62.23 205.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "3S 1P -ve"
-			(at 59.69 208.28 0)
+			(at 62.23 208.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill1.3mm"
@@ -4157,6 +4141,7 @@
 		)
 		(property "Description" "4S 1P Cell 3 Negative Interconnect Test Point"
 			(at 66.04 207.01 0)
+			(hide yes)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4191,25 +4176,23 @@
 		(fields_autoplaced yes)
 		(uuid "0abd0a48-43bc-49dc-a1df-05d86177b769")
 		(property "Reference" "J9"
-			(at 140.97 205.74 0)
+			(at 140.97 205.74 180)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "4S 1P +ve"
-			(at 140.97 208.28 0)
+			(at 140.97 208.28 180)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill1.3mm"
@@ -4310,7 +4293,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "4S B -ve"
@@ -4321,7 +4304,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill1.3mm"
@@ -4415,7 +4398,7 @@
 		(fields_autoplaced yes)
 		(uuid "cb661354-2730-493e-9417-ee9a3332ec65")
 		(property "Reference" "H1"
-			(at 223.81 151.13 0)
+			(at 220.00 149.86 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4426,7 +4409,7 @@
 			)
 		)
 		(property "Value" "MountingHole_M3_Pad"
-			(at 223.81 153.67 0)
+			(at 220.00 154.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4460,6 +4443,7 @@
 		)
 		(property "Description" "M3 Plated Ground / Chassis Mounting Hole"
 			(at 220.00 152.40 0)
+			(hide yes)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4524,7 +4508,7 @@
 		(fields_autoplaced yes)
 		(uuid "3be0f26e-065a-481f-9b5f-881ab38a4026")
 		(property "Reference" "H2"
-			(at 223.81 163.83 0)
+			(at 220.00 162.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4535,7 +4519,7 @@
 			)
 		)
 		(property "Value" "MountingHole_M3_Pad"
-			(at 223.81 166.37 0)
+			(at 220.00 167.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4569,6 +4553,7 @@
 		)
 		(property "Description" "M3 Plated Ground / Chassis Mounting Hole"
 			(at 220.00 165.10 0)
+			(hide yes)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4633,7 +4618,7 @@
 		(fields_autoplaced yes)
 		(uuid "00b097c3-aaa1-44d6-ac02-fc71b036306e")
 		(property "Reference" "H3"
-			(at 223.81 176.53 0)
+			(at 220.00 175.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4644,7 +4629,7 @@
 			)
 		)
 		(property "Value" "MountingHole_M3_Pad"
-			(at 223.81 179.07 0)
+			(at 220.00 180.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4678,6 +4663,7 @@
 		)
 		(property "Description" "M3 Plated Ground / Chassis Mounting Hole"
 			(at 220.00 177.80 0)
+			(hide yes)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4742,7 +4728,7 @@
 		(fields_autoplaced yes)
 		(uuid "2bede5c9-407d-45a0-a098-7b61db5037fd")
 		(property "Reference" "H4"
-			(at 223.81 189.23 0)
+			(at 220.00 187.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4753,7 +4739,7 @@
 			)
 		)
 		(property "Value" "MountingHole_M3_Pad"
-			(at 223.81 191.77 0)
+			(at 220.00 193.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4787,6 +4773,7 @@
 		)
 		(property "Description" "M3 Plated Ground / Chassis Mounting Hole"
 			(at 220.00 190.50 0)
+			(hide yes)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4851,7 +4838,7 @@
 		(fields_autoplaced yes)
 		(uuid "f6f49155-b79c-49da-9e1a-249fb0e58002")
 		(property "Reference" "H5"
-			(at 273.81 151.13 0)
+			(at 270.00 149.86 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4862,7 +4849,7 @@
 			)
 		)
 		(property "Value" "MountingHole_M3_Pad"
-			(at 273.81 153.67 0)
+			(at 270.00 154.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4896,6 +4883,7 @@
 		)
 		(property "Description" "M3 Plated Ground / Chassis Mounting Hole"
 			(at 270.00 152.40 0)
+			(hide yes)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4960,7 +4948,7 @@
 		(fields_autoplaced yes)
 		(uuid "fada2836-7e3c-4b04-a21e-d128659e10cc")
 		(property "Reference" "H6"
-			(at 273.81 163.83 0)
+			(at 270.00 162.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4971,7 +4959,7 @@
 			)
 		)
 		(property "Value" "MountingHole_M3_Pad"
-			(at 273.81 166.37 0)
+			(at 270.00 167.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5005,6 +4993,7 @@
 		)
 		(property "Description" "M3 Plated Ground / Chassis Mounting Hole"
 			(at 270.00 165.10 0)
+			(hide yes)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5069,7 +5058,7 @@
 		(fields_autoplaced yes)
 		(uuid "740559f2-a3c6-4a94-b1f4-c5ae58226785")
 		(property "Reference" "H7"
-			(at 273.81 176.53 0)
+			(at 270.00 175.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5080,7 +5069,7 @@
 			)
 		)
 		(property "Value" "MountingHole_M3_Pad"
-			(at 273.81 179.07 0)
+			(at 270.00 180.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5114,6 +5103,7 @@
 		)
 		(property "Description" "M3 Plated Ground / Chassis Mounting Hole"
 			(at 270.00 177.80 0)
+			(hide yes)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5178,7 +5168,7 @@
 		(fields_autoplaced yes)
 		(uuid "961331ad-3488-4e7f-83e4-c2733d011571")
 		(property "Reference" "H8"
-			(at 273.81 189.23 0)
+			(at 270.00 187.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5189,7 +5179,7 @@
 			)
 		)
 		(property "Value" "MountingHole_M3_Pad"
-			(at 273.81 191.77 0)
+			(at 270.00 193.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5223,6 +5213,7 @@
 		)
 		(property "Description" "M3 Plated Ground / Chassis Mounting Hole"
 			(at 270.00 190.50 0)
+			(hide yes)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5275,10 +5266,4 @@
 		)
 	)
 
-	(sheet_instances
-		(path "/"
-			(page "1")
-		)
-	)
-	(embedded_fonts no)
 )

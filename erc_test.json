@@ -1,0 +1,842 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-09-14T20:26:32",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.5",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/55445bf8-1e44-4cff-8573-6b24cd106f65",
+            "violations": [
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol BT1 Pin 1 [+, Passive, Line]",
+                            "pos": {
+                                "x": 0.4826,
+                                "y": 0.4318
+                            },
+                            "uuid": "d6691fcc-3054-447f-8633-b8d2a64a8477"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol BT1 Pin 2 [-, Passive, Line]",
+                            "pos": {
+                                "x": 0.4826,
+                                "y": 0.508
+                            },
+                            "uuid": "c13ca32f-886b-4324-9f9e-5e449504e6fb"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Label not connected",
+                    "items": [
+                        {
+                            "description": "Label '1S_B+'",
+                            "pos": {
+                                "x": 0.508,
+                                "y": 0.3937
+                            },
+                            "uuid": "354a9fe2-d299-4840-9a47-f6bbe947dccd"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected",
+                    "items": [
+                        {
+                            "description": "Label '1S_B-'",
+                            "pos": {
+                                "x": 0.508,
+                                "y": 0.5588
+                            },
+                            "uuid": "04937c2a-8e92-4581-8bac-54d49139c53c"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Wires not connected to anything",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0762 mm",
+                            "pos": {
+                                "x": 0.6858,
+                                "y": 0.9906
+                            },
+                            "uuid": "96dd3e5a-1a76-4a88-a0e3-dce384aa7718"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "wire_dangling"
+                },
+                {
+                    "description": "Wires not connected to anything",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.1270 mm",
+                            "pos": {
+                                "x": 0.6858,
+                                "y": 1.143
+                            },
+                            "uuid": "c1822908-99e8-48b1-8f52-357e53afedd2"
+                        },
+                        {
+                            "description": "Horizontal Wire, length 0.1778 mm",
+                            "pos": {
+                                "x": 0.508,
+                                "y": 1.2065
+                            },
+                            "uuid": "8fb6d6c8-f672-43f0-a66c-2fdc5a2da339"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "wire_dangling"
+                },
+                {
+                    "description": "Wires not connected to anything",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.1270 mm",
+                            "pos": {
+                                "x": 0.6858,
+                                "y": 1.3462
+                            },
+                            "uuid": "c131456f-b910-47dc-b939-722728f912d4"
+                        },
+                        {
+                            "description": "Horizontal Wire, length 0.1778 mm",
+                            "pos": {
+                                "x": 0.508,
+                                "y": 1.4097
+                            },
+                            "uuid": "91c7b1ef-d6ab-4cda-8e96-12bed3a52e95"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "wire_dangling"
+                },
+                {
+                    "description": "Wires not connected to anything",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.1270 mm",
+                            "pos": {
+                                "x": 0.6858,
+                                "y": 1.5494
+                            },
+                            "uuid": "fc8ac1f4-a2b6-4e58-9ae1-d8b03716c645"
+                        },
+                        {
+                            "description": "Horizontal Wire, length 0.1778 mm",
+                            "pos": {
+                                "x": 0.6858,
+                                "y": 1.6129
+                            },
+                            "uuid": "84f7ac15-9183-49f6-8da7-42dbc02e4595"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "wire_dangling"
+                },
+                {
+                    "description": "Wires not connected to anything",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0762 mm",
+                            "pos": {
+                                "x": 0.6858,
+                                "y": 1.7526
+                            },
+                            "uuid": "4b510141-3594-4048-ae43-a4f98724dd6d"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "wire_dangling"
+                },
+                {
+                    "description": "Label not connected",
+                    "items": [
+                        {
+                            "description": "Label '4S_B+'",
+                            "pos": {
+                                "x": 0.7112,
+                                "y": 1.0287
+                            },
+                            "uuid": "8cedc421-cf84-4837-aaf8-f3286b308139"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected",
+                    "items": [
+                        {
+                            "description": "Label '4S_B-'",
+                            "pos": {
+                                "x": 0.7112,
+                                "y": 1.7907
+                            },
+                            "uuid": "4209716d-fe69-49b5-94de-c241f8dbfb1e"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected",
+                    "items": [
+                        {
+                            "description": "Label '4P_B+'",
+                            "pos": {
+                                "x": 0.9906,
+                                "y": 0.381
+                            },
+                            "uuid": "380b1632-e5e9-4d1e-981b-6b95e93ec4da"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected",
+                    "items": [
+                        {
+                            "description": "Label '4P_B-'",
+                            "pos": {
+                                "x": 0.9906,
+                                "y": 0.6858
+                            },
+                            "uuid": "b549e38e-c56b-4730-9cd1-d6ad44aa8d6c"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Wires not connected to anything",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 1.0414 mm",
+                            "pos": {
+                                "x": 1.143,
+                                "y": 0.4064
+                            },
+                            "uuid": "72e534d7-e7c6-44b5-b15f-87f9979bb19b"
+                        },
+                        {
+                            "description": "Vertical Wire, length 0.0508 mm",
+                            "pos": {
+                                "x": 1.4224,
+                                "y": 0.3556
+                            },
+                            "uuid": "5a2b4cdb-0564-4832-aaff-7d6c701b2912"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "wire_dangling"
+                },
+                {
+                    "description": "Wires not connected to anything",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 1.0414 mm",
+                            "pos": {
+                                "x": 1.143,
+                                "y": 0.6604
+                            },
+                            "uuid": "ab97ba0c-5ac7-4ee2-a8a0-92a78727ea42"
+                        },
+                        {
+                            "description": "Vertical Wire, length 0.1016 mm",
+                            "pos": {
+                                "x": 1.4224,
+                                "y": 0.5588
+                            },
+                            "uuid": "5e257e7e-0df3-408e-a8ed-3be15e3721dc"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "wire_dangling"
+                },
+                {
+                    "description": "Unconnected wire endpoint",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0762 mm",
+                            "pos": {
+                                "x": 0.4826,
+                                "y": 0.3556
+                            },
+                            "uuid": "e1835c8a-b6f5-45dd-9e3a-616cd15cfe60"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "Unconnected wire endpoint",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.1016 mm",
+                            "pos": {
+                                "x": 0.4826,
+                                "y": 0.508
+                            },
+                            "uuid": "6527f534-d5ee-422b-b470-2976e7383c86"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "Unconnected wire endpoint",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.1778 mm",
+                            "pos": {
+                                "x": 0.508,
+                                "y": 1.2065
+                            },
+                            "uuid": "8fb6d6c8-f672-43f0-a66c-2fdc5a2da339"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "Unconnected wire endpoint",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.1778 mm",
+                            "pos": {
+                                "x": 0.508,
+                                "y": 1.4097
+                            },
+                            "uuid": "91c7b1ef-d6ab-4cda-8e96-12bed3a52e95"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "Unconnected wire endpoint",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.1778 mm",
+                            "pos": {
+                                "x": 0.508,
+                                "y": 1.6129
+                            },
+                            "uuid": "ca7763fe-a439-42aa-abcb-213a4649d028"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "Unconnected wire endpoint",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0762 mm",
+                            "pos": {
+                                "x": 0.6858,
+                                "y": 0.9906
+                            },
+                            "uuid": "96dd3e5a-1a76-4a88-a0e3-dce384aa7718"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "Unconnected wire endpoint",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0762 mm",
+                            "pos": {
+                                "x": 0.6858,
+                                "y": 0.9906
+                            },
+                            "uuid": "96dd3e5a-1a76-4a88-a0e3-dce384aa7718"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "Unconnected wire endpoint",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.1270 mm",
+                            "pos": {
+                                "x": 0.6858,
+                                "y": 1.143
+                            },
+                            "uuid": "c1822908-99e8-48b1-8f52-357e53afedd2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "Unconnected wire endpoint",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.1270 mm",
+                            "pos": {
+                                "x": 0.6858,
+                                "y": 1.143
+                            },
+                            "uuid": "c1822908-99e8-48b1-8f52-357e53afedd2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "Unconnected wire endpoint",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.1270 mm",
+                            "pos": {
+                                "x": 0.6858,
+                                "y": 1.3462
+                            },
+                            "uuid": "c131456f-b910-47dc-b939-722728f912d4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "Unconnected wire endpoint",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.1270 mm",
+                            "pos": {
+                                "x": 0.6858,
+                                "y": 1.3462
+                            },
+                            "uuid": "c131456f-b910-47dc-b939-722728f912d4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "Unconnected wire endpoint",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.1270 mm",
+                            "pos": {
+                                "x": 0.6858,
+                                "y": 1.5494
+                            },
+                            "uuid": "fc8ac1f4-a2b6-4e58-9ae1-d8b03716c645"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "Unconnected wire endpoint",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.1270 mm",
+                            "pos": {
+                                "x": 0.6858,
+                                "y": 1.5494
+                            },
+                            "uuid": "fc8ac1f4-a2b6-4e58-9ae1-d8b03716c645"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "Unconnected wire endpoint",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0762 mm",
+                            "pos": {
+                                "x": 0.6858,
+                                "y": 1.7526
+                            },
+                            "uuid": "4b510141-3594-4048-ae43-a4f98724dd6d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "Unconnected wire endpoint",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0762 mm",
+                            "pos": {
+                                "x": 0.6858,
+                                "y": 1.7526
+                            },
+                            "uuid": "4b510141-3594-4048-ae43-a4f98724dd6d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "Unconnected wire endpoint",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.1778 mm",
+                            "pos": {
+                                "x": 0.6858,
+                                "y": 1.2065
+                            },
+                            "uuid": "22da9863-ea55-42cb-81f6-f128e71cb68d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "Unconnected wire endpoint",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.1778 mm",
+                            "pos": {
+                                "x": 0.6858,
+                                "y": 1.4097
+                            },
+                            "uuid": "77379991-bb4d-40c0-b515-36d52a769ff7"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "Unconnected wire endpoint",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.1778 mm",
+                            "pos": {
+                                "x": 0.6858,
+                                "y": 1.6129
+                            },
+                            "uuid": "84f7ac15-9183-49f6-8da7-42dbc02e4595"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "Unconnected wire endpoint",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 1.0414 mm",
+                            "pos": {
+                                "x": 1.143,
+                                "y": 0.4064
+                            },
+                            "uuid": "72e534d7-e7c6-44b5-b15f-87f9979bb19b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "Unconnected wire endpoint",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 1.0414 mm",
+                            "pos": {
+                                "x": 1.143,
+                                "y": 0.6604
+                            },
+                            "uuid": "ab97ba0c-5ac7-4ee2-a8a0-92a78727ea42"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "Unconnected wire endpoint",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0508 mm",
+                            "pos": {
+                                "x": 1.4224,
+                                "y": 0.3556
+                            },
+                            "uuid": "5a2b4cdb-0564-4832-aaff-7d6c701b2912"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "Unconnected wire endpoint",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0762 mm",
+                            "pos": {
+                                "x": 1.4224,
+                                "y": 0.4826
+                            },
+                            "uuid": "b8ed46d5-3d4d-43b1-844a-5c0e6c32200f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "Unconnected wire endpoint",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.1016 mm",
+                            "pos": {
+                                "x": 1.4224,
+                                "y": 0.5588
+                            },
+                            "uuid": "5e257e7e-0df3-408e-a8ed-3be15e3721dc"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "Unconnected wire endpoint",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0508 mm",
+                            "pos": {
+                                "x": 1.4224,
+                                "y": 0.6604
+                            },
+                            "uuid": "15dda092-9f7c-486e-90a7-f03603724e32"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "Unconnected wire endpoint",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0508 mm",
+                            "pos": {
+                                "x": 1.6764,
+                                "y": 0.3556
+                            },
+                            "uuid": "c929aa86-c762-4526-a0de-0ef4f8cc1e34"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "Unconnected wire endpoint",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0762 mm",
+                            "pos": {
+                                "x": 1.6764,
+                                "y": 0.4826
+                            },
+                            "uuid": "1c280c56-1e40-4b38-8f87-8fb9b67ad63d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "Unconnected wire endpoint",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.1016 mm",
+                            "pos": {
+                                "x": 1.6764,
+                                "y": 0.5588
+                            },
+                            "uuid": "bea0b90d-2120-4a86-b6e0-7af05896bee5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "Unconnected wire endpoint",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0508 mm",
+                            "pos": {
+                                "x": 1.6764,
+                                "y": 0.6604
+                            },
+                            "uuid": "c1c56916-bcb0-435f-9667-dec24196342f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "Unconnected wire endpoint",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0508 mm",
+                            "pos": {
+                                "x": 1.9304,
+                                "y": 0.3556
+                            },
+                            "uuid": "5998511f-5a38-49b1-9b4b-98d227b2fc78"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "Unconnected wire endpoint",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0762 mm",
+                            "pos": {
+                                "x": 1.9304,
+                                "y": 0.4826
+                            },
+                            "uuid": "98651129-a150-4755-90a5-fe3aa7265bbc"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "Unconnected wire endpoint",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.1016 mm",
+                            "pos": {
+                                "x": 1.9304,
+                                "y": 0.5588
+                            },
+                            "uuid": "1fe5a238-bf51-40bc-ad48-ec140cc23016"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "Unconnected wire endpoint",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0508 mm",
+                            "pos": {
+                                "x": 1.9304,
+                                "y": 0.6604
+                            },
+                            "uuid": "537fd4d6-ab86-4681-8817-c9776e4e66a2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "Unconnected wire endpoint",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0508 mm",
+                            "pos": {
+                                "x": 2.1844,
+                                "y": 0.3556
+                            },
+                            "uuid": "6a834e0e-5a26-4219-be2c-e3a65cedabda"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "Unconnected wire endpoint",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0762 mm",
+                            "pos": {
+                                "x": 2.1844,
+                                "y": 0.4826
+                            },
+                            "uuid": "72f71362-aaa2-4078-810c-709bca849cff"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "Unconnected wire endpoint",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.1016 mm",
+                            "pos": {
+                                "x": 2.1844,
+                                "y": 0.5588
+                            },
+                            "uuid": "82801b18-ec9e-4796-bb0a-ea8149711a51"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                },
+                {
+                    "description": "Unconnected wire endpoint",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0508 mm",
+                            "pos": {
+                                "x": 2.1844,
+                                "y": 0.6604
+                            },
+                            "uuid": "9402e979-cfc5-4b04-945a-0f554fc77a6e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "unconnected_wire_endpoint"
+                }
+            ]
+        }
+    ],
+    "source": "ACIR_PCB.kicad_sch"
+}
