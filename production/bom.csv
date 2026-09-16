@@ -1,3 +1,4 @@
-﻿Designator,Footprint,Quantity,Value,LCSC Part #
-"BT1, BT2, BT3, BT4, BT5, BT6, BT7, BT8, BT9",BH18650B1BA002,9,BH18650B1BA002,
-"J1, J2, J3, J4, J5, J6",TestPoint_Bridge_Pitch2.54mm_Drill1.3mm,6,TestPoint,
+Designator,Footprint,Quantity,Value,LCSC Part #
+"BT1, BT2, BT3, BT4, BT5, BT6, BT7, BT8, BT9",BH18650B1BA002,9,BH-18650-B5BA008,
+"J1, J2, J3, J4, J5, J6, J7, J8, J9, J10, J11, J12, J13, J14, J15, J16, J17, J18, J19, J20",TestPoint_Pad_D2.0mm,20,TestPoint,
+"H1, H2, H3, H4, H5, H6, H7, H8",MountingHole_3.2mm_M3,8,MountingHole_M3_Pad,
