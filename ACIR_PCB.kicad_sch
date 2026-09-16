@@ -1375,7 +1375,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill1.3mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 73.66 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -1487,7 +1487,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill1.3mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 73.66 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -1599,7 +1599,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill1.3mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 154.94 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -1711,7 +1711,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill1.3mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 154.94 88.90 0)
 			(hide yes)
 			(show_name no)
@@ -1938,7 +1938,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill1.3mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 210.82 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -2050,7 +2050,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill1.3mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 210.82 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -2277,7 +2277,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill1.3mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 261.62 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -2389,7 +2389,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill1.3mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 261.62 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -2616,7 +2616,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill1.3mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 312.42 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -2728,7 +2728,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill1.3mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 312.42 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -2955,7 +2955,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill1.3mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 363.22 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -3067,7 +3067,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill1.3mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 363.22 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -3294,7 +3294,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill1.3mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 101.60 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -3521,7 +3521,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill1.3mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 66.04 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -3600,7 +3600,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill1.3mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 137.16 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -3827,7 +3827,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill1.3mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 66.04 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -3906,7 +3906,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill1.3mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 137.16 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -4133,7 +4133,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill1.3mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 66.04 207.01 0)
 			(hide yes)
 			(show_name no)
@@ -4212,7 +4212,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill1.3mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 137.16 207.01 0)
 			(hide yes)
 			(show_name no)
@@ -4324,7 +4324,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill1.3mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 101.60 233.68 0)
 			(hide yes)
 			(show_name no)
