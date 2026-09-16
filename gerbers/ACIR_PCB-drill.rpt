@@ -1,5 +1,5 @@
 Drill report for ACIR_PCB.kicad_pcb
-Created on 2026-09-14T20:04:38
+Created on 2026-09-15T10:04:46
 
 Copper Layer Stackup:
     =============================================================
@@ -10,13 +10,13 @@ Copper Layer Stackup:
 Drill file 'ACIR_PCB.drl' contains
     plated through holes:
     =============================================================
-    T1  0.400mm  0.0157"  (1792 holes))
+    T1  0.400mm  0.0157"  (1978 holes))
     T2  1.300mm  0.0512"  (40 holes))
     T3  1.830mm  0.0720"  (36 holes))
     T4  2.000mm  0.0787"  (18 holes)  (with 18 slots)
     T5  2.500mm  0.0984"  (18 holes))
 
-    Total plated holes count 1904
+    Total plated holes count 2090
 
 
 Not plated through holes are merged with plated holes

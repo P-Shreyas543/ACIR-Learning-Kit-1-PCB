@@ -1,6 +1,6 @@
 ** Drc report for ACIR_PCB.kicad_pcb **
-** Created on 2026-09-14T20:04:11 **
-** Report includes: Errors, Warnings **
+** Created on 2026-09-15T10:02:49 **
+** Report includes: Errors, Warnings, Exclusions **
 
 ** Found 20 DRC violations **
 [lib_footprint_mismatch]: Footprint 'TestPoint_Bridge_Pitch2.54mm_Drill1.3mm' does not match copy in library 'TestPoint'
