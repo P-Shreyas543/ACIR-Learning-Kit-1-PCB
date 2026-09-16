@@ -5,13 +5,13 @@
       "Application": "Pcbnew",
       "Version": "10.0.5"
     },
-    "CreationDate": "2026-09-16T11:08:28+05:30"
+    "CreationDate": "2026-09-16T11:41:25+05:30"
   },
   "GeneralSpecs": {
     "ProjectId": {
-      "Name": "ACIR_PCB",
-      "GUID": "41434952-5f50-4434-922e-6b696361645f",
-      "Revision": "rev?"
+      "Name": "ACIR-Learning-Kit-1-PCB",
+      "GUID": "41434952-2d4c-4656-9172-6e696e672d4b",
+      "Revision": "v2.0"
     },
     "Size": {
       "X": 297.1,
@@ -32,107 +32,107 @@
   ],
   "FilesAttributes": [
     {
-      "Path": "ACIR_PCB-F_Cu.gtl",
+      "Path": "ACIR-Learning-Kit-1-PCB-F_Cu.gtl",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "ACIR_PCB-B_Cu.gbl",
+      "Path": "ACIR-Learning-Kit-1-PCB-B_Cu.gbl",
       "FileFunction": "Copper,L2,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "ACIR_PCB-F_Adhesive.gta",
+      "Path": "ACIR-Learning-Kit-1-PCB-F_Adhesive.gta",
       "FileFunction": "Glue,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "ACIR_PCB-B_Adhesive.gba",
+      "Path": "ACIR-Learning-Kit-1-PCB-B_Adhesive.gba",
       "FileFunction": "Glue,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "ACIR_PCB-F_Paste.gtp",
+      "Path": "ACIR-Learning-Kit-1-PCB-F_Paste.gtp",
       "FileFunction": "SolderPaste,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "ACIR_PCB-B_Paste.gbp",
+      "Path": "ACIR-Learning-Kit-1-PCB-B_Paste.gbp",
       "FileFunction": "SolderPaste,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "ACIR_PCB-F_Silkscreen.gto",
+      "Path": "ACIR-Learning-Kit-1-PCB-F_Silkscreen.gto",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "ACIR_PCB-B_Silkscreen.gbo",
+      "Path": "ACIR-Learning-Kit-1-PCB-B_Silkscreen.gbo",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "ACIR_PCB-F_Mask.gts",
+      "Path": "ACIR-Learning-Kit-1-PCB-F_Mask.gts",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "ACIR_PCB-B_Mask.gbs",
+      "Path": "ACIR-Learning-Kit-1-PCB-B_Mask.gbs",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "ACIR_PCB-User_Drawings.gbr",
+      "Path": "ACIR-Learning-Kit-1-PCB-User_Drawings.gbr",
       "FileFunction": "Other,User",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "ACIR_PCB-User_Comments.gbr",
+      "Path": "ACIR-Learning-Kit-1-PCB-User_Comments.gbr",
       "FileFunction": "Other,User",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "ACIR_PCB-User_Eco1.gbr",
+      "Path": "ACIR-Learning-Kit-1-PCB-User_Eco1.gbr",
       "FileFunction": "Other,User",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "ACIR_PCB-User_Eco2.gbr",
+      "Path": "ACIR-Learning-Kit-1-PCB-User_Eco2.gbr",
       "FileFunction": "Other,User",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "ACIR_PCB-Edge_Cuts.gm1",
+      "Path": "ACIR-Learning-Kit-1-PCB-Edge_Cuts.gm1",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "ACIR_PCB-F_Fab.gbr",
+      "Path": "ACIR-Learning-Kit-1-PCB-F_Fab.gbr",
       "FileFunction": "AssemblyDrawing,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "ACIR_PCB-B_Fab.gbr",
+      "Path": "ACIR-Learning-Kit-1-PCB-B_Fab.gbr",
       "FileFunction": "AssemblyDrawing,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "ACIR_PCB-User_1.gbr",
+      "Path": "ACIR-Learning-Kit-1-PCB-User_1.gbr",
       "FileFunction": "Other,User",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "ACIR_PCB-User_2.gbr",
+      "Path": "ACIR-Learning-Kit-1-PCB-User_2.gbr",
       "FileFunction": "Other,User",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "ACIR_PCB-User_3.gbr",
+      "Path": "ACIR-Learning-Kit-1-PCB-User_3.gbr",
       "FileFunction": "Other,User",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "ACIR_PCB-User_4.gbr",
+      "Path": "ACIR-Learning-Kit-1-PCB-User_4.gbr",
       "FileFunction": "Other,User",
       "FilePolarity": "Positive"
     }

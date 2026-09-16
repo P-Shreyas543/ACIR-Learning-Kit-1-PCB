@@ -8,7 +8,14 @@
 	)
 	(paper "A3")
 	(title_block
-		(date "2026-07-18")
+		(title "ACIR LEARNING KIT 1 - CHARACTERIZATION & EXPERIMENTATION BOARD")
+		(date "2026-09-16")
+		(rev "v2.0")
+		(company "Decibels Lab Pvt Ltd")
+		(comment 1 "Comprehensive 18650 ACIR Characterization Platform")
+		(comment 2 "Configurations: 1S 1P Baseline | 1S 4P Parallel Current Sharing | 4S 1P Series String")
+		(comment 3 "High-Frequency 1kHz Kelvin 4-Wire EIS Sensing Architecture & Ultra-Dense Via Arrays")
+		(comment 4 "Production-Ready Hardware Design & Educational Measurement Kit")
 	)
 	(layers
 		(0 "F.Cu" signal)
@@ -183,7 +190,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/657c1500-24b8-4ff0-be84-788e9d6211ac")
 		(sheetname "/")
-		(sheetfile "ACIR_PCB.kicad_sch")
+		(sheetfile "ACIR-Learning-Kit-1-PCB.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -373,7 +380,7 @@
 		)
 		(path "/87c59486-7a3b-428a-83e1-7757982aef88")
 		(sheetname "/")
-		(sheetfile "ACIR_PCB.kicad_sch")
+		(sheetfile "ACIR-Learning-Kit-1-PCB.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -886,7 +893,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/3c3ebd12-7345-44bd-ab20-73b2e166e187")
 		(sheetname "/")
-		(sheetfile "ACIR_PCB.kicad_sch")
+		(sheetfile "ACIR-Learning-Kit-1-PCB.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -1099,7 +1106,7 @@
 		)
 		(path "/3ab924ea-c3aa-4064-9a78-01b5a5ed953d")
 		(sheetname "/")
-		(sheetfile "ACIR_PCB.kicad_sch")
+		(sheetfile "ACIR-Learning-Kit-1-PCB.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -1611,7 +1618,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/f6f49155-b79c-49da-9e1a-249fb0e58002")
 		(sheetname "/")
-		(sheetfile "ACIR_PCB.kicad_sch")
+		(sheetfile "ACIR-Learning-Kit-1-PCB.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -1755,7 +1762,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/c7b3bb31-c442-446f-934f-9091beb0760f")
 		(sheetname "/")
-		(sheetfile "ACIR_PCB.kicad_sch")
+		(sheetfile "ACIR-Learning-Kit-1-PCB.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -1901,7 +1908,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/0abd0a48-43bc-49dc-a1df-05d86177b769")
 		(sheetname "/")
-		(sheetfile "ACIR_PCB.kicad_sch")
+		(sheetfile "ACIR-Learning-Kit-1-PCB.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -2008,7 +2015,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/4d82faf8-6adc-42fa-b28a-c9fa356d445d")
 		(sheetname "/")
-		(sheetfile "ACIR_PCB.kicad_sch")
+		(sheetfile "ACIR-Learning-Kit-1-PCB.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -2153,7 +2160,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/fada2836-7e3c-4b04-a21e-d128659e10cc")
 		(sheetname "/")
-		(sheetfile "ACIR_PCB.kicad_sch")
+		(sheetfile "ACIR-Learning-Kit-1-PCB.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -2297,7 +2304,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/608ba234-b223-40fd-95d1-9b25b5f3c78c")
 		(sheetname "/")
-		(sheetfile "ACIR_PCB.kicad_sch")
+		(sheetfile "ACIR-Learning-Kit-1-PCB.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -2489,7 +2496,7 @@
 		)
 		(path "/03359c05-70ce-478e-a08f-1d17e89b55bf")
 		(sheetname "/")
-		(sheetfile "ACIR_PCB.kicad_sch")
+		(sheetfile "ACIR-Learning-Kit-1-PCB.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -3045,7 +3052,7 @@
 		)
 		(path "/7c30120b-bfe2-48be-a600-80bec8f605a4")
 		(sheetname "/")
-		(sheetfile "ACIR_PCB.kicad_sch")
+		(sheetfile "ACIR-Learning-Kit-1-PCB.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -3558,7 +3565,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/0cb5ffb0-e2db-460a-8990-092b89bd2b09")
 		(sheetname "/")
-		(sheetfile "ACIR_PCB.kicad_sch")
+		(sheetfile "ACIR-Learning-Kit-1-PCB.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -3703,7 +3710,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/961331ad-3488-4e7f-83e4-c2733d011571")
 		(sheetname "/")
-		(sheetfile "ACIR_PCB.kicad_sch")
+		(sheetfile "ACIR-Learning-Kit-1-PCB.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -3808,7 +3815,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/e47b013d-31f8-4d87-91f4-d013aa576bd3")
 		(sheetname "/")
-		(sheetfile "ACIR_PCB.kicad_sch")
+		(sheetfile "ACIR-Learning-Kit-1-PCB.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -3954,7 +3961,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/3d340c10-4619-40b0-8f95-9e9616b7d6eb")
 		(sheetname "/")
-		(sheetfile "ACIR_PCB.kicad_sch")
+		(sheetfile "ACIR-Learning-Kit-1-PCB.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -4100,7 +4107,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/fffcd9a4-dbbe-42bd-b719-5ce8a7300c30")
 		(sheetname "/")
-		(sheetfile "ACIR_PCB.kicad_sch")
+		(sheetfile "ACIR-Learning-Kit-1-PCB.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -4306,7 +4313,7 @@
 		)
 		(path "/5be91302-92fb-45d3-980f-107157e575e5")
 		(sheetname "/")
-		(sheetfile "ACIR_PCB.kicad_sch")
+		(sheetfile "ACIR-Learning-Kit-1-PCB.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -5894,7 +5901,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/8f5d2165-d568-4add-9162-8add2f890e32")
 		(sheetname "/")
-		(sheetfile "ACIR_PCB.kicad_sch")
+		(sheetfile "ACIR-Learning-Kit-1-PCB.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -6092,7 +6099,7 @@
 		)
 		(path "/7a29498a-732a-491d-8453-37a0e3886726")
 		(sheetname "/")
-		(sheetfile "ACIR_PCB.kicad_sch")
+		(sheetfile "ACIR-Learning-Kit-1-PCB.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -6605,7 +6612,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/82be36dc-fbef-4a07-bf3d-92129f851106")
 		(sheetname "/")
-		(sheetfile "ACIR_PCB.kicad_sch")
+		(sheetfile "ACIR-Learning-Kit-1-PCB.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -6750,7 +6757,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/740559f2-a3c6-4a94-b1f4-c5ae58226785")
 		(sheetname "/")
-		(sheetfile "ACIR_PCB.kicad_sch")
+		(sheetfile "ACIR-Learning-Kit-1-PCB.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -8011,7 +8018,7 @@
 		)
 		(path "/a3d81823-1e29-4688-a70a-569fad3db46d")
 		(sheetname "/")
-		(sheetfile "ACIR_PCB.kicad_sch")
+		(sheetfile "ACIR-Learning-Kit-1-PCB.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -8523,7 +8530,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/3be0f26e-065a-481f-9b5f-881ab38a4026")
 		(sheetname "/")
-		(sheetfile "ACIR_PCB.kicad_sch")
+		(sheetfile "ACIR-Learning-Kit-1-PCB.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -8667,7 +8674,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/76f24df8-157c-475c-a0f0-38161e380ebf")
 		(sheetname "/")
-		(sheetfile "ACIR_PCB.kicad_sch")
+		(sheetfile "ACIR-Learning-Kit-1-PCB.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -8866,7 +8873,7 @@
 		)
 		(path "/b0121c09-c8ba-4e28-bcb9-4d16b976d71e")
 		(sheetname "/")
-		(sheetfile "ACIR_PCB.kicad_sch")
+		(sheetfile "ACIR-Learning-Kit-1-PCB.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -9379,7 +9386,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/bb233757-68f0-4a34-b7da-a45060d3d908")
 		(sheetname "/")
-		(sheetfile "ACIR_PCB.kicad_sch")
+		(sheetfile "ACIR-Learning-Kit-1-PCB.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -9524,7 +9531,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/cb661354-2730-493e-9417-ee9a3332ec65")
 		(sheetname "/")
-		(sheetfile "ACIR_PCB.kicad_sch")
+		(sheetfile "ACIR-Learning-Kit-1-PCB.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -9629,7 +9636,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/56ee77e5-3c1a-494d-80a5-a7d3720f4ae1")
 		(sheetname "/")
-		(sheetfile "ACIR_PCB.kicad_sch")
+		(sheetfile "ACIR-Learning-Kit-1-PCB.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -9835,7 +9842,7 @@
 		)
 		(path "/f66f5b91-83b1-4972-a568-70505967b0c8")
 		(sheetname "/")
-		(sheetfile "ACIR_PCB.kicad_sch")
+		(sheetfile "ACIR-Learning-Kit-1-PCB.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -10348,7 +10355,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/c807e344-0a3f-4132-93cd-01120694d04b")
 		(sheetname "/")
-		(sheetfile "ACIR_PCB.kicad_sch")
+		(sheetfile "ACIR-Learning-Kit-1-PCB.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -10494,7 +10501,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/a94042ab-a23b-43e1-9c4b-f6b622587311")
 		(sheetname "/")
-		(sheetfile "ACIR_PCB.kicad_sch")
+		(sheetfile "ACIR-Learning-Kit-1-PCB.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -10639,7 +10646,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/2bede5c9-407d-45a0-a098-7b61db5037fd")
 		(sheetname "/")
-		(sheetfile "ACIR_PCB.kicad_sch")
+		(sheetfile "ACIR-Learning-Kit-1-PCB.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -10783,7 +10790,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/7ab84160-0c55-4e43-b14f-1b74fab801c3")
 		(sheetname "/")
-		(sheetfile "ACIR_PCB.kicad_sch")
+		(sheetfile "ACIR-Learning-Kit-1-PCB.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -10928,7 +10935,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/00b097c3-aaa1-44d6-ac02-fc71b036306e")
 		(sheetname "/")
-		(sheetfile "ACIR_PCB.kicad_sch")
+		(sheetfile "ACIR-Learning-Kit-1-PCB.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -11072,7 +11079,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/e35ab135-6df5-4604-a43a-09696f1842d5")
 		(sheetname "/")
-		(sheetfile "ACIR_PCB.kicad_sch")
+		(sheetfile "ACIR-Learning-Kit-1-PCB.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -11218,7 +11225,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/510eb7f7-322b-4506-8bb6-ca5fefc75586")
 		(sheetname "/")
-		(sheetfile "ACIR_PCB.kicad_sch")
+		(sheetfile "ACIR-Learning-Kit-1-PCB.kicad_sch")
 		(units
 			(unit
 				(name "A")

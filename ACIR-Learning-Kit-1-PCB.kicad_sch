@@ -6,7 +6,7 @@
 	(paper "A3")
 	(title_block
 		(title "ACIR LEARNING KIT 1 - CHARACTERIZATION & EXPERIMENTATION BOARD")
-		(date "2026-09-14")
+		(date "2026-09-16")
 		(rev "v2.0")
 		(company "Decibels Lab Pvt Ltd")
 		(comment 1 "Comprehensive 18650 ACIR Characterization Platform")
@@ -1361,7 +1361,7 @@
 			)
 		)
 		(instances
-			(project "ACIR_PCB"
+			(project "ACIR-Learning-Kit-1-PCB"
 				(path "/55445bf8-1e44-4cff-8573-6b24cd106f65"
 					(reference "H3")
 					(unit 1)
@@ -1476,7 +1476,7 @@
 			(uuid "cca1c2fe-96b1-4d04-8899-311922ab3411")
 		)
 		(instances
-			(project "ACIR_PCB"
+			(project "ACIR-Learning-Kit-1-PCB"
 				(path "/55445bf8-1e44-4cff-8573-6b24cd106f65"
 					(reference "BT4")
 					(unit 1)
@@ -1588,7 +1588,7 @@
 			(uuid "21a5f10a-6c12-41b2-ba47-755970534cbb")
 		)
 		(instances
-			(project "ACIR_PCB"
+			(project "ACIR-Learning-Kit-1-PCB"
 				(path "/55445bf8-1e44-4cff-8573-6b24cd106f65"
 					(reference "J9")
 					(unit 1)
@@ -1700,7 +1700,7 @@
 			(uuid "d4078681-692e-4a9d-9cb7-7fee27bc5446")
 		)
 		(instances
-			(project "ACIR_PCB"
+			(project "ACIR-Learning-Kit-1-PCB"
 				(path "/55445bf8-1e44-4cff-8573-6b24cd106f65"
 					(reference "J5")
 					(unit 1)
@@ -1809,7 +1809,7 @@
 			)
 		)
 		(instances
-			(project "ACIR_PCB"
+			(project "ACIR-Learning-Kit-1-PCB"
 				(path "/55445bf8-1e44-4cff-8573-6b24cd106f65"
 					(reference "H4")
 					(unit 1)
@@ -1924,7 +1924,7 @@
 			(uuid "6d5e4f0f-0a1f-4058-8835-dba32ff93e23")
 		)
 		(instances
-			(project "ACIR_PCB"
+			(project "ACIR-Learning-Kit-1-PCB"
 				(path "/55445bf8-1e44-4cff-8573-6b24cd106f65"
 					(reference "BT8")
 					(unit 1)
@@ -2033,7 +2033,7 @@
 			)
 		)
 		(instances
-			(project "ACIR_PCB"
+			(project "ACIR-Learning-Kit-1-PCB"
 				(path "/55445bf8-1e44-4cff-8573-6b24cd106f65"
 					(reference "H2")
 					(unit 1)
@@ -2145,7 +2145,7 @@
 			(uuid "89fd01b0-4601-47c6-8215-4902a1594b7d")
 		)
 		(instances
-			(project "ACIR_PCB"
+			(project "ACIR-Learning-Kit-1-PCB"
 				(path "/55445bf8-1e44-4cff-8573-6b24cd106f65"
 					(reference "J17")
 					(unit 1)
@@ -2257,7 +2257,7 @@
 			(uuid "0ee2987b-97f9-45a2-9dec-6d1954b1530f")
 		)
 		(instances
-			(project "ACIR_PCB"
+			(project "ACIR-Learning-Kit-1-PCB"
 				(path "/55445bf8-1e44-4cff-8573-6b24cd106f65"
 					(reference "J3")
 					(unit 1)
@@ -2336,7 +2336,7 @@
 			(uuid "629f6adb-8405-4360-8dba-37d1defc8795")
 		)
 		(instances
-			(project "ACIR_PCB"
+			(project "ACIR-Learning-Kit-1-PCB"
 				(path "/55445bf8-1e44-4cff-8573-6b24cd106f65"
 					(reference "J19")
 					(unit 1)
@@ -2448,7 +2448,7 @@
 			(uuid "ec913fc7-d81d-4a2c-9126-646acfa2043e")
 		)
 		(instances
-			(project "ACIR_PCB"
+			(project "ACIR-Learning-Kit-1-PCB"
 				(path "/55445bf8-1e44-4cff-8573-6b24cd106f65"
 					(reference "J4")
 					(unit 1)
@@ -2527,7 +2527,7 @@
 			(uuid "324506d9-1d2f-4bc9-bc08-231d26c6e2c4")
 		)
 		(instances
-			(project "ACIR_PCB"
+			(project "ACIR-Learning-Kit-1-PCB"
 				(path "/55445bf8-1e44-4cff-8573-6b24cd106f65"
 					(reference "J20")
 					(unit 1)
@@ -2642,7 +2642,7 @@
 			(uuid "90308035-5b30-4ceb-8162-6eddc43f8000")
 		)
 		(instances
-			(project "ACIR_PCB"
+			(project "ACIR-Learning-Kit-1-PCB"
 				(path "/55445bf8-1e44-4cff-8573-6b24cd106f65"
 					(reference "BT9")
 					(unit 1)
@@ -2754,7 +2754,7 @@
 			(uuid "4bff0072-a1a9-45e0-80c1-656da77dbdd7")
 		)
 		(instances
-			(project "ACIR_PCB"
+			(project "ACIR-Learning-Kit-1-PCB"
 				(path "/55445bf8-1e44-4cff-8573-6b24cd106f65"
 					(reference "J13")
 					(unit 1)
@@ -2866,7 +2866,7 @@
 			(uuid "ef619ac3-37e8-4963-988b-20102a6246de")
 		)
 		(instances
-			(project "ACIR_PCB"
+			(project "ACIR-Learning-Kit-1-PCB"
 				(path "/55445bf8-1e44-4cff-8573-6b24cd106f65"
 					(reference "J7")
 					(unit 1)
@@ -2975,7 +2975,7 @@
 			)
 		)
 		(instances
-			(project "ACIR_PCB"
+			(project "ACIR-Learning-Kit-1-PCB"
 				(path "/55445bf8-1e44-4cff-8573-6b24cd106f65"
 					(reference "H7")
 					(unit 1)
@@ -3087,7 +3087,7 @@
 			(uuid "e2928b2e-67c7-4c7e-a8ed-b0cedcfe509d")
 		)
 		(instances
-			(project "ACIR_PCB"
+			(project "ACIR-Learning-Kit-1-PCB"
 				(path "/55445bf8-1e44-4cff-8573-6b24cd106f65"
 					(reference "J2")
 					(unit 1)
@@ -3202,7 +3202,7 @@
 			(uuid "d7135572-70f1-44ef-93cf-1ac5268abbbf")
 		)
 		(instances
-			(project "ACIR_PCB"
+			(project "ACIR-Learning-Kit-1-PCB"
 				(path "/55445bf8-1e44-4cff-8573-6b24cd106f65"
 					(reference "BT2")
 					(unit 1)
@@ -3314,7 +3314,7 @@
 			(uuid "2860759a-0926-4fa0-9686-ba1f6ffaa334")
 		)
 		(instances
-			(project "ACIR_PCB"
+			(project "ACIR-Learning-Kit-1-PCB"
 				(path "/55445bf8-1e44-4cff-8573-6b24cd106f65"
 					(reference "J12")
 					(unit 1)
@@ -3429,7 +3429,7 @@
 			(uuid "ddd2300f-53eb-485e-b633-cdee941c4507")
 		)
 		(instances
-			(project "ACIR_PCB"
+			(project "ACIR-Learning-Kit-1-PCB"
 				(path "/55445bf8-1e44-4cff-8573-6b24cd106f65"
 					(reference "BT7")
 					(unit 1)
@@ -3541,7 +3541,7 @@
 			(uuid "208c6d86-9411-42f0-a801-e6120d16fc97")
 		)
 		(instances
-			(project "ACIR_PCB"
+			(project "ACIR-Learning-Kit-1-PCB"
 				(path "/55445bf8-1e44-4cff-8573-6b24cd106f65"
 					(reference "J15")
 					(unit 1)
@@ -3656,7 +3656,7 @@
 			(uuid "e3ab0a0a-7cf2-4d0f-a111-eb4381fa04a0")
 		)
 		(instances
-			(project "ACIR_PCB"
+			(project "ACIR-Learning-Kit-1-PCB"
 				(path "/55445bf8-1e44-4cff-8573-6b24cd106f65"
 					(reference "BT1")
 					(unit 1)
@@ -3768,7 +3768,7 @@
 			(uuid "0656d584-1fcb-4ee9-8061-37d38c77fa67")
 		)
 		(instances
-			(project "ACIR_PCB"
+			(project "ACIR-Learning-Kit-1-PCB"
 				(path "/55445bf8-1e44-4cff-8573-6b24cd106f65"
 					(reference "J16")
 					(unit 1)
@@ -3877,7 +3877,7 @@
 			)
 		)
 		(instances
-			(project "ACIR_PCB"
+			(project "ACIR-Learning-Kit-1-PCB"
 				(path "/55445bf8-1e44-4cff-8573-6b24cd106f65"
 					(reference "H8")
 					(unit 1)
@@ -3992,7 +3992,7 @@
 			(uuid "ffbe0edb-22ad-4fd0-81b2-175b4e215456")
 		)
 		(instances
-			(project "ACIR_PCB"
+			(project "ACIR-Learning-Kit-1-PCB"
 				(path "/55445bf8-1e44-4cff-8573-6b24cd106f65"
 					(reference "BT5")
 					(unit 1)
@@ -4104,7 +4104,7 @@
 			(uuid "571d8927-aaf2-4ab6-a623-cbc427969660")
 		)
 		(instances
-			(project "ACIR_PCB"
+			(project "ACIR-Learning-Kit-1-PCB"
 				(path "/55445bf8-1e44-4cff-8573-6b24cd106f65"
 					(reference "J10")
 					(unit 1)
@@ -4219,7 +4219,7 @@
 			(uuid "4ffa95c7-d29e-4508-b5d9-c3e657ddc1a1")
 		)
 		(instances
-			(project "ACIR_PCB"
+			(project "ACIR-Learning-Kit-1-PCB"
 				(path "/55445bf8-1e44-4cff-8573-6b24cd106f65"
 					(reference "BT3")
 					(unit 1)
@@ -4331,7 +4331,7 @@
 			(uuid "947d7339-cd3c-49d2-8faa-6ea9e51b2b92")
 		)
 		(instances
-			(project "ACIR_PCB"
+			(project "ACIR-Learning-Kit-1-PCB"
 				(path "/55445bf8-1e44-4cff-8573-6b24cd106f65"
 					(reference "J8")
 					(unit 1)
@@ -4443,7 +4443,7 @@
 			(uuid "2971d9b2-234b-45b7-92d9-a4d5d6e92ba3")
 		)
 		(instances
-			(project "ACIR_PCB"
+			(project "ACIR-Learning-Kit-1-PCB"
 				(path "/55445bf8-1e44-4cff-8573-6b24cd106f65"
 					(reference "J14")
 					(unit 1)
@@ -4555,7 +4555,7 @@
 			(uuid "20352c4e-948b-4710-8cef-d812ce63879c")
 		)
 		(instances
-			(project "ACIR_PCB"
+			(project "ACIR-Learning-Kit-1-PCB"
 				(path "/55445bf8-1e44-4cff-8573-6b24cd106f65"
 					(reference "J6")
 					(unit 1)
@@ -4664,7 +4664,7 @@
 			)
 		)
 		(instances
-			(project "ACIR_PCB"
+			(project "ACIR-Learning-Kit-1-PCB"
 				(path "/55445bf8-1e44-4cff-8573-6b24cd106f65"
 					(reference "H1")
 					(unit 1)
@@ -4776,7 +4776,7 @@
 			(uuid "3e6701af-5cbe-4061-819e-11ecd57cf5b7")
 		)
 		(instances
-			(project "ACIR_PCB"
+			(project "ACIR-Learning-Kit-1-PCB"
 				(path "/55445bf8-1e44-4cff-8573-6b24cd106f65"
 					(reference "J11")
 					(unit 1)
@@ -4855,7 +4855,7 @@
 			(uuid "4bd71f15-59e3-45b3-8422-2bb511d754ce")
 		)
 		(instances
-			(project "ACIR_PCB"
+			(project "ACIR-Learning-Kit-1-PCB"
 				(path "/55445bf8-1e44-4cff-8573-6b24cd106f65"
 					(reference "J18")
 					(unit 1)
@@ -4970,7 +4970,7 @@
 			(uuid "b046d972-aa8e-4875-abe5-4b7209c1f1d1")
 		)
 		(instances
-			(project "ACIR_PCB"
+			(project "ACIR-Learning-Kit-1-PCB"
 				(path "/55445bf8-1e44-4cff-8573-6b24cd106f65"
 					(reference "BT6")
 					(unit 1)
@@ -5079,7 +5079,7 @@
 			)
 		)
 		(instances
-			(project "ACIR_PCB"
+			(project "ACIR-Learning-Kit-1-PCB"
 				(path "/55445bf8-1e44-4cff-8573-6b24cd106f65"
 					(reference "H5")
 					(unit 1)
@@ -5188,7 +5188,7 @@
 			)
 		)
 		(instances
-			(project "ACIR_PCB"
+			(project "ACIR-Learning-Kit-1-PCB"
 				(path "/55445bf8-1e44-4cff-8573-6b24cd106f65"
 					(reference "H6")
 					(unit 1)
@@ -5300,7 +5300,7 @@
 			(uuid "bea3e93a-593a-4402-ad3f-c0cfca59e561")
 		)
 		(instances
-			(project "ACIR_PCB"
+			(project "ACIR-Learning-Kit-1-PCB"
 				(path "/55445bf8-1e44-4cff-8573-6b24cd106f65"
 					(reference "J1")
 					(unit 1)

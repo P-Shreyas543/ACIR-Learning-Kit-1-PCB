@@ -504,7 +504,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "ACIR_PCB.kicad_pro",
+    "filename": "ACIR-Learning-Kit-1-PCB.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -690,7 +690,7 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "ACIR_PCB.kicad_sch",
+        "filename": "ACIR-Learning-Kit-1-PCB.kicad_sch",
         "name": "Root",
         "uuid": "55445bf8-1e44-4cff-8573-6b24cd106f65"
       }
