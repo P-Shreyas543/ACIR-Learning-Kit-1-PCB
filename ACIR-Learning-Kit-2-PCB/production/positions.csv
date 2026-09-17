@@ -31,9 +31,9 @@ Ref,Val,Package,PosX,PosY,Rot,Side
 "J18","1S 1P -ve","TestPoint_Pad_D6.0mm",216.000000,-163.030000,0.000000,top
 "J19","2S 1P -ve","TestPoint_Pad_D6.0mm",320.360000,-186.780000,0.000000,top
 "J20","3S 1P -ve","TestPoint_Pad_D6.0mm",216.000000,-210.530000,0.000000,top
-"P1","1S 1P -ve","TestPoint_Pad_D6.0mm",145.340000,-82.360000,0.000000,top
-"P2","1S 1P +ve","TestPoint_Pad_D6.0mm",249.700000,-82.360000,0.000000,top
-"P3","1S 1P +ve","TestPoint_Pad_D6.0mm",169.105000,-92.530000,0.000000,top
-"P4","1S 1P -ve","TestPoint_Pad_D6.0mm",227.050000,-92.530000,0.000000,top
-"P5","1S 1P +ve","TestPoint_Pad_D6.0mm",183.330000,-100.180000,0.000000,top
-"P6","1S 1P -ve","TestPoint_Pad_D6.0mm",219.750000,-100.180000,0.000000,top
+"P1","1S 1P -ve","TestPoint_Pad_D6.0mm",145.400000,-81.000000,0.000000,top
+"P2","1S 1P +ve","TestPoint_Pad_D6.0mm",249.400000,-81.000000,0.000000,top
+"P3","1S 1P +ve","TestPoint_Pad_D6.0mm",165.400000,-90.000000,0.000000,top
+"P4","1S 1P -ve","TestPoint_Pad_D6.0mm",229.400000,-90.000000,0.000000,top
+"P5","1S 1P +ve","TestPoint_Pad_D6.0mm",181.400000,-99.000000,0.000000,top
+"P6","1S 1P -ve","TestPoint_Pad_D6.0mm",213.400000,-99.000000,0.000000,top
