@@ -805,7 +805,7 @@
 			(uuid "3bfdbe67-be8f-4c78-b954-5f22e54b3706")
 		)
 		(embedded_fonts no)
-		(model "/footprints.3dshapes/BatteryHolder_Keystone_1042_1x18650.step"
+		(model "${KIPRJMOD}/footprints.3dshapes/BatteryHolder_Keystone_1042_1x18650.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1548,7 +1548,7 @@
 			(uuid "9e0909e5-de6f-4fd1-aec8-d4c3331e1861")
 		)
 		(embedded_fonts no)
-		(model "/footprints.3dshapes/BatteryHolder_Keystone_1042_1x18650.step"
+		(model "${KIPRJMOD}/footprints.3dshapes/BatteryHolder_Keystone_1042_1x18650.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2922,7 +2922,7 @@
 			(uuid "c39a6aaf-234e-47cb-8041-aa74f145ccf9")
 		)
 		(embedded_fonts no)
-		(model "/footprints.3dshapes/BatteryHolder_Keystone_1042_1x18650.step"
+		(model "${KIPRJMOD}/footprints.3dshapes/BatteryHolder_Keystone_1042_1x18650.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3506,7 +3506,7 @@
 			(uuid "4102ccc2-43e7-4019-9aff-0b96923241a6")
 		)
 		(embedded_fonts no)
-		(model "/footprints.3dshapes/BatteryHolder_Keystone_1042_1x18650.step"
+		(model "${KIPRJMOD}/footprints.3dshapes/BatteryHolder_Keystone_1042_1x18650.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4751,7 +4751,7 @@
 			(uuid "ae810919-fad2-4b46-9754-1f4e81477014")
 		)
 		(embedded_fonts no)
-		(model "/footprints.3dshapes/BatteryHolder_Keystone_1042_1x18650.step"
+		(model "${KIPRJMOD}/footprints.3dshapes/BatteryHolder_Keystone_1042_1x18650.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6554,7 +6554,7 @@
 			(uuid "57ee07a4-5cd2-42ac-9373-de3a69bd4c77")
 		)
 		(embedded_fonts no)
-		(model "/footprints.3dshapes/BatteryHolder_Keystone_1042_1x18650.step"
+		(model "${KIPRJMOD}/footprints.3dshapes/BatteryHolder_Keystone_1042_1x18650.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -8490,7 +8490,7 @@
 			(uuid "60a229a7-90a7-463c-bc75-6d62ad5ffbb0")
 		)
 		(embedded_fonts no)
-		(model "/footprints.3dshapes/BatteryHolder_Keystone_1042_1x18650.step"
+		(model "${KIPRJMOD}/footprints.3dshapes/BatteryHolder_Keystone_1042_1x18650.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9362,7 +9362,7 @@
 			(uuid "238f05f9-970e-4224-82b9-cdec7696af78")
 		)
 		(embedded_fonts no)
-		(model "/footprints.3dshapes/BatteryHolder_Keystone_1042_1x18650.step"
+		(model "${KIPRJMOD}/footprints.3dshapes/BatteryHolder_Keystone_1042_1x18650.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -10337,7 +10337,7 @@
 			(uuid "6d7d8d2f-9538-4295-822a-7c80df1eaf3a")
 		)
 		(embedded_fonts no)
-		(model "/footprints.3dshapes/BatteryHolder_Keystone_1042_1x18650.step"
+		(model "${KIPRJMOD}/footprints.3dshapes/BatteryHolder_Keystone_1042_1x18650.step"
 			(offset
 				(xyz 0 0 0)
 			)

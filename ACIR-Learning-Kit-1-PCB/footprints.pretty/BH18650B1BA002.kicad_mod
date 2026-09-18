@@ -377,7 +377,7 @@
 		(uuid "4a3227f6-1038-4f2c-9c47-cf2b85ae30bb")
 	)
 	(embedded_fonts no)
-	(model "/footprints.3dshapes/BatteryHolder_Keystone_1042_1x18650.step"
+	(model "${KIPRJMOD}/footprints.3dshapes/BatteryHolder_Keystone_1042_1x18650.step"
 		(offset
 			(xyz 0 0 0)
 		)
