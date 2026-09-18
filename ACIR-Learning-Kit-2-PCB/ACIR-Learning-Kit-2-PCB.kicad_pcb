@@ -1000,23 +1000,73 @@
 			(pintype "passive")
 			(uuid "f8812f6c-ae31-4c1a-905d-65b5cd8beca9")
 		)
-		(pad "1" smd rect
-			(at 39.63 0 90)
-			(size 7.35 7.77)
-			(layers "F.Cu" "F.Mask" "F.Paste")
+		(pad "1" thru_hole custom
+			(at 36.11 0)
+			(size 3.5 3.5)
+			(drill 2.5)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
 			(net "Net-(BT7--)")
 			(pinfunction "+_1")
 			(pintype "passive")
-			(uuid "50c5b4c1-728e-46e0-9aea-b0e66f65d9eb")
+			
+			(uuid "46386ae2-a01f-4f35-9d0f-2768c3a86292")
+			(options (clearance outline) (anchor circle))
+			(primitives
+				(gr_poly
+					(pts
+						(xy -0.365 -3.675)
+						(xy 7.405 -3.675)
+						(xy 7.405 3.675)
+						(xy -0.365 3.675)
+					)
+					(width 0)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at 39.63 0 90)
+			(size 7.35 7.77)
+			(layers "F.Paste")
+			(net "Net-(BT7--)")
+			(pinfunction "+_1")
+			(pintype "passive")
+			
+			(uuid "76722f7c-487f-45da-a85b-c54f52765d75")
+		)
+		(pad "2" thru_hole custom
+			(at -36.11 0)
+			(size 3.5 3.5)
+			(drill 2.5)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "Net-(BT8--)")
+			(pinfunction "-_2")
+			(pintype "passive")
+			
+			(uuid "b03a7bc0-d4a9-4d5d-a9ce-ab25fb771c64")
+			(options (clearance outline) (anchor circle))
+			(primitives
+				(gr_poly
+					(pts
+						(xy 0.365 -3.675)
+						(xy -7.405 -3.675)
+						(xy -7.405 3.675)
+						(xy 0.365 3.675)
+					)
+					(width 0)
+				)
+			)
 		)
 		(pad "2" smd rect
 			(at -39.63 0 90)
 			(size 7.35 7.77)
-			(layers "F.Cu" "F.Mask" "F.Paste")
+			(layers "F.Paste")
 			(net "Net-(BT8--)")
 			(pinfunction "-_2")
 			(pintype "passive")
-			(uuid "5358efb0-5908-412f-94aa-a57fc45676e2")
+			
+			(uuid "6ec3d156-46e0-4737-9fb5-a71d5a128bc8")
 		)
 		(pad "2" thru_hole oval
 			(at -28.35 0)
@@ -2324,23 +2374,73 @@
 			(pintype "passive")
 			(uuid "14237c32-bd5e-4f79-8341-573bb616c73b")
 		)
-		(pad "1" smd rect
-			(at 39.63 0 90)
-			(size 7.35 7.77)
-			(layers "F.Cu" "F.Mask" "F.Paste")
+		(pad "1" thru_hole custom
+			(at 36.11 0)
+			(size 3.5 3.5)
+			(drill 2.5)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
 			(net "Net-(BT3--)")
 			(pinfunction "+_1")
 			(pintype "passive")
-			(uuid "3b6f3ac0-94f8-4ff1-9b10-3d165b01b5b7")
+			
+			(uuid "9017d173-ef2e-437d-b779-8cc0d526ff03")
+			(options (clearance outline) (anchor circle))
+			(primitives
+				(gr_poly
+					(pts
+						(xy -0.365 -3.675)
+						(xy 7.405 -3.675)
+						(xy 7.405 3.675)
+						(xy -0.365 3.675)
+					)
+					(width 0)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at 39.63 0 90)
+			(size 7.35 7.77)
+			(layers "F.Paste")
+			(net "Net-(BT3--)")
+			(pinfunction "+_1")
+			(pintype "passive")
+			
+			(uuid "dde543b7-c166-4793-9d46-eb00704202b7")
+		)
+		(pad "2" thru_hole custom
+			(at -36.11 0)
+			(size 3.5 3.5)
+			(drill 2.5)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "Net-(BT4--)")
+			(pinfunction "-_2")
+			(pintype "passive")
+			
+			(uuid "d5949ceb-2d6e-45c0-a501-b269db5cce66")
+			(options (clearance outline) (anchor circle))
+			(primitives
+				(gr_poly
+					(pts
+						(xy 0.365 -3.675)
+						(xy -7.405 -3.675)
+						(xy -7.405 3.675)
+						(xy 0.365 3.675)
+					)
+					(width 0)
+				)
+			)
 		)
 		(pad "2" smd rect
 			(at -39.63 0 90)
 			(size 7.35 7.77)
-			(layers "F.Cu" "F.Mask" "F.Paste")
+			(layers "F.Paste")
 			(net "Net-(BT4--)")
 			(pinfunction "-_2")
 			(pintype "passive")
-			(uuid "2aef43a5-d00d-4be2-80e7-b26c26eb5389")
+			
+			(uuid "bd52d023-ef12-416a-9772-4275094358d8")
 		)
 		(pad "2" thru_hole oval
 			(at -28.35 0)
@@ -5949,23 +6049,73 @@
 			(pintype "passive")
 			(uuid "a443bebe-0a99-438b-a1b4-ce189a971f75")
 		)
-		(pad "1" smd rect
-			(at 39.63 0 90)
-			(size 7.35 7.77)
-			(layers "F.Cu" "F.Mask" "F.Paste")
+		(pad "1" thru_hole custom
+			(at 36.11 0)
+			(size 3.5 3.5)
+			(drill 2.5)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
 			(net "/4S_B+")
 			(pinfunction "+_1")
 			(pintype "passive")
-			(uuid "30e8fe7c-0309-480b-9ef1-978928c83af7")
+			
+			(uuid "110076f3-f271-4547-90b8-707954539283")
+			(options (clearance outline) (anchor circle))
+			(primitives
+				(gr_poly
+					(pts
+						(xy -0.365 -3.675)
+						(xy 7.405 -3.675)
+						(xy 7.405 3.675)
+						(xy -0.365 3.675)
+					)
+					(width 0)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at 39.63 0 90)
+			(size 7.35 7.77)
+			(layers "F.Paste")
+			(net "/4S_B+")
+			(pinfunction "+_1")
+			(pintype "passive")
+			
+			(uuid "d4fe1461-3b50-4a28-8e81-24bc9616b3bc")
+		)
+		(pad "2" thru_hole custom
+			(at -36.11 0)
+			(size 3.5 3.5)
+			(drill 2.5)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "Net-(BT2--)")
+			(pinfunction "-_2")
+			(pintype "passive")
+			
+			(uuid "fddd6047-d756-4099-9b71-354926e8376b")
+			(options (clearance outline) (anchor circle))
+			(primitives
+				(gr_poly
+					(pts
+						(xy 0.365 -3.675)
+						(xy -7.405 -3.675)
+						(xy -7.405 3.675)
+						(xy 0.365 3.675)
+					)
+					(width 0)
+				)
+			)
 		)
 		(pad "2" smd rect
 			(at -39.63 0 90)
 			(size 7.35 7.77)
-			(layers "F.Cu" "F.Mask" "F.Paste")
+			(layers "F.Paste")
 			(net "Net-(BT2--)")
 			(pinfunction "-_2")
 			(pintype "passive")
-			(uuid "73570a19-9d3e-48e3-8166-a4b05fdf4d0a")
+			
+			(uuid "7fbf204b-8c41-40bf-bac4-49b2f168ee39")
 		)
 		(pad "2" thru_hole oval
 			(at -28.35 0)
@@ -9582,23 +9732,73 @@
 			(pintype "passive")
 			(uuid "a2676528-7446-4879-a486-2ef75d4687e8")
 		)
-		(pad "1" smd rect
-			(at 39.63 0 90)
-			(size 7.35 7.77)
-			(layers "F.Cu" "F.Mask" "F.Paste")
+		(pad "1" thru_hole custom
+			(at 36.11 0)
+			(size 3.5 3.5)
+			(drill 2.5)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
 			(net "Net-(BT6-+)")
 			(pinfunction "+_1")
 			(pintype "passive")
-			(uuid "188cb6c1-9446-49d4-b1fe-6001a659d7ab")
+			
+			(uuid "d8080a9d-188b-4ca5-8537-e8f4622fb9a8")
+			(options (clearance outline) (anchor circle))
+			(primitives
+				(gr_poly
+					(pts
+						(xy -0.365 -3.675)
+						(xy 7.405 -3.675)
+						(xy 7.405 3.675)
+						(xy -0.365 3.675)
+					)
+					(width 0)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at 39.63 0 90)
+			(size 7.35 7.77)
+			(layers "F.Paste")
+			(net "Net-(BT6-+)")
+			(pinfunction "+_1")
+			(pintype "passive")
+			
+			(uuid "105e0f87-f060-471f-a9b8-7118051c612a")
+		)
+		(pad "2" thru_hole custom
+			(at -36.11 0)
+			(size 3.5 3.5)
+			(drill 2.5)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "Net-(BT6--)")
+			(pinfunction "-_2")
+			(pintype "passive")
+			
+			(uuid "5b0fa7ff-87cc-46bb-b2a2-abdbd5879dce")
+			(options (clearance outline) (anchor circle))
+			(primitives
+				(gr_poly
+					(pts
+						(xy 0.365 -3.675)
+						(xy -7.405 -3.675)
+						(xy -7.405 3.675)
+						(xy 0.365 3.675)
+					)
+					(width 0)
+				)
+			)
 		)
 		(pad "2" smd rect
 			(at -39.63 0 90)
 			(size 7.35 7.77)
-			(layers "F.Cu" "F.Mask" "F.Paste")
+			(layers "F.Paste")
 			(net "Net-(BT6--)")
 			(pinfunction "-_2")
 			(pintype "passive")
-			(uuid "03ef0155-728d-414b-85bb-c4cf392c6fd5")
+			
+			(uuid "9396ff57-361a-4930-a96e-d75d62b4dc46")
 		)
 		(pad "2" thru_hole oval
 			(at -28.35 0)

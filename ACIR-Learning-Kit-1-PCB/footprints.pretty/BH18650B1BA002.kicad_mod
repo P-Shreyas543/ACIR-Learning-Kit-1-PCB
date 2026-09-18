@@ -396,17 +396,57 @@
 		(remove_unused_layers no)
 		(uuid "2f429a09-846e-4d5c-b98f-67acf7efae00")
 	)
+	(pad "1" thru_hole custom
+		(at 36.11 0)
+		(size 3.5 3.5)
+		(drill 2.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ef474e45-6477-46ec-8f2f-954b242961a5")
+		(options (clearance outline) (anchor circle))
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.365 -3.675)
+					(xy 7.405 -3.675)
+					(xy 7.405 3.675)
+					(xy -0.365 3.675)
+				)
+				(width 0)
+			)
+		)
+	)
 	(pad "1" smd rect
 		(at 39.63 0 90)
 		(size 7.35 7.77)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "fb08b589-5352-472d-b0be-c59f35d7d9f5")
+		(layers "F.Paste")
+		(uuid "44656309-0612-4a06-8f62-fac3ebcf8344")
+	)
+	(pad "2" thru_hole custom
+		(at -36.11 0)
+		(size 3.5 3.5)
+		(drill 2.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "27b311da-f167-4c73-a910-3b795ff702f3")
+		(options (clearance outline) (anchor circle))
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0.365 -3.675)
+					(xy -7.405 -3.675)
+					(xy -7.405 3.675)
+					(xy 0.365 3.675)
+				)
+				(width 0)
+			)
+		)
 	)
 	(pad "2" smd rect
 		(at -39.63 0 90)
 		(size 7.35 7.77)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "07332f44-d174-488d-a923-5ab30455989f")
+		(layers "F.Paste")
+		(uuid "1b8d9975-5eb2-485c-9a42-223e7e1864ab")
 	)
 	(pad "2" thru_hole oval
 		(at -28.35 0)
