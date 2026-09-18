@@ -1,9 +1,2 @@
-"Refs","Value","Footprint","Qty","DNP"
-"BT2","BH-18650-B5BA008","footprints:BH18650B1BA002","1",""
-"BT3","BH-18650-B5BA008","footprints:BH18650B1BA002","1",""
-"BT4","BH-18650-B5BA008","footprints:BH18650B1BA002","1",""
-"BT5","BH-18650-B5BA008","footprints:BH18650B1BA002","1",""
-"BT6","BH-18650-B5BA008","footprints:BH18650B1BA002","1",""
-"BT7","BH-18650-B5BA008","footprints:BH18650B1BA002","1",""
-"BT8","BH-18650-B5BA008","footprints:BH18650B1BA002","1",""
-"BT9","BH-18650-B5BA008","footprints:BH18650B1BA002","1",""
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+"BT2, BT3, BT4, BT5, BT6, BT7, BT8, BT9",BH18650B1BA002,8,BH-18650-B5BA008,
